@@ -1,0 +1,3058 @@
+[
+	{
+		"id": "yangModelFreeSafeReinforcement2023",
+		"type": "article-journal",
+		"abstract": "Safety is a critical concern when applying reinforcement learning (RL) to real-world control tasks. However, existing safe RL works either only consider expected safety constraint violations and fail to maintain safety guarantees, or use overly conservative safety certificate tools borrowed from safe control theory, which sacrifices reward optimization and relies on analytic system models. This letter proposes a model-free safe RL algorithm that achieves near-zero constraint violations with high rewards. Our key idea is to jointly learn a policy and a neural barrier certificate under stepwise state constraint setting. The barrier certificate is learned in a model-free manner by minimizing the violations of appropriate barrier properties on transition data collected by the policy. We extend the single-step invariant property of the barrier certificate to a multi-step version and construct the corresponding multi-step invariant loss. This loss balances the bias and variance of the barrier certificate and enhances both the safety and performance of the policy. The policy is optimized under the constraint of the multi-step invariant property using the Lagrangian method. We optimize the policy in a model-free manner by introducing an importance sampling weight in the constraint. We test our algorithm on multiple problems, including classic control tasks, robot collision avoidance, and autonomous driving. Results show that our algorithm achieves near-zero constraint violations and high performance compared to the baselines. Moreover, the learned barrier certificates successfully identify the feasible regions on multiple tasks.",
+		"archive_location": "WOS:000923839100012",
+		"container-title": "IEEE ROBOTICS AND AUTOMATION LETTERS",
+		"DOI": "10.1109/LRA.2023.3238656",
+		"ISSN": "2377-3766",
+		"issue": "3",
+		"page": "1295-1302",
+		"title": "Model-Free Safe Reinforcement Learning Through Neural Barrier Certificate",
+		"volume": "8",
+		"author": [
+			{
+				"family": "Yang",
+				"given": "YJ"
+			},
+			{
+				"family": "Jiang",
+				"given": "YX"
+			},
+			{
+				"family": "Liu",
+				"given": "YC"
+			},
+			{
+				"family": "Chen",
+				"given": "JY"
+			},
+			{
+				"family": "Li",
+				"given": "SE"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2023",
+					3
+				]
+			]
+		}
+	},
+	{
+		"id": "zhouLearningLowDimensionalRepresentation2023",
+		"type": "article-journal",
+		"abstract": "For the safe application of reinforcement learning algorithms to high-dimensional nonlinear dynamical systems, a simplified system model is used to formulate a safe reinforcement learning (SRL) framework. Based on the simplified system model, a low-dimensional representation of the safe region is identified and used to provide safety estimates for learning algorithms. However, finding a satisfying simplified system model for complex dynamical systems usually requires a considerable amount of effort. To overcome this limitation, we propose a general data-driven approach that is able to efficiently learn a low-dimensional representation of the safe region. By employing an online adaptation method, the low-dimensional representation is updated using the feedback data to obtain more accurate safety estimates. The performance of the proposed approach for identifying the low-dimensional representation of the safe region is illustrated using the example of a quadcopter. The results demonstrate a more reliable and representative low-dimensional representation of the safe region compared with previous works, which extends the applicability of the SRL framework.",
+		"archive_location": "WOS:000733505000001",
+		"container-title": "IEEE TRANSACTIONS ON NEURAL NETWORKS AND LEARNING SYSTEMS",
+		"DOI": "10.1109/TNNLS.2021.3106818",
+		"ISSN": "2162-237X",
+		"issue": "5",
+		"page": "2513-2527",
+		"title": "Learning a Low-Dimensional Representation of a Safe Region for Safe Reinforcement Learning on Dynamical Systems",
+		"volume": "34",
+		"author": [
+			{
+				"family": "Zhou",
+				"given": "ZH"
+			},
+			{
+				"family": "Oguz",
+				"given": "OS"
+			},
+			{
+				"family": "Leibold",
+				"given": "M"
+			},
+			{
+				"family": "Buss",
+				"given": "M"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2023",
+					5
+				]
+			]
+		}
+	},
+	{
+		"id": "modaresSafeReinforcementLearning2023",
+		"type": "article-journal",
+		"abstract": "This article presents a data-driven safe reinforcement learning (RL) algorithm for discrete-time nonlinear systems. A data-driven safety certifier is designed to intervene with the actions of the RL agent to ensure both safety and stability of its actions. This is in sharp contrast to existing model-based safety certifiers that can result in convergence to an undesired equilibrium point or conservative interventions that jeopardize the performance of the RL agent. To this end, the proposed method directly learns a robust safety certifier while completely bypassing the identification of the system model. The nonlinear system is modeled using linear parameter varying (LPV) systems with polytopic disturbances. To prevent the requirement for learning an explicit model of the LPV system, data-based $\\lambda$ -contractivity conditions are first provided for the closed-loop system to enforce robust invariance of a prespecified polyhedral safe set and the system's asymptotic stability. These conditions are then leveraged to directly learn a robust data-based gain-scheduling controller by solving a convex program. A significant advantage of the proposed direct safe learning over model-based certifiers is that it completely resolves conflicts between safety and stability requirements while assuring convergence to the desired equilibrium point. Data-based safety certification conditions are then provided using Minkowski functions. They are then used to seemingly integrate the learned backup safe gain-scheduling controller with the RL controller. Finally, we provide a simulation example to verify the effectiveness of the proposed approach.",
+		"archive_location": "WOS:000973264800001",
+		"container-title": "IEEE TRANSACTIONS ON NEURAL NETWORKS AND LEARNING SYSTEMS",
+		"DOI": "10.1109/TNNLS.2023.3264815",
+		"ISSN": "2162-237X",
+		"title": "Safe Reinforcement Learning via a Model-Free Safety Certifier",
+		"author": [
+			{
+				"family": "Modares",
+				"given": "A"
+			},
+			{
+				"family": "Sadati",
+				"given": "N"
+			},
+			{
+				"family": "Esmaeili",
+				"given": "B"
+			},
+			{
+				"family": "Yaghmaie",
+				"given": "FA"
+			},
+			{
+				"family": "Modares",
+				"given": "H"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2023",
+					4,
+					13
+				]
+			]
+		}
+	},
+	{
+		"id": "ranjbarSafetyMonitoringNeural2022",
+		"type": "article-journal",
+		"abstract": "Neural networks are currently suggested to be implemented in several different driving functions of autonomous vehicles. While showing promising results the drawback lies in the difficulty of safety verification and ensuring operation as intended. The aim of this paper is to increase safety when using neural networks, by proposing a monitoring framework based on novelty estimation of incoming driving data. The idea is to use unsupervised instance discrimination to learn a similarity measure across ego-vehicle camera images. By estimating a von Mises-Fisher distribution of expected ego-camera images they can be compared with unexpected novel images. A novelty measurement is inferred through the likelihood of test frames belonging to the expected distribution. The suggested method provides competitive results to several other novelty or anomaly detection algorithms on the CIFAR-10 and CIFAR-100 datasets. It also shows promising results on real world driving scenarios by distinguishing novel driving scenes from the training data of BDD100 k. Applied on the identical training-test data split, the method is also able to predict the performance profile of a segmentation network. Finally, examples are provided on how this method can be extended to find novel segments in images.",
+		"archive_location": "WOS:000873905600027",
+		"container-title": "IEEE TRANSACTIONS ON INTELLIGENT VEHICLES",
+		"DOI": "10.1109/TIV.2022.3152084",
+		"ISSN": "2379-8858",
+		"issue": "3",
+		"page": "711-721",
+		"title": "Safety Monitoring of Neural Networks Using Unsupervised Feature Learning and Novelty Estimation",
+		"volume": "7",
+		"author": [
+			{
+				"family": "Ranjbar",
+				"given": "A"
+			},
+			{
+				"family": "Hornauer",
+				"given": "S"
+			},
+			{
+				"family": "Fredriksson",
+				"given": "J"
+			},
+			{
+				"family": "Yu",
+				"given": "SX"
+			},
+			{
+				"family": "Chan",
+				"given": "CY"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2022",
+					9
+				]
+			]
+		}
+	},
+	{
+		"id": "stankoRiskaverseDistributionalReinforcement2019",
+		"type": "paper-conference",
+		"abstract": "Conditional Value-at-Risk (CVaR) is a well-known measure of risk that has been directly equated to robustness, an important component of Artificial Intelligence (AI) safety. In this paper we focus on optimizing CVaR in the context of Reinforcement Learning (RL), as opposed to the usual risk-neutral expectation. As a first original contribution, we improve the CVaR Value Iteration algorithm (Chow et al., 2015) in a way that reduces computational complexity of the original algorithm from polynomial to linear time. Secondly, we propose a sampling version of CVaR Value Iteration we call CVaR Q-learning. We also derive a distributional policy improvement algorithm, and later use it as a heuristic for extracting the optimal policy from the converged CVaR Q-learning algorithm. Finally, to show the scalability of our method, we propose an approximate Q-learning algorithm by reformulating the CVaR Temporal Difference update rule as a loss function which we later use in a deep learning context. All proposed methods are experimentally analyzed, including the Deep CVaR Q-learning agent which learns how to avoid risk from raw pixels.",
+		"archive_location": "WOS:000571773900044",
+		"DOI": "10.5220/0008175604120423",
+		"event-title": "IJCCI: PROCEEDINGS OF THE 11TH INTERNATIONAL JOINT CONFERENCE ON COMPUTATIONAL INTELLIGENCE",
+		"ISBN": "978-989-758-384-1",
+		"page": "412-423",
+		"title": "Risk-averse Distributional Reinforcement Learning: A CVaR Optimization Approach",
+		"author": [
+			{
+				"family": "Stanko",
+				"given": "S"
+			},
+			{
+				"family": "Macek",
+				"given": "K"
+			}
+		],
+		"editor": [
+			{
+				"family": "Merelo",
+				"given": "JJ"
+			},
+			{
+				"family": "Garibaldi",
+				"given": "J"
+			},
+			{
+				"family": "Barranco",
+				"given": "AL"
+			},
+			{
+				"family": "Madani",
+				"given": "K"
+			},
+			{
+				"family": "Warwick",
+				"given": "K"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2019"
+				]
+			]
+		}
+	},
+	{
+		"id": "baeSafeSemisupervisedLearning2022",
+		"type": "article-journal",
+		"abstract": "Semi-supervised learning attempts to use a large set of unlabeled data to increase the pre-diction accuracy of machine learning models when the amount of labeled data is limited. However, in realistic cases, unlabeled data may worsen performance because they contain out-of-distribution (OOD) data that differ from the labeled data. To address this issue, safe semi-supervised deep learning has recently been presented. This study suggests a new safe semi-supervised algorithm that uses an uncertainty-aware Bayesian neural network. Our proposed method, safe uncertainty-based consistency training (SafeUC), uses Bayesian uncertainty to minimize the harmful effects caused by unlabeled OOD examples. The pro-posed method improves the model's generalization performance by regularizing the net-work for consistency against uncertain noise. Moreover, to avoid uncertain prediction results, the proposed method includes a practical inference tip based on a well -calibrated uncertainty. The effectiveness of the proposed method is demonstrated in the experimental results on CIFAR-10 and SVHN by showing that it achieved state-of-the-art performance for all semi-supervised learning tasks with OOD data presence rates.(c) 2022 Elsevier Inc. All rights reserved.",
+		"archive_location": "WOS:000863219500003",
+		"container-title": "INFORMATION SCIENCES",
+		"DOI": "10.1016/j.ins.2022.08.094",
+		"ISSN": "0020-0255",
+		"page": "453-464",
+		"title": "Safe semi-supervised learning using a bayesian neural network",
+		"volume": "612",
+		"author": [
+			{
+				"family": "Bae",
+				"given": "J"
+			},
+			{
+				"family": "Lee",
+				"given": "MJ"
+			},
+			{
+				"family": "Kim",
+				"given": "SB"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2022",
+					10
+				]
+			]
+		}
+	},
+	{
+		"id": "heNotAllParameters2022",
+		"type": "paper-conference",
+		"abstract": "Deep semi-supervised learning (SSL) aims to utilize a sizeable unlabeled set to train deep networks, thereby reducing the dependence on labeled instances. However, the unlabeled set often carries unseen classes that cause the deep SSL algorithm to lose generalization. Previous works focus on the data level that they attempt to remove unseen class data or assign lower weight to them but could not eliminate their adverse effects on the SSL algorithm. Rather than focusing on the data level, this paper turns attention to the model parameter level. We find that only partial parameters are essential for seen-class classification, termed safe parameters. In contrast, the other parameters tend to fit irrelevant data, termed harmful parameters. Driven by this insight, we propose Safe Parameter Learning (SPL) to discover safe parameters and make the harmful parameters inactive, such that we can mitigate the adverse effects caused by unseen-class data. Specifically, we firstly design an effective strategy to divide all parameters in the pre-trained SSL model into safe and harmful ones. Then, we introduce a bi-level optimization strategy to update the safe parameters and kill the harmful parameters. Extensive experiments show that SPL outperforms the state-of-the-art SSL methods on all the benchmarks by a large margin. Moreover, experiments demonstrate that SPL can be integrated into the most popular deep SSL networks and be easily extended to handle other cases of class distribution mismatch.",
+		"archive_location": "WOS:000893636206110",
+		"event-title": "THIRTY-SIXTH AAAI CONFERENCE ON ARTIFICIAL INTELLIGENCE / THIRTY-FOURTH CONFERENCE ON INNOVATIVE APPLICATIONS OF ARTIFICIAL INTELLIGENCE / THE TWELVETH SYMPOSIUM ON EDUCATIONAL ADVANCES IN ARTIFICIAL INTELLIGENCE",
+		"ISBN": "2159-5399",
+		"page": "6874-6883",
+		"title": "Not All Parameters Should Be Treated Equally: Deep Safe Semi-supervised Learning under Class Distribution Mismatch",
+		"author": [
+			{
+				"family": "He",
+				"given": "RD"
+			},
+			{
+				"family": "Han",
+				"given": "ZY"
+			},
+			{
+				"family": "Yang",
+				"given": "Y"
+			},
+			{
+				"family": "Yin",
+				"given": "YL"
+			},
+			{
+				"literal": "Assoc Advancement Artificial Intelligence"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2022"
+				]
+			]
+		}
+	},
+	{
+		"id": "liuSafeMultiviewCotraining2022",
+		"type": "paper-conference",
+		"abstract": "Co-training is a popular disagreement-based semisupervised learning method. Learners of different views mutually select reliable unlabeled instances to augment the labeled dataset. Existing co-training style algorithms have cumbersome procedures for selecting confident instances. Furthermore, the pseudolabels assigned to selected unlabeled instances are not always reliable. In this paper, we propose a safe co-training regression algorithm for multi-view scenarios with two characteristics. An instance selection strategy based on the consistency assumption aims to improve the efficiency of selecting confident unlabeled instances. This strategy makes full use of the information provided by a committee to measure the confidence of unlabeled instances. A safe labeling technique in an ensemble manner is introduced to improve the quality of pseudo-labels. The safe pseudo-labels not only integrate information provided by the committee, but also take into account the part of the receiver. The results over twenty datasets prove the superiority of the proposed algorithm against other state-of-the-art semi-supervised regression algorithms.",
+		"archive_location": "WOS:000967751000007",
+		"DOI": "10.1109/DSAA54385.2022.10032437",
+		"event-title": "2022 IEEE 9TH INTERNATIONAL CONFERENCE ON DATA SCIENCE AND ADVANCED ANALYTICS (DSAA)",
+		"ISBN": "2472-1573",
+		"page": "56-65",
+		"title": "Safe Multi-view Co-training for Semi-supervised Regression",
+		"author": [
+			{
+				"family": "Liu",
+				"given": "LY"
+			},
+			{
+				"family": "Huang",
+				"given": "P"
+			},
+			{
+				"family": "Min",
+				"given": "F"
+			}
+		],
+		"editor": [
+			{
+				"family": "Huang",
+				"given": "JZ"
+			},
+			{
+				"family": "Pan",
+				"given": "Y"
+			},
+			{
+				"family": "Hammer",
+				"given": "B"
+			},
+			{
+				"family": "Khan",
+				"given": "MK"
+			},
+			{
+				"family": "Xie",
+				"given": "X"
+			},
+			{
+				"family": "Cui",
+				"given": "L"
+			},
+			{
+				"family": "He",
+				"given": "Y"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2022"
+				]
+			]
+		}
+	},
+	{
+		"id": "duanRDAReciprocalDistribution2022",
+		"type": "paper-conference",
+		"abstract": "In this work, we propose Reciprocal Distribution Alignment (RDA) to address semi-supervised learning (SSL), which is a hyperparameter-free framework that is independent of confidence threshold and works with both the matched (conventionally) and the mismatched class distributions. Distribution mismatch is an often overlooked but more general SSL scenario where the labeled and the unlabeled data do not fall into the identical class distribution. This may lead to the model not exploiting the labeled data reliably and drastically degrade the performance of SSL methods, which could not be rescued by the traditional distribution alignment. In RDA, we enforce a reciprocal alignment on the distributions of the predictions from two classifiers predicting pseudo-labels and complementary labels on the unlabeled data. These two distributions, carrying complementary information, could be utilized to regularize each other without any prior of class distribution. Moreover, we theoretically show that RDA maximizes the input-output mutual information. Our approach achieves promising performance in SSL under a variety of scenarios of mismatched distributions, as well as the conventional matched SSL setting. Our code is available at: https://github.com/NJUyued/RDA4RobustSSL.",
+		"archive_location": "WOS:000903586400031",
+		"DOI": "10.1007/978-3-031-20056-4_31",
+		"event-title": "COMPUTER VISION - ECCV 2022, PT XXX",
+		"ISBN": "0302-9743",
+		"page": "533-549",
+		"title": "RDA: Reciprocal Distribution Alignment for Robust Semi-supervised Learning",
+		"volume": "13690",
+		"author": [
+			{
+				"family": "Duan",
+				"given": "Y"
+			},
+			{
+				"family": "Qi",
+				"given": "L"
+			},
+			{
+				"family": "Wang",
+				"given": "L"
+			},
+			{
+				"family": "Zhou",
+				"given": "LP"
+			},
+			{
+				"family": "Shi",
+				"given": "YH"
+			}
+		],
+		"editor": [
+			{
+				"family": "Avidan",
+				"given": "S"
+			},
+			{
+				"family": "Brostow",
+				"given": "G"
+			},
+			{
+				"family": "Cisse",
+				"given": "M"
+			},
+			{
+				"family": "Farinella",
+				"given": "GM"
+			},
+			{
+				"family": "Hassner",
+				"given": "T"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2022"
+				]
+			]
+		}
+	},
+	{
+		"id": "mayerAdversarialFeatureDistribution2021",
+		"type": "article-journal",
+		"abstract": "Training deep neural networks with only a few labeled samples can lead to overfitting. This is problematic in semi-supervised learning where only a few labeled samples are available. In this paper, we show that a consequence of overfitting in SSL is feature distribution misalignment between labeled and unlabeled samples. Hence, we propose a new feature distribution alignment method. Our method is particularly effective when using only a small amount of labeled samples. We test our method on CIFAR-10, SVHN and LSUN. On SVHN we achieve a test error of 3.88% (250 labeled samples) and 3.39% (1000 labeled samples), which is close to the fully supervised model 2.89% (73k labeled samples). In comparison, the current SOTA achieves only 4.29% and 3.74%. On LSUN we achieve superior results than a state-of-the- art method even when using 100x less unlabeled samples (500 labeled samples). Finally, we provide a theoretical insight why feature distribution misalignment occurs and show that our method reduces it.",
+		"archive_location": "WOS:000616091100012",
+		"container-title": "COMPUTER VISION AND IMAGE UNDERSTANDING",
+		"DOI": "10.1016/j.cviu.2020.103109",
+		"ISSN": "1077-3142",
+		"title": "Adversarial feature distribution alignment for semi-supervised learning",
+		"volume": "202",
+		"author": [
+			{
+				"family": "Mayer",
+				"given": "C"
+			},
+			{
+				"family": "Paul",
+				"given": "M"
+			},
+			{
+				"family": "Timofte",
+				"given": "R"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "heSafeStudentSafeDeep2022",
+		"type": "paper-conference",
+		"abstract": "Deep semi-supervised learning (SSL) methods aim to take advantage of abundant unlabeled data to improve the algorithm performance. In this paper, we consider the problem of safe SSL scenario where unseen-class instances appear in the unlabeled data. This setting is essential and commonly appears in a variety of real applications. One intuitive solution is removing these unseen-class instances after detecting them during the SSL process. Nevertheless, the performance of unseen-class identification is limited by the small number of labeled data and ignoring the availability of unlabeled data. To take advantage of these unseen-class data and ensure performance, we propose a safe SSL method called SAFE-STUDENT from the teacher-student view. Firstly, a new scoring function called energy-discrepancy (ED) is proposed to help the teacher model improve the security of instances selection. Then, a novel unseen-class label distribution learning mechanism mitigates the unseen-class perturbation by calibrating the unseen-class label distribution. Finally, we propose an iterative optimization strategy to facilitate teacher-student network learning. Extensive studies on several representative datasets show that SAFE-STUDENT remarkably outperforms the state-of-the-art, verifying the feasibility and robustness of our method in the under-explored problem.",
+		"archive_location": "WOS:000870783000016",
+		"DOI": "10.1109/CVPR52688.2022.01418",
+		"event-title": "2022 IEEE/CVF CONFERENCE ON COMPUTER VISION AND PATTERN RECOGNITION (CVPR 2022)",
+		"ISBN": "1063-6919",
+		"page": "14565-14574",
+		"title": "Safe-Student for Safe Deep Semi-Supervised Learning with Unseen-Class Unlabeled Data",
+		"author": [
+			{
+				"family": "He",
+				"given": "RD"
+			},
+			{
+				"family": "Han",
+				"given": "ZY"
+			},
+			{
+				"family": "Lu",
+				"given": "XK"
+			},
+			{
+				"family": "Yin",
+				"given": "YL"
+			},
+			{
+				"literal": "IEEE COMP SOC"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2022"
+				]
+			]
+		}
+	},
+	{
+		"id": "guoSafeDeepSemiSupervised2020",
+		"type": "paper-conference",
+		"abstract": "Deep semi-supervised learning (SSL) has been recently shown very effectively. However, its performance is seriously decreased when the class distribution is mismatched, among which a common situation is that unlabeled data contains some classes not seen in the labeled data. Efforts on this issue remain to be limited. This paper proposes a simple and effective safe deep SSL method to alleviate the harm caused by it. In theory, the result learned from the new method is never worse than learning from merely labeled data, and it is theoretically guaranteed that its generalization approaches the optimal in the order O(root dln(n)/n), even faster than the convergence rate in supervised learning associated with massive parameters. In the experiment of benchmark data, unlike the existing deep SSL methods which are no longer as good as supervised learning in 40% of unseen-class unlabeled data, the new method can still achieve performance gain in more than 60% of unseen-class unlabeled data. Moreover, the proposal is suitable for many deep SSL algorithms and can be easily extended to handle other cases of class distribution mismatch.",
+		"archive_location": "WOS:000683178504002",
+		"event-title": "INTERNATIONAL CONFERENCE ON MACHINE LEARNING, VOL 119",
+		"ISBN": "2640-3498",
+		"title": "Safe Deep Semi-Supervised Learning for Unseen-Class Unlabeled Data",
+		"volume": "119",
+		"author": [
+			{
+				"family": "Guo",
+				"given": "LZ"
+			},
+			{
+				"family": "Zhang",
+				"given": "ZY"
+			},
+			{
+				"family": "Jiang",
+				"given": "Y"
+			},
+			{
+				"family": "Li",
+				"given": "YF"
+			},
+			{
+				"family": "Zhou",
+				"given": "ZH"
+			}
+		],
+		"editor": [
+			{
+				"family": "Daume",
+				"given": "H"
+			},
+			{
+				"family": "Singh",
+				"given": "A"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2020"
+				]
+			]
+		}
+	},
+	{
+		"id": "carlsonSafeArtificialGeneral2019",
+		"type": "article-journal",
+		"abstract": "Artificial general intelligence (AGI) progression metrics indicate AGI will occur within decades. No proof exists that AGI will benefit humans and not harm or eliminate humans. A set of logically distinct conceptual components is proposed that are necessary and sufficient to (1) ensure various AGI scenarios will not harm humanity, and (2) robustly align AGI and human values and goals. By systematically addressing pathways to malevolent AI we can induce the methods/axioms required to redress them. Distributed ledger technology (DLT, \"blockchain\") is integral to this proposal, e.g., \"smart contracts\" are necessary to address the evolution of AI that will be too fast for human monitoring and intervention. The proposed axioms: (1) Access to technology by market license. (2) Transparent ethics embodied in DLT. (3) Morality encrypted via DLT. (4) Behavior control structure with values at roots. (5) Individual bar-code identification of critical components. (6) Configuration Item (from business continuity/disaster recovery planning). (7) Identity verification secured via DLT. (8) \"Smart\" automated contracts based on DLT. (9) Decentralized applications-AI software modules encrypted via DLT. (10) Audit trail of component usage stored via DLT. (11) Social ostracism (denial of resources) augmented by DLT petitions. (12) Game theory and mechanism design.",
+		"archive_location": "WOS:000697671000006",
+		"container-title": "BIG DATA AND COGNITIVE COMPUTING",
+		"DOI": "10.3390/bdcc3030040",
+		"ISSN": "2504-2289",
+		"issue": "3",
+		"title": "Safe Artificial General Intelligence via Distributed Ledger Technology",
+		"volume": "3",
+		"author": [
+			{
+				"family": "Carlson",
+				"given": "KW"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2019",
+					9
+				]
+			]
+		}
+	},
+	{
+		"id": "picotAdversarialRobustnessFisherRao2023",
+		"type": "article-journal",
+		"abstract": "Adversarial robustness has become a topic of growing interest in machine learning since it was observed that neural networks tend to be brittle. We propose an information-geometric formulation of adversarial defense and introduce Fire, a new Fisher-Rao regularization for the categorical cross-entropy loss, which is based on the geodesic distance between the softmax outputs corresponding to natural and perturbed input features. Based on the information-geometric properties of the class of softmax distributions, we derive an explicit characterization of the Fisher-Rao Distance (FRD) for the binary and multiclass cases, and draw some interesting properties as well as connections with standard regularization metrics. Furthermore, we verify on a simple linear and Gaussian model, that all Pareto-optimal points in the accuracy-robustness region can be reached by Fire while other state-of-the-art methods fail. Empirically, we evaluate the performance of various classifiers trained with the proposed loss on standard datasets, showing up to a simultaneous 1% of improvement in terms of clean and robust performances while reducing the training time by 20% over the best-performing methods.",
+		"archive_location": "WOS:000934990500001",
+		"container-title": "IEEE TRANSACTIONS ON PATTERN ANALYSIS AND MACHINE INTELLIGENCE",
+		"DOI": "10.1109/TPAMI.2022.3174724",
+		"ISSN": "0162-8828",
+		"issue": "3",
+		"page": "2698-2710",
+		"title": "Adversarial Robustness Via Fisher-Rao Regularization",
+		"volume": "45",
+		"author": [
+			{
+				"family": "Picot",
+				"given": "M"
+			},
+			{
+				"family": "Messina",
+				"given": "F"
+			},
+			{
+				"family": "Boudiaf",
+				"given": "M"
+			},
+			{
+				"family": "Labeau",
+				"given": "F"
+			},
+			{
+				"family": "Ayed",
+				"given": "IB"
+			},
+			{
+				"family": "Piantanida",
+				"given": "P"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2023",
+					3,
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "liuSafeOfflineReinforcement2022",
+		"type": "paper-conference",
+		"abstract": "Recently, offline reinforcement learning has gained increasing attention. However, the safety of offline reinforcement learning has been ignored. It poses a significant challenge to learn a safe and high-performance policy from a fixed dataset that contains unsafe or unexpected state-action pairs without interacting with the environment. Since the unsafe state-action pairs are usually sparse in the behavior data collected by humans, it is difficult to effectively model information about unsafe behaviors. This paper utilized the hierarchical reinforcement learning framework to alleviate the sparsity issue by modeling unsafe behaviors with hierarchical policies. Specifically, a high-level policy determines a prospective state, and a low-level policy takes action to reach the specified goal state. The training objective of the high-level policy is to improve the expected reward that the low-level policy collects when it moves toward the goal state and reduce the number of unsafe actions. We further develop data processing methods to provide training data for the high-level policy and the low-level policy. Evaluation experiments about performance and safety are conducted in simulation environments that return the rewards and unsafe costs obtained by agents during the interaction. Experimental results demonstrate that the proposed algorithm can choose safe actions while maintaining high performance.",
+		"archive_location": "WOS:000870701000030",
+		"DOI": "10.1007/978-3-031-05936-0_30",
+		"event-title": "ADVANCES IN KNOWLEDGE DISCOVERY AND DATA MINING, PAKDD 2022, PT II",
+		"ISBN": "0302-9743",
+		"page": "380-391",
+		"title": "Safe Offline Reinforcement Learning Through Hierarchical Policies",
+		"volume": "13281",
+		"author": [
+			{
+				"family": "Liu",
+				"given": "SF"
+			},
+			{
+				"family": "Sun",
+				"given": "SL"
+			}
+		],
+		"editor": [
+			{
+				"family": "Gama",
+				"given": "J"
+			},
+			{
+				"family": "Li",
+				"given": "T"
+			},
+			{
+				"family": "Yu",
+				"given": "Y"
+			},
+			{
+				"family": "Chen",
+				"given": "E"
+			},
+			{
+				"family": "Zheng",
+				"given": "Y"
+			},
+			{
+				"family": "Teng",
+				"given": "F"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2022"
+				]
+			]
+		}
+	},
+	{
+		"id": "gabourieLearningDomainInvariantEmbedding2019",
+		"type": "paper-conference",
+		"abstract": "We address the problem of unsupervised domain adaptation (UDA) by learning a cross-domain agnostic embedding space, where the distance between the probability distributions of the two source and target visual domains is minimized. We use the output space of a shared cross-domain deep encoder to model the embedding space and use the Sliced-Wasserstein Distance (SWD) to measure and minimize the distance between the embedded distributions of two source and target domains to enforce the embedding to be domain-agnostic. Additionally, we use the source domain labeled data to train a deep classifier from the embedding space to the label space to enforce the embedding space to be discriminative. As a result of this training scheme, we provide an effective solution to train the deep classification network on the source domain such that it will generalize well on the target domain, where only unlabeled training data is accessible. To mitigate the challenge of class matching, we also align corresponding classes in the embedding space by using high confidence pseudo-labels for the target domain, i.e. assigning the class for which the source classifier has a high prediction probability. We provide experimental results on UDA benchmark tasks to demonstrate that our method is effective and leads to state-of-the-art performance.",
+		"archive_location": "WOS:000535355700051",
+		"DOI": "10.1109/allerton.2019.8919960",
+		"event-title": "2019 57TH ANNUAL ALLERTON CONFERENCE ON COMMUNICATION, CONTROL, AND COMPUTING (ALLERTON)",
+		"ISBN": "2474-0195",
+		"page": "352-359",
+		"title": "Learning a Domain-Invariant Embedding for Unsupervised Domain Adaptation Using Class-Conditioned Distribution Alignment",
+		"author": [
+			{
+				"family": "Gabourie",
+				"given": "AJ"
+			},
+			{
+				"family": "Rostami",
+				"given": "M"
+			},
+			{
+				"family": "Pope",
+				"given": "PE"
+			},
+			{
+				"family": "Kolouri",
+				"given": "S"
+			},
+			{
+				"family": "Kim",
+				"given": "K"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2019"
+				]
+			]
+		}
+	},
+	{
+		"id": "mengIntegratingSafetyConstraints2023",
+		"type": "article-journal",
+		"abstract": "The ability to resist interference is the key to the widespread application of reinforcement learning. Although adversarial training is a promising method for robust promotion, stan-dard adversarial training leads to unstable results or performance deterioration due to the presence of perturbation. To address the problem, a robust reinforcement learning method which integrates safety constraints that are modelled by environment termination condi-tions into adversarial training is proposed, where safety constraints are adopted to restrict agent's actions and guide the training process. For better modelling the robust reinforce-ment learning problem, a modified constrained Markov Decision Process (MDP) that con-siders perturbation for robust reinforcement learning, named Constrained Markov Decision Process (CMDP) with Perturbation (CMDPP) is also introduced. The proposed safe robust reinforcement learning method based on CMDPP utilizes the penalty function to solve CMDP and generates perturbation from the gradient of state for adversarial training. Tests on the robustness of the proposed method under several attack methods and evalu-ation of generalization through changing environment dynamics were carried out on the OpenAI gym and Roboschool environments. The results demonstrate that our method not only has a better performance confronting the attack but also has a higher generaliza-tion capability with reference to the changing environment dynamics.(c) 2022 Elsevier Inc. All rights reserved.",
+		"archive_location": "WOS:000901771900018",
+		"container-title": "INFORMATION SCIENCES",
+		"DOI": "10.1016/j.ins.2022.11.051",
+		"ISSN": "0020-0255",
+		"page": "310-323",
+		"title": "Integrating safety constraints into adversarial training for robust deep reinforcement learning",
+		"volume": "619",
+		"author": [
+			{
+				"family": "Meng",
+				"given": "JL"
+			},
+			{
+				"family": "Zhu",
+				"given": "F"
+			},
+			{
+				"family": "Ge",
+				"given": "YY"
+			},
+			{
+				"family": "Zhao",
+				"given": "PY"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2023",
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "murugesanFormalMethodsAssisted2019",
+		"type": "paper-conference",
+		"abstract": "Reinforcement learning (RL) is emerging as a powerful machine learning paradigm to develop autonomous safety critical systems; RL enables the systems to learn optimal control strategies by interacting with the environment. However, there is also widespread apprehension to deploying such systems in the real world since rigorously ensuring if they had learned safe strategies by interacting with an environment that is representative of the real world remains a challenge. Hence, there is a surge of interest to establish safety-focused RL techniques.\nIn this paper, we present a safety-assured training approach that augments standard RL with formal analysis and simulation technology. The benefits of coupling these techniques is three-fold: the formal analysis tools (SMT solvers) guide the system to learn strategies that rigorously uphold specified safety properties; the sophisticated simulators provide a wide-range of quantifiable, realistic learning environments; the adequacy of the safety properties can be assessed as agent explores complex environments. We illustrate this approach using a Flappy Bird game.",
+		"archive_location": "WOS:000657973800022",
+		"DOI": "10.1007/978-3-030-20652-9_22",
+		"event-title": "NASA FORMAL METHODS (NFM 2019)",
+		"ISBN": "0302-9743",
+		"page": "333-340",
+		"title": "Formal Methods Assisted Training of Safe Reinforcement Learning Agents",
+		"volume": "11460",
+		"author": [
+			{
+				"family": "Murugesan",
+				"given": "A"
+			},
+			{
+				"family": "Moghadamfalahi",
+				"given": "M"
+			},
+			{
+				"family": "Chattopadhyay",
+				"given": "A"
+			}
+		],
+		"editor": [
+			{
+				"family": "Badger",
+				"given": "JM"
+			},
+			{
+				"family": "Rozier",
+				"given": "KY"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2019"
+				]
+			]
+		}
+	},
+	{
+		"id": "yangSafetyconstrainedReinforcementLearning2023",
+		"type": "article-journal",
+		"abstract": "Safety is critical to broadening the real-world use of reinforcement learning. Modeling the safety aspects using a safety-cost signal separate from the reward and bounding the expected safety-cost is becoming standard practice, since it avoids the problem of finding a good balance between safety and performance. However, it can be risky to set constraints only on the expectation neglecting the tail of the distribution, which might have prohibitively large values. In this paper, we propose a method called Worst-Case Soft Actor Critic for safe RL that approximates the distribution of accumulated safety-costs to achieve risk control. More specifically, a certain level of conditional Value-at-Risk from the distribution is regarded as a safety constraint, which guides the change of adaptive safety weights to achieve a trade-off between reward and safety. As a result, we can compute policies whose worst-case performance satisfies the constraints. We investigate two ways to estimate the safety-cost distribution, namely a Gaussian approximation and a quantile regression algorithm. On the one hand, the Gaussian approximation is simple and easy to implement, but may underestimate the safety cost, on the other hand, the quantile regression leads to a more conservative behavior. The empirical analysis shows that the quantile regression method achieves excellent results in complex safety-constrained environments, showing good risk control.",
+		"archive_location": "WOS:000814940000002",
+		"container-title": "MACHINE LEARNING",
+		"DOI": "10.1007/s10994-022-06187-8",
+		"ISSN": "0885-6125",
+		"issue": "3",
+		"page": "859-887",
+		"title": "Safety-constrained reinforcement learning with a distributional safety critic",
+		"volume": "112",
+		"author": [
+			{
+				"family": "Yang",
+				"given": "QS"
+			},
+			{
+				"family": "Simao",
+				"given": "TD"
+			},
+			{
+				"family": "Tindemans",
+				"given": "SH"
+			},
+			{
+				"family": "Spaan",
+				"given": "MTJ"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2023",
+					3
+				]
+			]
+		}
+	},
+	{
+		"id": "luoLearningBarrierCertificates2021",
+		"type": "paper-conference",
+		"abstract": "Training-time safety violations have been a major concern when we deploy reinforcement learning algorithms in the real world. This paper explores the possibility of safe RL algorithms with zero training-time safety violations in the challenging setting where we are only given a safe but trivial-reward initial policy without any prior knowledge of the dynamics and additional offline data. We propose an algorithm, Co-trained Barrier Certificate for Safe RL (CRABS),which iteratively learns barrier certificates, dynamics models, and policies. The barrier certificates are learned via adversarial training and ensure the policy's safety assuming calibrated learned dynamics. We also add a regularization term to encourage larger certified regions to enable better exploration. Empirical simulations show that zero safety violations are already challenging for a suite of simple environments with only 2-4 dimensional state space, especially if high-reward policies have to visit regions near the safety boundary. Prior methods require hundreds of violations to achieve decent rewards on these tasks, whereas our proposed algorithms incur zero violations.",
+		"archive_location": "WOS:000922928205035",
+		"event-title": "ADVANCES IN NEURAL INFORMATION PROCESSING SYSTEMS 34 (NEURIPS 2021)",
+		"ISBN": "1049-5258",
+		"title": "Learning Barrier Certificates: Towards Safe Reinforcement Learning with Zero Training-time Violations",
+		"volume": "34",
+		"author": [
+			{
+				"family": "Luo",
+				"given": "YP"
+			},
+			{
+				"family": "Ma",
+				"given": "TY"
+			}
+		],
+		"editor": [
+			{
+				"family": "Ranzato",
+				"given": "M"
+			},
+			{
+				"family": "Beygelzimer",
+				"given": "A"
+			},
+			{
+				"family": "Dauphin",
+				"given": "Y"
+			},
+			{
+				"family": "Liang",
+				"given": "PS"
+			},
+			{
+				"family": "Vaughan",
+				"given": "JW"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2021"
+				]
+			]
+		}
+	},
+	{
+		"id": "zhangSafeIncompleteLabel2022",
+		"type": "article-journal",
+		"abstract": "Label Distribution Learning (LDL) is a popular scenario for solving label ambiguity problems by learning the relative importance of each label to a particular instance. Nevertheless, the label is often incomplete due to the difficulty in annotating label distribution. In this mixing label case with complete and incomplete labels, it is often expected that the learning method can achieve better performance than the baseline method merely utilizing complete labeled data. However, the usage of incomplete labeled data may degrade the performance in real applications. Therefore, it is vital to design a safe incomplete LDL method, which will not deteriorate the performance when exploiting incomplete labeled data. To tackle this important but rarely studied problem, we propose a Safe Incomplete LDL method (SILDL), which learns a classifier that can prevent incomplete labeled instances from worsening the performance. Concretely, we learn predictions from multiple incomplete supervised learners and design an efficient solving algorithm by formulating it as a convex quadratic program. Theoretically, we prove that SILDL can obtain the maximal performance gain against the best one of the multiple baseline methods with mild conditions. Extensive experimental results validate the safeness of the proposed approach and show improvements in performance. (C) 2021 Elsevier Ltd. All rights reserved.",
+		"archive_location": "WOS:000742689700004",
+		"container-title": "PATTERN RECOGNITION",
+		"DOI": "10.1016/j.patcog.2021.108518",
+		"ISSN": "0031-3203",
+		"title": "Safe incomplete label distribution learning",
+		"volume": "125",
+		"author": [
+			{
+				"family": "Zhang",
+				"given": "J"
+			},
+			{
+				"family": "Tao",
+				"given": "H"
+			},
+			{
+				"family": "Luo",
+				"given": "TJ"
+			},
+			{
+				"family": "Hou",
+				"given": "CP"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2022",
+					5
+				]
+			]
+		}
+	},
+	{
+		"id": "selimSafeReinforcementLearning2022",
+		"type": "paper-conference",
+		"abstract": "Reinforcement learning (RL) algorithms can achieve state-of-the-art performance in decision-making and continuous control tasks. However, applying RL algorithms on safety-critical systems still needs to be well justified due to the exploration nature of many RL algorithms, especially when the model of the robot and the environment are unknown. To address this challenge, we propose a data-driven safety layer that acts as a filter for unsafe actions. The safety layer uses a data-driven predictive controller to enforce safety guarantees for RL policies during training and after deployment. The RL agent proposes an action that is verified by computing the data-driven reachability analysis. If there is an intersection between the reachable set of the robot using the proposed action, we call the data-driven predictive controller to find the closest safe action to the proposed unsafe action. The safety layer penalizes the RL agent if the proposed action is unsafe and replaces it with the closest safe one. In the simulation, we show that our method outperforms state-of-the-art safe RL methods on the robotics navigation problem for a Turtlebot 3 in Gazebo and a quadrotor in Unreal Engine 4 (UE4).",
+		"archive_location": "WOS:000972628300008",
+		"DOI": "10.1109/ICCSPA55860.2022.10018994",
+		"event-title": "2022 5TH INTERNATIONAL CONFERENCE ON COMMUNICATIONS, SIGNAL PROCESSING, AND THEIR APPLICATIONS (ICCSPA)",
+		"ISBN": "2377-682X",
+		"title": "Safe Reinforcement Learning using Data-Driven Predictive Control",
+		"author": [
+			{
+				"family": "Selim",
+				"given": "M"
+			},
+			{
+				"family": "Alanwar",
+				"given": "A"
+			},
+			{
+				"family": "El-Kharashi",
+				"given": "MW"
+			},
+			{
+				"family": "Abbas",
+				"given": "HM"
+			},
+			{
+				"family": "Johansson",
+				"given": "KH"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2022"
+				]
+			]
+		}
+	},
+	{
+		"id": "osinenkoActorCriticFrameworkOnline2023",
+		"type": "article-journal",
+		"abstract": "Online actor-critic reinforcement learning is concerned with training an agent on-the-fly via dynamic interaction with the environment. Due to the specifics of the application, it is not generally possible to perform long pre-training, as it is commonly done in off-line, tabular or Monte-Carlo mode. Such applications may be found more frequently in industry, rather than in pure digital fields, such as cloud services, video games, database management, etc., where reinforcement learning has been demonstrating success. Stability of the closed-loop of the agent plus the environment is a major challenge here, and not only in terms of the environment safety and integrity, but also in terms of sparing resources on failed training episodes. In this paper, we tackle the problem of environment stability under an actor-critic reinforcement learning agent by integration of the Lyapunov stability theory tools. Under the presented approach, the closed-loop stability is secured in all episodes without pre-training. It was observed in a case study with a mobile robot that the suggested agent could always successfully achieve the control goal, while significantly reducing the cost. While many approaches may be exploited for mobile robot control, we suggest that the experiments showed the promising potential of actor-critic reinforcement learning agents based on Lyapunov-like constraints. The presented methodology may be utilized in safety-critical, industrial applications where stability is necessary.",
+		"archive_location": "WOS:001061771000001",
+		"container-title": "IEEE ACCESS",
+		"DOI": "10.1109/ACCESS.2023.3306070",
+		"ISSN": "2169-3536",
+		"page": "89188-89204",
+		"title": "An Actor-Critic Framework for Online Control With Environment Stability Guarantee",
+		"volume": "11",
+		"author": [
+			{
+				"family": "Osinenko",
+				"given": "P"
+			},
+			{
+				"family": "Yaremenko",
+				"given": "G"
+			},
+			{
+				"family": "Malaniya",
+				"given": "G"
+			},
+			{
+				"family": "Bolychev",
+				"given": "A"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2023"
+				]
+			]
+		}
+	},
+	{
+		"id": "dongSafeBatchConstrained2023",
+		"type": "article-journal",
+		"abstract": "Batch-constrained reinforcement learning constrains the learned policy to be close to the behavior policy, which holds a tremendous promise for alleviating the distributional shift in offline reinforcement learning. Existing batch-constrained techniques rely on perturbation models to adjust the actions generated from the generative model to maximize the estimated value function. However, the perturbation model deviates from the distribution of the offline datasets and introduces a new distribution drift problem, which affects the performance of the learned policies. In addition, since offline reinforcement learning cannot learn by trial and error, the final policies are often prone to failure in reality or make unsafe decisions when trained with a noisy or small size dataset. To address the above issues, this paper employs constrained generative adversarial network to generate actions with given states. Specifically, we train the generator to maximize the estimated value and constrain the state-action pairs to follow the dataset distribution. The perturbation model is trained to maximize the probability of the perturbed actions belonging to the dataset and minimize the likelihood of taking dangerous actions. Moreover, we utilize safety critics to predict the risk of the actions under a state. Experimental results show that the proposed method is effective and can choose safe actions while maintaining a high performance in offline settings.",
+		"archive_location": "WOS:000962845200001",
+		"container-title": "INFORMATION SCIENCES",
+		"DOI": "10.1016/j.ins.2023.03.108",
+		"ISSN": "0020-0255",
+		"page": "259-270",
+		"title": "Safe batch constrained deep reinforcement learning with generative adversarial network",
+		"volume": "634",
+		"author": [
+			{
+				"family": "Dong",
+				"given": "WB"
+			},
+			{
+				"family": "Liu",
+				"given": "SF"
+			},
+			{
+				"family": "Sun",
+				"given": "SL"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2023",
+					7
+				]
+			]
+		}
+	},
+	{
+		"id": "reimannSafeDSDomainSpecific2023",
+		"type": "paper-conference",
+		"abstract": "Due to the long runtime of Data Science (DS) pipelines, even small programming mistakes can be very costly, if they are not detected statically. However, even basic static type checking of DS pipelines is difficult because most are written in Python. Static typing is available in Python only via external linters. These require static type annotations for parameters or results of functions, which many DS libraries do not provide.\nIn this paper, we show how the wealth of Python DS libraries can be used in a statically safe way via Safe-DS, a domain specific language (DSL) for DS. Safe-DS catches conventional type errors plus errors related to range restrictions, data manipulation, and call order of functions, going well beyond the abilities of current Python linters. Python libraries are integrated into Safe-DS via a stub language for specifying the interface of its declarations, and an API-Editor that is able to extract type information from the code and documentation of Python libraries, and automatically generate suitable stubs.\nMoreover, Safe-DS complements textual DS pipelines with a graphical representation that eases safe development by preventing syntax errors. The seamless synchronization of textual and graphic view lets developers always choose the one best suited for their skills and current task.\nWe think that Safe-DS can make DS development easier, faster, and more reliable, significantly reducing development costs.",
+		"archive_location": "WOS:001032816400013",
+		"DOI": "10.1109/ICSE-NIER58687.2023.00019",
+		"event-title": "2023 IEEE/ACM 45TH INTERNATIONAL CONFERENCE ON SOFTWARE ENGINEERING-NEW IDEAS AND EMERGING RESULTS, ICSE-NIER",
+		"ISBN": "2832-7624",
+		"page": "72-77",
+		"title": "Safe-DS: A Domain Specific Language to Make Data Science Safe",
+		"author": [
+			{
+				"family": "Reimann",
+				"given": "L"
+			},
+			{
+				"family": "Kniesel-Wünsche",
+				"given": "G"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2023"
+				]
+			]
+		}
+	},
+	{
+		"id": "leeAdversarialTrainingJoint2020",
+		"type": "paper-conference",
+		"abstract": "Deep neural networks tend to be erroneous when the training and test distribution differ. Especially, neural classifiers are brittle to adversarial examples, and highly overconfident to out-of-distribution examples. Hybrid modeling of generative and discriminative distribution shown to be effective for out-of-distribution detection, but is not robust to adversarial attacks. Otherwise, defense methods for adversarial attacks cannot distinguish out-of-distribution examples. In this work, we present a hybrid model that can deal with both adversarial and out-of-distribution examples. Our method is built upon the joint energy based model and adversarial training. Through experiments on CIFAR-10 dataset, we show that our method has state-of-the-art performanced among hybrid models. Furthermore, we show that our model exhibits more perceptually-aligned feature than other methods, by showing the gradient sensitivity map with newly proposed score function.",
+		"archive_location": "WOS:000681746000004",
+		"DOI": "10.23919/iccas50221.2020.9268406",
+		"event-title": "2020 20TH INTERNATIONAL CONFERENCE ON CONTROL, AUTOMATION AND SYSTEMS (ICCAS)",
+		"ISBN": "2093-7121",
+		"page": "17-21",
+		"title": "Adversarial Training on Joint Energy Based Model for Robust Classification and Out-of-Distribution Detection",
+		"author": [
+			{
+				"family": "Lee",
+				"given": "K"
+			},
+			{
+				"family": "Yang",
+				"given": "H"
+			},
+			{
+				"family": "Oh",
+				"given": "SY"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2020"
+				]
+			]
+		}
+	},
+	{
+		"id": "fraserTrainSmallDeploy2020",
+		"type": "paper-conference",
+		"abstract": "In order to 'train small, deploy big', agent control policies must be transplanted from one trained agent into a larger set of agents for deployment. Given that compute resources and training time generally scale with the number of agents, this approach to generating swarm control policies may be favourable for larger swarms. However, in order for this process to be successful, the agent control policy must be indistinct to the agent on which it is trained so that it can perform as required in its new host agent. Through extensive simulation of a cooperative multi-agent navigation task, it is shown that this indistinctness of agent policies, and therefore the success of the associated learned solution of the transplanted swarm, is dependent upon the way in which an agent views the world: absolute or relative. As a corollary to, and in contrary to naive intuition of, this result, we show that homogeneous agent capability is not enough to guarantee policy indistinctness. The article also discusses what general conditions may be required in order to enforce policy indistinctness.",
+		"archive_location": "WOS:001061406300021",
+		"DOI": "10.1007/978-3-030-64984-5_21",
+		"event-title": "AI 2020: ADVANCES IN ARTIFICIAL INTELLIGENCE",
+		"ISBN": "2945-9133",
+		"page": "269-280",
+		"title": "Train Small, Deploy Big: Do Relative World Views Permit Swarm-Safety During Policy Transplantation for Multi-Agent Reinforcement Learning Problems?",
+		"volume": "12576",
+		"author": [
+			{
+				"family": "Fraser",
+				"given": "B"
+			},
+			{
+				"family": "Laurito",
+				"given": "G"
+			}
+		],
+		"editor": [
+			{
+				"family": "Gallagher",
+				"given": "M"
+			},
+			{
+				"family": "Moustafa",
+				"given": "N"
+			},
+			{
+				"family": "Lakshika",
+				"given": "E"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2020"
+				]
+			]
+		}
+	},
+	{
+		"id": "chenRobustFederatedLearning2023",
+		"type": "article-journal",
+		"abstract": "Federated learning (FL) is a communication-efficient machine learning paradigm to leverage distributed data at the network edge. Nevertheless, FL usually fails to train a high-quality model from the networks, where the edge nodes collect noisy labeled data. To tackle this challenge, this paper focuses on developing an innovative robust FL. We consider two kinds of networks with different data distribution. Firstly, we design a reweighted FL under a full-data network, where all edge nodes are equipped with both numerous noisy labeled dataset and small clean dataset. The key idea is that edge devices learn to assign the local weights of loss functions in noisy labeled dataset, and cooperate with central server to update global weights. Secondly, we consider a part-data network where some edge nodes exclude clean dataset, and can not compute the weights locally. The broadcasting of the global weights is added to help those edge nodes without clean dataset to reweight their noisy loss functions. Both designs have a convergence rate of O(1/T2). Simulation results illustrate that the both proposed training processes improve the prediction accuracy due to the proper weights assignments of noisy loss function. © 2013 IEEE.",
+		"archive": "Scopus",
+		"container-title": "IEEE Transactions on Network Science and Engineering",
+		"DOI": "10.1109/TNSE.2022.3227287",
+		"issue": "3",
+		"page": "1501-1511",
+		"title": "Robust Federated Learning With Noisy Labeled Data Through Loss Function Correction",
+		"URL": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85144783924&doi=10.1109%2fTNSE.2022.3227287&partnerID=40&md5=3a73f67de23a187c9afb49c45465f69b",
+		"volume": "10",
+		"author": [
+			{
+				"family": "Chen",
+				"given": "L."
+			},
+			{
+				"family": "Ang",
+				"given": "F."
+			},
+			{
+				"family": "Chen",
+				"given": "Y."
+			},
+			{
+				"family": "Wang",
+				"given": "W."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2023"
+				]
+			]
+		}
+	},
+	{
+		"id": "wuDiscrimLossUniversalLoss2023",
+		"type": "article-journal",
+		"abstract": "Given data with label noise (i.e., incorrect data), deep neural networks would gradually memorize the label noise and impair model performance. To relieve this issue, curriculum learning is proposed to improve model performance and generalization by ordering training samples in a meaningful (e.g., easy to hard) sequence. Previous work takes incorrect samples as generic hard ones without discriminating between hard samples (i.e., hard samples in correct data) and incorrect samples. Indeed, a model should learn from hard samples to promote generalization rather than overfit to incorrect ones. In this paper, we address this problem by appending a novel loss function <italic>DiscrimLoss</italic>, on top of the existing task loss. Its main effect is to automatically and stably estimate the importance of easy samples and difficult samples (including hard and incorrect samples) at the early stages of training to improve the model performance. Then, during the following stages, DiscrimLoss is dedicated to discriminating between hard and incorrect samples to improve the model generalization. Such a training strategy can be formulated dynamically in a self-supervised manner, effectively mimicking the main principle of curriculum learning. Experiments on image classification, image regression, text sequence regression, and event relation reasoning demonstrate the versatility and effectiveness of our method, particularly in the presence of diversified noise levels. IEEE",
+		"archive": "Scopus",
+		"container-title": "IEEE Transactions on Multimedia",
+		"DOI": "10.1109/TMM.2023.3290477",
+		"page": "1-12",
+		"title": "DiscrimLoss: A Universal Loss for Hard Samples and Incorrect Samples Discrimination",
+		"URL": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85163478229&doi=10.1109%2fTMM.2023.3290477&partnerID=40&md5=304b809823e78a2e0f99c1366b6f2143",
+		"author": [
+			{
+				"family": "Wu",
+				"given": "T."
+			},
+			{
+				"family": "Ding",
+				"given": "X."
+			},
+			{
+				"family": "Zhang",
+				"given": "H."
+			},
+			{
+				"family": "Gao",
+				"given": "J."
+			},
+			{
+				"family": "Tang",
+				"given": "M."
+			},
+			{
+				"family": "Du",
+				"given": "L."
+			},
+			{
+				"family": "Qin",
+				"given": "B."
+			},
+			{
+				"family": "Liu",
+				"given": "T."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2023"
+				]
+			]
+		}
+	},
+	{
+		"id": "al-malikiImprovedReliabilityDeep2023",
+		"type": "article-journal",
+		"abstract": "Deep neural networks have shown vulnerability to well-designed inputs called adversarial examples. Researchers in industry and academia have proposed many adversarial example defense techniques. However, they offer partial but not full robustness. Thus, complementing them with another layer of protection is a must, especially for mission-critical applications. This article proposes a novel online selection and relabeling algorithm (OSRA) that opportunistically utilizes a limited number of crowdsourced workers to maximize the machine learning (ML) system&#x0027;s robustness. The OSRA strives to use crowdsourced workers effectively by selecting the most suspicious inputs and moving them to the crowdsourced workers to be validated and corrected. As a result, the impact of adversarial examples gets reduced, and accordingly, the ML system becomes more robust. We also proposed a heuristic threshold selection method that contributes to enhancing the prediction system&#x0027;s reliability. We empirically validated our proposed algorithm and found that it can efficiently and optimally utilize the allocated budget for crowdsourcing. It is also effectively integrated with a state-of-the-art black box defense technique, resulting in a more robust system. Simulation results show that the OSRA can outperform a random selection algorithm by 60&#x0025; and achieve comparable performance to an optimal offline selection benchmark. They also show that OSRA&#x0027;s performance has a positive correlation with system robustness. IEEE",
+		"archive": "Scopus",
+		"container-title": "IEEE Transactions on Reliability",
+		"DOI": "10.1109/TR.2023.3298685",
+		"page": "1-16",
+		"title": "Toward Improved Reliability of Deep Learning Based Systems Through Online Relabeling of Potential Adversarial Attacks",
+		"URL": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85168260380&doi=10.1109%2fTR.2023.3298685&partnerID=40&md5=49a3ddb8a11f11d30bdb6f3d9a3c89bd",
+		"author": [
+			{
+				"family": "Al-Maliki",
+				"given": "S."
+			},
+			{
+				"family": "Bouanani",
+				"given": "F.E."
+			},
+			{
+				"family": "Ahmad",
+				"given": "K."
+			},
+			{
+				"family": "Abdallah",
+				"given": "M."
+			},
+			{
+				"family": "Hoang",
+				"given": "D.T."
+			},
+			{
+				"family": "Niyato",
+				"given": "D."
+			},
+			{
+				"family": "Al-Fuqaha",
+				"given": "A."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2023"
+				]
+			]
+		}
+	},
+	{
+		"id": "seifiDatadrivenRobustOptimization2021",
+		"type": "article-journal",
+		"abstract": "The huge availability of data in the last decade has raised the opportunity for the better use of data in decision-making processes. The idea of using the existing data to achieve a more coherent reality solution has led to a branch of optimization called data-driven optimization. On the one hand, the presence of uncertain variables in these datasets makes it crucial to design robust optimization methods in this area. On the other hand, in many real-world problems, the closed-form of the objective function is not available and a meta-model based framework is necessary. Motivated by the above points, in this paper a Gaussian process is used in a Bayesian optimization framework to design a method that is consistent with the data in a predefined confidence level. The advantage of the proposed method is that it is computationally tractable in addition to being robust and independent of the objective function's form. As one of the applications of the proposed algorithm, hyper-parameter optimization for deep learning is investigated. The proposed method can help find the optimal hyper-parameters that are robust with respect to noise. © 2021 Elsevier Ltd",
+		"archive": "Scopus",
+		"container-title": "Computers and Industrial Engineering",
+		"DOI": "10.1016/j.cie.2021.107581",
+		"title": "A data-driven robust optimization algorithm for black-box cases: An application to hyper-parameter optimization of machine learning algorithms",
+		"URL": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85112307597&doi=10.1016%2fj.cie.2021.107581&partnerID=40&md5=a6ef9ee5ae1cddf885674810e44be2c2",
+		"volume": "160",
+		"author": [
+			{
+				"family": "Seifi",
+				"given": "F."
+			},
+			{
+				"family": "Azizi",
+				"given": "M.J."
+			},
+			{
+				"family": "Akhavan Niaki",
+				"given": "S.T."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2021"
+				]
+			]
+		}
+	},
+	{
+		"id": "abdelkaderRobustProductionMachine2020",
+		"type": "paper-conference",
+		"abstract": "The advances in machine learning (ML) have stimulated the integration of their capabilities into software systems. However, there is a tangible gap between software engineering and machine learning practices, that is delaying the progress of intelligent services development. Software organisations are devoting effort to adjust the software engineering processes and practices to facilitate the integration of machine learning models. Machine learning researchers as well are focusing on improving the interpretability of machine learning models to support overall system robustness. Our research focuses on bridging this gap through a methodology that evaluates the robustness of machine learning-enabled software engineering systems. In particular, this methodology will automate the evaluation of the robustness properties of software systems against dataset shift problems in ML. It will also feature a notification mechanism that facilitates the debugging of ML components. © 2020 ACM.",
+		"archive": "Scopus",
+		"DOI": "10.1145/3324884.3415281",
+		"event-title": "Proceedings - 2020 35th IEEE/ACM International Conference on Automated Software Engineering, ASE 2020",
+		"page": "1164-1166",
+		"title": "Towards Robust Production Machine Learning Systems: Managing Dataset Shift",
+		"URL": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85099251225&doi=10.1145%2f3324884.3415281&partnerID=40&md5=b7f18b590ee0b52cf8df446932f366cc",
+		"author": [
+			{
+				"family": "Abdelkader",
+				"given": "H."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2020"
+				]
+			]
+		}
+	},
+	{
+		"id": "vempatyRobustFusionUnreliable2019",
+		"type": "chapter",
+		"abstract": "The emergence of big and dirty data era demands new distributed learning and inference solutions to tackle the problem of inference with corrupted data. The central goal of this chapter is to discuss the presence of corrupted data in the context of distributed inference networks (DINs) and discuss coding-theoretic strategies to ensure reliable inference performance in several practical scenarios. It discusses a generalization of the classical Byzantine Generals problem in the context of distributed inference to different topologies. Over the last three decades, research community has extensively studied the impact of imperfect transmission channels or sensor faults on distributed inference systems. However, corrupted (Byzantine) data models, considered in this chapter, are philosophically different from the imperfect channels or faulty sensor cases. Byzantines are intentional and intelligent and therefore can optimize over the data corruption parameters. While learning their behavior and actively countering them is a viable approach, this chapter presents a new paradigm of mitigation strategies that use coding-theoretic results. The general approach of error-correcting output codes (ECOC) for data fusion is presented and its applicability for several inference problems in practice dealing with unreliable data including Byzantines is shown. This approach is then shown to be applicable to a wider range of inference problems such as classification using crowdsourced data. © The Institution of Engineering and Technology 2019.",
+		"archive": "Scopus",
+		"container-title": "Data Fusion in Wireless Sensor Networks",
+		"note": "DOI: 10.1049/PBCE117E_ch12",
+		"page": "291-311",
+		"title": "Robust fusion of unreliable data sources using error-correcting output codes",
+		"URL": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85117998598&doi=10.1049%2fPBCE117E_ch12&partnerID=40&md5=c7334508b4b3a8a50b7d4bf13b57694b",
+		"author": [
+			{
+				"family": "Vempaty",
+				"given": "A."
+			},
+			{
+				"family": "Kailkhura",
+				"given": "B."
+			},
+			{
+				"family": "Varshney",
+				"given": "P.K."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2019"
+				]
+			]
+		}
+	},
+	{
+		"id": "bouveyronRobustSupervisedClassification2009",
+		"type": "article-journal",
+		"abstract": "In the supervised classification framework, human supervision is required for labeling a set of learning data which are then used for building the classifier. However, in many applications, human supervision is either imprecise, difficult or expensive. In this paper, the problem of learning a supervised multi-class classifier from data with uncertain labels is considered and a model-based classification method is proposed to solve it. The idea of the proposed method is to confront an unsupervised modeling of the data with the supervised information carried by the labels of the learning data in order to detect inconsistencies. The method is able afterward to build a robust classifier taking into account the detected inconsistencies into the labels. Experiments on artificial and real data are provided to highlight the main features of the proposed method as well as an application to object recognition under weak supervision. © 2009 Elsevier Ltd. All rights reserved.",
+		"archive": "Scopus",
+		"container-title": "Pattern Recognition",
+		"DOI": "10.1016/j.patcog.2009.03.027",
+		"issue": "11",
+		"page": "2649-2658",
+		"title": "Robust supervised classification with mixture models: Learning from data with uncertain labels",
+		"URL": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-67649389414&doi=10.1016%2fj.patcog.2009.03.027&partnerID=40&md5=32d729d76c33d6f8ee081360fb958e28",
+		"volume": "42",
+		"author": [
+			{
+				"family": "Bouveyron",
+				"given": "C."
+			},
+			{
+				"family": "Girard",
+				"given": "S."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2009"
+				]
+			]
+		}
+	},
+	{
+		"id": "ferryImprovingFairnessGeneralization2023",
+		"type": "article-journal",
+		"abstract": "Unwanted bias is a major concern in machine learning, raising in particular significant ethical issues when machine learning models are deployed within high-stakes decision systems. A common solution to mitigate it is to integrate and optimize a statistical fairness metric along with accuracy during the training phase. However, one of the main remaining challenges is that current approaches usually generalize poorly in terms of fairness on unseen data. We address this issue by proposing a new robustness framework for statistical fairness in machine learning. The proposed approach is inspired by the domain of distributionally robust optimization and works in ensuring fairness over a variety of samplings of the training set. Our approach can be used to quantify the robustness of fairness but also to improve it when training a model. We empirically evaluate the proposed method and show that it effectively improves fairness generalization. In addition, we propose a simple yet powerful heuristic application of our framework that can be integrated into a wide range of existing fair classification techniques to enhance fairness generalization. Our extensive empirical study using two existing fair classification methods demonstrates the efficiency and scalability of the proposed heuristic approach. © 2022, The Author(s), under exclusive licence to Springer Science+Business Media LLC, part of Springer Nature.",
+		"archive": "Scopus",
+		"container-title": "Machine Learning",
+		"DOI": "10.1007/s10994-022-06191-y",
+		"issue": "6",
+		"page": "2131-2192",
+		"title": "Improving fairness generalization through a sample-robust optimization method",
+		"URL": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85133582221&doi=10.1007%2fs10994-022-06191-y&partnerID=40&md5=07ba1bd2f24d1fcdbb25acd34bbbbe73",
+		"volume": "112",
+		"author": [
+			{
+				"family": "Ferry",
+				"given": "J."
+			},
+			{
+				"family": "Aïvodji",
+				"given": "U."
+			},
+			{
+				"family": "Gambs",
+				"given": "S."
+			},
+			{
+				"family": "Huguet",
+				"given": "M.-J."
+			},
+			{
+				"family": "Siala",
+				"given": "M."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2023"
+				]
+			]
+		}
+	},
+	{
+		"id": "liSupervisedContrastiveLearning2023",
+		"type": "article-journal",
+		"abstract": "The lack of robustness is a serious problem for deep neural networks (DNNs) and makes DNNs vulnerable to adversarial examples. A promising solution is applying adversarial training to alleviate this problem, which allows the model to learn the features from adversarial examples. However, adversarial training usually produces overfitted models and may not work when facing a new attack. We believe this is because the previous adversarial training using cross-entropy loss ignores the similarity between the adversarial examples and the original examples, which will result in a low margin. Accordingly, we propose a supervised adversarial contrastive learning (SACL) approach for adversarial training. SACL uses supervised adversarial contrastive loss which contains both the cross-entropy term and adversarial contrastive term. The cross-entropy term is used for guiding DNN inductive bias learning, and the adversarial contrastive term can help models learn example representations by maximizing feature consistency under different original examples, which fits well with the goal of solving low margins. In addition, SACL only uses adversarial examples which can successfully fool the model and their corresponding original examples for training. This process is more advantageous to provide the model with more accurate information about the decision boundary and obtain a model that fits the example distribution. Experiments show that SACL can reduce the attack success rate of multiple adversarial attack algorithms against different models on text classification tasks. The defensive performance is significantly better than other adversarial training approaches without reducing the generalization ability of the model. In addition, the DNN model trained by our approach has high transferability and robustness. © 2022, The Author(s), under exclusive licence to Springer-Verlag London Ltd., part of Springer Nature.",
+		"archive": "Scopus",
+		"container-title": "Neural Computing and Applications",
+		"DOI": "10.1007/s00521-022-07871-5",
+		"issue": "10",
+		"page": "7357-7368",
+		"title": "Supervised contrastive learning for robust text adversarial training",
+		"URL": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85144688930&doi=10.1007%2fs00521-022-07871-5&partnerID=40&md5=1494523c566a87356fb3d171b70d52cf",
+		"volume": "35",
+		"author": [
+			{
+				"family": "Li",
+				"given": "W."
+			},
+			{
+				"family": "Zhao",
+				"given": "B."
+			},
+			{
+				"family": "An",
+				"given": "Y."
+			},
+			{
+				"family": "Shangguan",
+				"given": "C."
+			},
+			{
+				"family": "Ji",
+				"given": "M."
+			},
+			{
+				"family": "Yuan",
+				"given": "A."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2023"
+				]
+			]
+		}
+	},
+	{
+		"id": "jiaBidirectionalAdaptationRobust2023",
+		"type": "paper-conference",
+		"abstract": "Semi-supervised learning (SSL) suffers from severe performance degradation when labeled and unlabeled data come from inconsistent data distributions. However, there is still a lack of sufficient theoretical guidance on how to alleviate this problem. In this paper, we propose a general theoretical framework that demonstrates how distribution discrepancies caused by pseudo-label predictions and target predictions can lead to severe generalization errors. Through theoretical analysis, we identify three main reasons why previous SSL algorithms cannot perform well with inconsistent distributions: coupling between the pseudo-label predictor and the target predictor, biased pseudo labels, and restricted sample weights. To address these challenges, we introduce a practical framework called Bidirectional Adaptation that can adapt to the distribution of unlabeled data for debiased pseudo-label prediction and to the target distribution for debiased target prediction, thereby mitigating these shortcomings. Extensive experimental results demonstrate the effectiveness of our proposed framework. © 2023 Proceedings of Machine Learning Research. All rights reserved.",
+		"archive": "Scopus",
+		"event-title": "Proceedings of Machine Learning Research",
+		"page": "14886-14901",
+		"title": "Bidirectional Adaptation for Robust Semi-Supervised Learning with Inconsistent Data Distributions",
+		"URL": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85174426186&partnerID=40&md5=83bb3938b25b176e9237be2cf5d0084a",
+		"volume": "202",
+		"author": [
+			{
+				"family": "Jia",
+				"given": "L.-H."
+			},
+			{
+				"family": "Guo",
+				"given": "L.-Z."
+			},
+			{
+				"family": "Zhou",
+				"given": "Z."
+			},
+			{
+				"family": "Shao",
+				"given": "J.-J."
+			},
+			{
+				"family": "Xiang",
+				"given": "Y.-K."
+			},
+			{
+				"family": "Li",
+				"given": "Y.-F."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2023"
+				]
+			]
+		}
+	},
+	{
+		"id": "altmannCROPDistributionalShiftRobust2023",
+		"type": "paper-conference",
+		"abstract": "The safe application of reinforcement learning (RL) requires generalization from limited training data to unseen scenarios. Yet, fulfilling tasks under changing circumstances is a key challenge in RL. Current state-of-the-art approaches for generalization apply data augmentation techniques to increase the diversity of training data. Even though this prevents overfitting to the training environment(s), it hinders policy optimization. Crafting a suitable observation, only containing crucial information, has been shown to be a challenging task itself. To improve data efficiency and generalization capabilities, we propose Compact Reshaped Observation Processing (CROP) to reduce the state information used for policy optimization. By providing only relevant information, overfitting to a specific training layout is precluded and generalization to unseen environments is improved. We formulate three CROPs that can be applied to fully observable observation- and action-spaces and provide methodical foundation. We empirically show the improvements of CROP in a distributionally shifted safety gridworld. We furthermore provide benchmark comparisons to full observability and data-augmentation in two different-sized procedurally generated mazes. © 2023 International Joint Conferences on Artificial Intelligence. All rights reserved.",
+		"archive": "Scopus",
+		"event-title": "IJCAI International Joint Conference on Artificial Intelligence",
+		"page": "3414-3422",
+		"title": "CROP: Towards Distributional-Shift Robust Reinforcement Learning Using Compact Reshaped Observation Processing",
+		"URL": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85170359176&partnerID=40&md5=324523ba832f4699dfb4c359f306a724",
+		"volume": "2023-August",
+		"author": [
+			{
+				"family": "Altmann",
+				"given": "P."
+			},
+			{
+				"family": "Ritz",
+				"given": "F."
+			},
+			{
+				"family": "Feuchtinger",
+				"given": "L."
+			},
+			{
+				"family": "Nüßlein",
+				"given": "J."
+			},
+			{
+				"family": "Linnhoff-Popien",
+				"given": "C."
+			},
+			{
+				"family": "Phan",
+				"given": "T."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2023"
+				]
+			]
+		}
+	},
+	{
+		"id": "liuRobustSafeReinforcement2023",
+		"type": "paper-conference",
+		"abstract": "Previous work demonstrates that the optimal safe reinforcement learning policy in a noise-free environment is vulnerable and could be unsafe under observational attacks. While adversarial training effectively improves robustness and safety, collecting samples by attacking the behavior agent online could be expensive or prohibitively dangerous in many applications. We propose the robuSt vAriational ofF-policy lEaRning (SAFER) approach, which only requires benign training data without attacking the agent. SAFER obtains an optimal non-parametric variational policy distribution via convex optimization and then uses it to improve the parameterized policy robustly via supervised learning. The two-stage policy optimization facilitates robust training, and extensive experiments on multiple robot platforms show the efficiency of SAFER in learning a robust and safe policy: achieving the same reward with much fewer constraint violations during training than on-policy baselines. © 2023 Proceedings of Machine Learning Research. All rights reserved.",
+		"archive": "Scopus",
+		"event-title": "Proceedings of Machine Learning Research",
+		"page": "22249-22265",
+		"title": "Towards Robust and Safe Reinforcement Learning with Benign Off-policy Data",
+		"URL": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85174408788&partnerID=40&md5=6463a867d47c3f19ff2fbca9a27362f9",
+		"volume": "202",
+		"author": [
+			{
+				"family": "Liu",
+				"given": "Z."
+			},
+			{
+				"family": "Guo",
+				"given": "Z."
+			},
+			{
+				"family": "Cen",
+				"given": "Z."
+			},
+			{
+				"family": "Zhang",
+				"given": "H."
+			},
+			{
+				"family": "Yao",
+				"given": "Y."
+			},
+			{
+				"family": "Hu",
+				"given": "H."
+			},
+			{
+				"family": "Zhao",
+				"given": "D."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2023"
+				]
+			]
+		}
+	},
+	{
+		"id": "dangImprovingMachineLearning2023",
+		"type": "paper-conference",
+		"abstract": "As Machine Learning (ML) is increasingly used in solving various tasks in real-world applications, it is crucial to ensure that ML algorithms are robust to any potential worst-case noises, adversarial attacks, and highly unusual situations when they are designed. Studying ML robustness will significantly help in the design of ML algorithms. In this paper, we investigate ML robustness using adversarial training in centralized and decentralized environments, where ML training and testing are conducted in one or multiple computers. In the centralized environment, we achieve a test accuracy of 65.41% and 83.0% when classifying adversarial examples generated by Fast Gradient Sign Method and DeepFool, respectively. Comparing to existing studies, these results demonstrate an improvement of 18.41% for FGSM and 47% for DeepFool. In the decentralized environment, we study Federated learning (FL) robustness by using adversarial training with independent and identically distributed (IID) and non-IID data, respectively, where CIFAR-10 is used in this research. In the IID data case, our experimental results demonstrate that we can achieve such a robust accuracy that it is comparable to the one obtained in the centralized environment. Moreover, in the non-IID data case, the natural accuracy drops from 66.23% to 57.82%, and the robust accuracy decreases by 25% and 23.4% in C&W and Projected Gradient Descent (PGD) attacks, compared to the IID data case, respectively. We further propose an IID data-sharing approach, which allows for increasing the natural accuracy to 85.04% and the robust accuracy from 57% to 72% in C&W attacks and from 59% to 67% in PGD attacks. © 2023 IEEE.",
+		"archive": "Scopus",
+		"DOI": "10.1109/ICCCN58024.2023.10230138",
+		"event-title": "Proceedings - International Conference on Computer Communications and Networks, ICCCN",
+		"title": "Improving Machine Learning Robustness via Adversarial Training",
+		"URL": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85173587747&doi=10.1109%2fICCCN58024.2023.10230138&partnerID=40&md5=39307fd66c57626e402a9a0ca5cad66b",
+		"volume": "2023-July",
+		"author": [
+			{
+				"family": "Dang",
+				"given": "L."
+			},
+			{
+				"family": "Hapuarachchi",
+				"given": "T."
+			},
+			{
+				"family": "Xiong",
+				"given": "K."
+			},
+			{
+				"family": "Lin",
+				"given": "J."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2023"
+				]
+			]
+		}
+	},
+	{
+		"id": "duRobustMultiagentReinforcement2024",
+		"type": "article-journal",
+		"abstract": "Reinforcement learning in multi-agent scenarios is essential for real-world applications as it can vividly depict agents’ collaborative and competitive behaviors from a perspective closer to reality. However, most existing studies suffer from poor robustness, preventing multi-agent reinforcement learning from practical applications where robustness is the core indicator of system security and stability. In view of this, we propose a novel Bayesian Multi-Agent Reinforcement Learning method, named BMARL, which leverages the distributional value function calculated by Bayesian inference to improve the robustness of the model. Specifically, Bayesian linear regression is adopted to estimate a posterior distribution concerning value function parameters, rather than approximating an expectation value for Q-value by point estimation. In this way, the value function is more generalized than previously obtained by point estimation, which is beneficial to the robustness of our model. Meanwhile, we utilize the Gaussian prior knowledge to integrate more prior knowledge while estimating the value function, which improves learning efficiency. Extensive experimental results on three benchmark multi-agent environments comparing with seven state-of-the-art methods demonstrate the superiority of BMARL in terms of both robustness and efficiency. © 2023 Elsevier Ltd",
+		"archive": "Scopus",
+		"container-title": "Pattern Recognition",
+		"DOI": "10.1016/j.patcog.2023.109917",
+		"title": "Robust multi-agent reinforcement learning via Bayesian distributional value estimation",
+		"URL": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85169977108&doi=10.1016%2fj.patcog.2023.109917&partnerID=40&md5=e595d43fa1635c5e71562359b2cf6266",
+		"volume": "145",
+		"author": [
+			{
+				"family": "Du",
+				"given": "X."
+			},
+			{
+				"family": "Chen",
+				"given": "H."
+			},
+			{
+				"family": "Wang",
+				"given": "C."
+			},
+			{
+				"family": "Xing",
+				"given": "Y."
+			},
+			{
+				"family": "Yang",
+				"given": "J."
+			},
+			{
+				"family": "Yu",
+				"given": "P.S."
+			},
+			{
+				"family": "Chang",
+				"given": "Y."
+			},
+			{
+				"family": "He",
+				"given": "L."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2024"
+				]
+			]
+		}
+	},
+	{
+		"id": "singhRobustOffPolicyEvaluation2022",
+		"type": "paper-conference",
+		"abstract": "Off-policy Evaluation (OPE) methods are crucial tools for evaluating policies in high-stakes domains such as healthcare, where direct deployment is often infeasible, unethical, or expensive. When deployment environments are expected to undergo changes (that is, dataset shifts), it is important for OPE methods to perform robust evaluation of the policies amidst such changes. Existing approaches consider robustness against a large class of shifts that can arbitrarily change any observable property of the environment. This often results in highly pessimistic estimates of the utilities, thereby invalidating policies that might have been useful in deployment. In this work, we address the aforementioned problem by investigating how domain knowledge can help provide more realistic estimates of the utilities of policies. We leverage human inputs on which aspects of the environments may plausibly change, and adapt the OPE methods to only consider shifts on these aspects. Specifically, we propose a novel framework, Robust OPE (ROPE), which considers shifts on a subset of covariates in the data based on user inputs, and estimates worst-case utility under these shifts. We then develop computationally efficient algorithms for OPE that are robust to the aforementioned shifts for contextual bandits and Markov decision processes. We also theoretically analyze the sample complexity of these algorithms. Extensive experimentation with synthetic and real world datasets from the healthcare domain demonstrates that our approach not only captures realistic dataset shifts accurately, but also results in less pessimistic policy evaluations.  © 2022 ACM.",
+		"archive": "Scopus",
+		"DOI": "10.1145/3514094.3534198",
+		"event-title": "AIES 2022 - Proceedings of the 2022 AAAI/ACM Conference on AI, Ethics, and Society",
+		"page": "686-699",
+		"title": "Towards Robust Off-Policy Evaluation via Human Inputs",
+		"URL": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85137169796&doi=10.1145%2f3514094.3534198&partnerID=40&md5=adb078c8cd93894d712ddc5b63ed82f8",
+		"author": [
+			{
+				"family": "Singh",
+				"given": "H."
+			},
+			{
+				"family": "Joshi",
+				"given": "S."
+			},
+			{
+				"family": "Doshi-Velez",
+				"given": "F."
+			},
+			{
+				"family": "Lakkaraju",
+				"given": "H."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2022"
+				]
+			]
+		}
+	},
+	{
+		"id": "eilersSafetyAssuranceEnsemblebased2023",
+		"type": "paper-conference",
+		"abstract": "A number of challenges are associated with the use of machine learning technologies in safety-related applications. These include the difficulty of specifying adequately safe behaviour in complex environments (specification uncertainty), ensuring a predictably safe behaviour under all operating conditions (technical uncertainty) and arguing that the safety goals of the system have been met with sufficient confidence (assurance uncertainty). An assurance argument is therefore required that demonstrates that the effects of these uncertainties do not lead to an unacceptable level of risk during operation. A reinforcement learning model will predict an action in whatever state it is in - even in previously unseen states for which a valid (safe) outcome cannot be determined due to lack of training. Uncertainty estimation is a well understood approach in machine learning to identify states with a high probability of an invalid action due a lack of training experience, thus addressing technical uncertainty. However, the impact of alternative possible predictions which may be equally valid (and represent a safe state) in estimating uncertainty in reinforcement learning is not so clear and to our knowledge, not so well documented in current literature. In this paper we build on work where we investigated uncertainty estimation on simplified scenarios in a gridworld environment. Using model ensemble-based uncertainty estimation we proposed an algorithm based on action count variance to deal with discrete action spaces whilst considering in-distribution action variance calculation to handle the overlap with alternative predictions. The method indicates potentially unsafe states when the agent is near out-of-distribution elements and can distinguish it from overlapping alternative, but equally valid predictions. Here, we present these results within the context of a safety assurance framework and highlight the activities and evidences required to build a convincing safety argument. We show that our previous approach is able to act as an external observer and can fulfil the requirements of an assurance argumentation for systems based on machine learning with ontological uncertainty. © 2023 for this paper by its authors. Use permitted under Creative Commons License Attribution 4.0 International (CC BY 4.0). CEUR Workshop Proceedings (CEUR-WS.org)",
+		"archive": "Scopus",
+		"event-title": "CEUR Workshop Proceedings",
+		"title": "Safety Assurance with Ensemble-based Uncertainty Estimation and overlapping alternative Predictions in Reinforcement Learning",
+		"URL": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85159259475&partnerID=40&md5=2c11248b544075497117f0dc81f91729",
+		"volume": "3381",
+		"author": [
+			{
+				"family": "Eilers",
+				"given": "D."
+			},
+			{
+				"family": "Burton",
+				"given": "S."
+			},
+			{
+				"family": "Roza",
+				"given": "F.S."
+			},
+			{
+				"family": "Roscher",
+				"given": "K."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2023"
+				]
+			]
+		}
+	},
+	{
+		"id": "xuGroupDistributionallyRobust2023",
+		"type": "paper-conference",
+		"abstract": "One key challenge for multi-task Reinforcement learning (RL) in practice is the absence of task specifications. Robust RL has been applied to deal with task ambiguity but may result in over-conservative policies. To balance the worst-case (robustness) and average performance, we propose Group Distributionally Robust Markov Decision Process (GDR-MDP), a flexible hierarchical MDP formulation that encodes task groups via a latent mixture model. GDR-MDP identifies the optimal policy that maximizes the expected return under the worst-possible qualified belief over task groups within an ambiguity set. We rigorously show that GDR-MDP's hierarchical structure improves distributional robustness by adding regularization to the worst possible outcomes. We then develop deep RL algorithms for GDR-MDP for both value-based and policy-based RL methods. Extensive experiments on Box2D control tasks, MuJoCo benchmarks, and Google football platforms show that our algorithms outperform classic robust training algorithms across diverse environments in terms of robustness under belief uncertainties. Demos are available on our project page (https://sites.google.com/view/gdr-rl/home). Copyright © 2023 by the author(s)",
+		"archive": "Scopus",
+		"event-title": "Proceedings of Machine Learning Research",
+		"page": "2677-2703",
+		"title": "Group Distributionally Robust Reinforcement Learning with Hierarchical Latent Variables",
+		"URL": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85165176997&partnerID=40&md5=78b2ceb3e076387d4b6e631d9b475265",
+		"volume": "206",
+		"author": [
+			{
+				"family": "Xu",
+				"given": "M."
+			},
+			{
+				"family": "Huang",
+				"given": "P."
+			},
+			{
+				"family": "Niu",
+				"given": "Y."
+			},
+			{
+				"family": "Kumar",
+				"given": "V."
+			},
+			{
+				"family": "Qiu",
+				"given": "J."
+			},
+			{
+				"family": "Fang",
+				"given": "C."
+			},
+			{
+				"family": "Lee",
+				"given": "K.-H."
+			},
+			{
+				"family": "Qi",
+				"given": "X."
+			},
+			{
+				"family": "Lam",
+				"given": "H."
+			},
+			{
+				"family": "Li",
+				"given": "B."
+			},
+			{
+				"family": "Zhao",
+				"given": "D."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2023"
+				]
+			]
+		}
+	},
+	{
+		"id": "chenRobustFrameworkFixing2023",
+		"type": "paper-conference",
+		"abstract": "Nowadays, as a prevailing paradigm for large-scale machine learning, distributed learning has been faced with two challenges, communication bottleneck and limited robustness. For the communication challenge, compression is widely-used as a solution. For the robustness challenge, some robust defence methods have been proposed. However, previous works that simultaneously consider these two challenges are limited. Through an experiment on the w8a dataset, we found that compressed distributed learning with rand-K is vulnerable to poisoning attacks. Therefore, in this paper, we propose a robust compressed distributed framework for distributed learning settings. Experimental evaluations on a9a and w8a datasets have shown the effectiveness of our proposed framework, which markedly decreases the average optimality gap from 1.47E -2 and 2.15E -2 to 3.98E -4 and 4.33E -4 respectively.  © 2023 IEEE.",
+		"archive": "Scopus",
+		"DOI": "10.1109/CSCWD57460.2023.10152781",
+		"event-title": "Proceedings of the 2023 26th International Conference on Computer Supported Cooperative Work in Design, CSCWD 2023",
+		"page": "733-738",
+		"title": "A Robust Framework for Fixing The Vulnerability of Compressed Distributed Learning",
+		"URL": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85164686727&doi=10.1109%2fCSCWD57460.2023.10152781&partnerID=40&md5=3b3e21af6d20d9c82120e878aeb75a21",
+		"author": [
+			{
+				"family": "Chen",
+				"given": "Y."
+			},
+			{
+				"family": "Wang",
+				"given": "B."
+			},
+			{
+				"family": "Zhang",
+				"given": "Y."
+			},
+			{
+				"family": "Kuang",
+				"given": "J."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2023"
+				]
+			]
+		}
+	},
+	{
+		"id": "wenJSMixHolisticAlgorithm2023",
+		"type": "article-journal",
+		"abstract": "The success of deep learning is mainly dependent on large-scale and accurately labeled datasets. However, real-world datasets are marked with much noise. Directly training on datasets with label noise may lead to the overfitting. Recent research is under the spotlight on how to design algorithms that can learn robust models from noisy datasets, via designing the loss function and integrating the idea of Semi-supervised learning (SSL). This paper proposes a robust algorithm for learning with label noise that does not require additional clean data and an auxiliary model. Specifically, on the one hand, Jensen–Shannon (JS) divergence is introduced as a component of the loss function, which measures the distance between the predicted distribution and the noisy label distribution. It can alleviate the overfitting problem caused by the traditional cross entropy loss theoretically and experimentally. On the other hand, a dynamic sample selection mechanism is also proposed. The dataset is divided into the pseudo-clean labeled subset and the pseudo-noisy labeled subset. Two subsets are treated differently to exploit prior information about the data, and then learned by SSL. The dynamic sample selection is performed with the iteration between two subsets and the model parameters, which are different from the conventional training. Considering the label of the pseudo-clean labeled subset is not correct entirely, they are also refined by linear interpolation. Furthermore, we experimentally show that the integration of SSL helps the model divide two subsets more precise and build decision boundaries more explicit. Extensive experimental results on corrupted data from benchmark datasets and the real-world dataset, including CIFAR-10, CIFAR-100, and Clothing1M, demonstrate that our method is superior to many state-of-the-art approaches for learning with label noise. © 2022, The Author(s), under exclusive licence to Springer-Verlag London Ltd., part of Springer Nature.",
+		"archive": "Scopus",
+		"container-title": "Neural Computing and Applications",
+		"DOI": "10.1007/s00521-022-07770-9",
+		"issue": "2",
+		"page": "1519-1533",
+		"title": "JSMix: a holistic algorithm for learning with label noise",
+		"URL": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85139177299&doi=10.1007%2fs00521-022-07770-9&partnerID=40&md5=733ca6f7e18f5fbabc4dac91622d3cf8",
+		"volume": "35",
+		"author": [
+			{
+				"family": "Wen",
+				"given": "Z."
+			},
+			{
+				"family": "Xu",
+				"given": "H."
+			},
+			{
+				"family": "Ying",
+				"given": "S."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2023"
+				]
+			]
+		}
+	},
+	{
+		"id": "chenByzantineRobustOnlineOffline2023",
+		"type": "paper-conference",
+		"abstract": "We consider a distributed reinforcement learning setting where multiple agents separately explore the environment and communicate their experiences through a central server. However, αfraction of agents are adversarial and can report arbitrary fake information. Critically, these adversarial agents can collude and their fake data can be of any sizes. We desire to robustly identify a near-optimal policy for the underlying Markov decision process in the presence of these adversarial agents. Our main technical contribution is COW, a novel algorithm for the robust mean estimation from batches problem, that can handle arbitrary batch sizes. Building upon this new estimator, in the offline setting, we design a Byzantine-robust distributed pessimistic value iteration algorithm; in the online setting, we design a Byzantine-robust distributed optimistic value iteration algorithm. Both algorithms obtain near-optimal sample complexities and achieve superior robustness guarantee than prior works. Copyright © 2023 by the author(s)",
+		"archive": "Scopus",
+		"event-title": "Proceedings of Machine Learning Research",
+		"page": "3230-3269",
+		"title": "Byzantine-Robust Online and Offline Distributed Reinforcement Learning",
+		"URL": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85164381268&partnerID=40&md5=f0f263cd3d72d542c157a405a6e611d3",
+		"volume": "206",
+		"author": [
+			{
+				"family": "Chen",
+				"given": "Y."
+			},
+			{
+				"family": "Zhang",
+				"given": "X."
+			},
+			{
+				"family": "Zhang",
+				"given": "K."
+			},
+			{
+				"family": "Wang",
+				"given": "M."
+			},
+			{
+				"family": "Zhu",
+				"given": "X."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2023"
+				]
+			]
+		}
+	},
+	{
+		"id": "strawnConformalPredictiveSafety2023",
+		"type": "article-journal",
+		"abstract": "The interest in using reinforcement learning (RL) controllers in safety-critical applications such as robot navigation around pedestrians motivates the development of additional safety mechanisms. Running RL-enabled systems among uncertain dynamic agents may result in high counts of collisions and failures to reach the goal. The system could be safer if the pre-trained RL policy was uncertainty-informed. For that reason, we propose <italic>conformal predictive safety filters</italic> that: 1) predict the other agents&#x0027; trajectories, 2) use statistical techniques to provide uncertainty intervals around these predictions, and 3) learn an additional safety filter that closely follows the RL controller but avoids the uncertainty intervals. We use conformal prediction to learn uncertainty-informed predictive safety filters, which make no assumptions about the agents&#x0027; distribution. The framework is modular and outperforms the existing controllers in simulation. We demonstrate our approach with multiple experiments in a collision avoidance gym environment and show that our approach minimizes the number of collisions without making overly conservative predictions. IEEE",
+		"archive": "Scopus",
+		"container-title": "IEEE Robotics and Automation Letters",
+		"DOI": "10.1109/LRA.2023.3322644",
+		"page": "1-8",
+		"title": "Conformal Predictive Safety Filter for RL Controllers in Dynamic Environments",
+		"URL": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85174844462&doi=10.1109%2fLRA.2023.3322644&partnerID=40&md5=07707bbdae1e1e714275089a0239b90c",
+		"author": [
+			{
+				"family": "Strawn",
+				"given": "K.J."
+			},
+			{
+				"family": "Ayanian",
+				"given": "N."
+			},
+			{
+				"family": "Lindemann",
+				"given": "L."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2023"
+				]
+			]
+		}
+	},
+	{
+		"id": "nooraniEmbracingRiskReinforcement2022",
+		"type": "paper-conference",
+		"abstract": "We explore the relation between the risk-sensitive exponential (exponential of total cost) and Distributionally Robust Reinforcement Learning objectives, and in doing so, we unify some of the popular Reinforcement Learning algorithms. Such equivalence (I) allows to understand a number of well-known Reinforcement Learning algorithms from a risk minimization perspective and (II) establishes the robustness properties of risk-sensitive exponential objective in the Reinforcement Learning context, which in turn provides a theoretical justification for the robust performance of risk-sensitive Reinforcement Learning algorithms in the literature. The robustness of exponential criteria motivates risk-sensitizing current risk-neutral Reinforcement Learning algorithms using such criteria.  © 2022 American Automatic Control Council.",
+		"archive": "Scopus",
+		"DOI": "10.23919/ACC53348.2022.9867841",
+		"event-title": "Proceedings of the American Control Conference",
+		"page": "2703-2708",
+		"title": "Embracing Risk in Reinforcement Learning: The Connection between Risk-Sensitive Exponential and Distributionally Robust Criteria",
+		"URL": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85136260457&doi=10.23919%2fACC53348.2022.9867841&partnerID=40&md5=347ba7f8d2c690bdd7ad34cc2c71ded9",
+		"volume": "2022-June",
+		"author": [
+			{
+				"family": "Noorani",
+				"given": "E."
+			},
+			{
+				"family": "Baras",
+				"given": "J.S."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2022"
+				]
+			]
+		}
+	},
+	{
+		"id": "zhangDecoupledAdversarialContrastive2022",
+		"type": "paper-conference",
+		"abstract": "Adversarial training (AT) for robust representation learning and self-supervised learning (SSL) for unsupervised representation learning are two active research fields. Integrating AT into SSL, multiple prior works have accomplished a highly significant yet challenging task: learning robust representation without labels. A widely used framework is adversarial contrastive learning which couples AT and SSL, and thus constitutes a very complex optimization problem. Inspired by the divide-and-conquer philosophy, we conjecture that it might be simplified as well as improved by solving two sub-problems: non-robust SSL and pseudo-supervised AT. This motivation shifts the focus of the task from seeking an optimal integrating strategy for a coupled problem to finding sub-solutions for sub-problems. With this said, this work discards prior practices of directly introducing AT to SSL frameworks and proposed a two-stage framework termed Decoupled Adversarial Contrastive Learning (DeACL). Extensive experimental results demonstrate that our DeACL achieves SOTA self-supervised adversarial robustness while significantly reducing the training time, which validates its effectiveness and efficiency. Moreover, our DeACL constitutes a more explainable solution, and its success also bridges the gap with semi-supervised AT for exploiting unlabeled samples for robust representation learning. The code is publicly accessible at https://github.com/pantheon5100/DeACL. © 2022, The Author(s), under exclusive license to Springer Nature Switzerland AG.",
+		"archive": "Scopus",
+		"DOI": "10.1007/978-3-031-20056-4_42",
+		"event-title": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
+		"page": "725-742",
+		"title": "Decoupled Adversarial Contrastive Learning for Self-supervised Adversarial Robustness",
+		"URL": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85144544122&doi=10.1007%2f978-3-031-20056-4_42&partnerID=40&md5=31ca03190c46bbcd6067a473f7dbb3a8",
+		"volume": "13690 LNCS",
+		"author": [
+			{
+				"family": "Zhang",
+				"given": "C."
+			},
+			{
+				"family": "Zhang",
+				"given": "K."
+			},
+			{
+				"family": "Zhang",
+				"given": "C."
+			},
+			{
+				"family": "Niu",
+				"given": "A."
+			},
+			{
+				"family": "Feng",
+				"given": "J."
+			},
+			{
+				"family": "Yoo",
+				"given": "C.D."
+			},
+			{
+				"family": "Kweon",
+				"given": "I.S."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2022"
+				]
+			]
+		}
+	},
+	{
+		"id": "panagantiRobustReinforcementLearning2022",
+		"type": "paper-conference",
+		"abstract": "The goal of robust reinforcement learning (RL) is to learn a policy that is robust against the uncertainty in model parameters. Parameter uncertainty commonly occurs in many real-world RL applications due to simulator modeling errors, changes in the real-world system dynamics over time, and adversarial disturbances. Robust RL is typically formulated as a max-min problem, where the objective is to learn the policy that maximizes the value against the worst possible models that lie in an uncertainty set. In this work, we propose a robust RL algorithm called Robust Fitted Q-Iteration (RFQI), which uses only an offline dataset to learn the optimal robust policy. Robust RL with offline data is significantly more challenging than its non-robust counterpart because of the minimization over all models present in the robust Bellman operator. This poses challenges in offline data collection, optimization over the models, and unbiased estimation. In this work, we propose a systematic approach to overcome these challenges, resulting in our RFQI algorithm. We prove that RFQI learns a near-optimal robust policy under standard assumptions and demonstrate its superior performance on standard benchmark problems. © 2022 Neural information processing systems foundation. All rights reserved.",
+		"archive": "Scopus",
+		"event-title": "Advances in Neural Information Processing Systems",
+		"title": "Robust Reinforcement Learning using Offline Data",
+		"URL": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85143683086&partnerID=40&md5=12385a40ddb4c145a75af7e617b994dc",
+		"volume": "35",
+		"author": [
+			{
+				"family": "Panaganti",
+				"given": "K."
+			},
+			{
+				"family": "Xu",
+				"given": "Z."
+			},
+			{
+				"family": "Kalathil",
+				"given": "D."
+			},
+			{
+				"family": "Ghavamzadeh",
+				"given": "M."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2022"
+				]
+			]
+		}
+	},
+	{
+		"id": "gholamiMultiexpertAdversarialRegularization2022",
+		"type": "article-journal",
+		"abstract": "Deep neural networks (DNNs) can achieve high accuracy when there is abundant training data that has the same distribution as the test data. In practical applications, data deficiency is often a concern. For classification tasks, the lack of enough labeled images in the training set often results in overfitting. Another issue is the mismatch between the training and the test domains, which results in poor model performance. This calls for the need to have robust and data efficient deep learning models. In this work, we propose a deep learning approach called Multi-Expert Adversarial Regularization learning (MEAR) with limited computational overhead to improve the generalization and robustness of deep supervised learning models. The MEAR framework appends multiple classifier heads (experts) to the feature extractor of the legacy model. MEAR aims to learn the feature extractor in an adversarial fashion by leveraging complementary information from the individual experts as well as the ensemble of the experts to be more robust for an unseen test domain. We train state-of-the-art networks with MEAR for two important computer vision tasks, image classification and semantic segmentation. We compare MEAR to a variety of baselines on multiple benchmarks. We show that MEAR is competitive with other methods and more successful at learning robust features. © 2013 IEEE.",
+		"archive": "Scopus",
+		"container-title": "IEEE Access",
+		"DOI": "10.1109/ACCESS.2022.3196780",
+		"page": "85080-85094",
+		"title": "Multiexpert Adversarial Regularization for Robust and Data-Efficient Deep Supervised Learning",
+		"URL": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85136107917&doi=10.1109%2fACCESS.2022.3196780&partnerID=40&md5=5dff15387da09a3c425c359284ad6896",
+		"volume": "10",
+		"author": [
+			{
+				"family": "Gholami",
+				"given": "B."
+			},
+			{
+				"family": "Liu",
+				"given": "Q."
+			},
+			{
+				"family": "El-Khamy",
+				"given": "M."
+			},
+			{
+				"family": "Lee",
+				"given": "J."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2022"
+				]
+			]
+		}
+	},
+	{
+		"id": "chenSemisupervisedDeepLearning2022",
+		"type": "paper-conference",
+		"abstract": "With increasing requirements on reliability, maintainability and safety in modern ICT systems, fault detection, as an indispensable part of AIOps, has become essential in cloud computing or communication network environments. However, due to the lack of effective labels and class imbalance on faulty samples, fault detection performance based on the common classification model can't meet the system's operational requirements. Some recent approaches of SSL propose a consistency regularization loss to solve the problem of insufficient labels. However, these approaches are mainly for images based on artificial data augmentations but not feasible for all data types, and class-imbalance problem is not considered simultaneously. So, we propose a semi-supervised method for imbalanced fault detection with few labels, called SSLCR-IFD. In the method, we use a semi-supervised deep classifier based on consistency loss to solve the lack of labels, in which two sample augmentation methods based on clustering and GAN are used. Furthermore, a selective pseudo-labeling self-training strategy is proposed to solve the class-imbalance problem. Compared with the standard data augmentation, our methods alleviates the need for domain knowledge and can be used on multiple types of tasks. Finally, experiment results show that our method outperforms the baseline methods on two different AIOps tasks.  © 2022 IEEE.",
+		"archive": "Scopus",
+		"DOI": "10.1109/ICRMS55680.2022.9944609",
+		"event-title": "13th International Conference on Reliability, Maintainability, and Safety: Reliability and Safety of Intelligent Systems, ICRMS 2022",
+		"page": "290-295",
+		"title": "A Semi-supervised Deep Learning Model with Consistency Regularization of Augmented Samples for Imbalanced Fault Detection",
+		"URL": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85143065667&doi=10.1109%2fICRMS55680.2022.9944609&partnerID=40&md5=ca3844b36ae721b2f47955e2b0fcbc65",
+		"author": [
+			{
+				"family": "Chen",
+				"given": "H."
+			},
+			{
+				"family": "Han",
+				"given": "J."
+			},
+			{
+				"family": "Lv",
+				"given": "X."
+			},
+			{
+				"family": "Wu",
+				"given": "Z."
+			},
+			{
+				"family": "Guo",
+				"given": "H."
+			},
+			{
+				"family": "Zhan",
+				"given": "Z."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2022"
+				]
+			]
+		}
+	},
+	{
+		"id": "yuRobustUnsupervisedDomain2022",
+		"type": "paper-conference",
+		"abstract": "Unsupervised Domain Adaptation (UDA) provides a promising solution for learning without supervision, which transfers knowledge from relevant source domains with accessible labeled training data. Existing UDA solutions hinge on clean training data with a short-tail distribution from the source domain, which can be fragile when the source domain data is corrupted either inherently or via adversarial attacks. In this work, we propose an effective framework to address the challenges of UDA from corrupted source domains in a principled manner. Specifically, we perform knowledge ensemble from multiple domain-invariant models that are learned on random partitions of training data. To further address the distribution shift from the source to the target domain, we refine each of the learned models via mutual information maximization, which adaptively obtains the predictive information of the target domain with high confidence. Extensive empirical studies demonstrate that the proposed approach is robust against various types of poisoned data attacks while achieving high asymptotic performance on the target domain.  © 2022 IEEE.",
+		"archive": "Scopus",
+		"DOI": "10.1109/ICDM54844.2022.00171",
+		"event-title": "Proceedings - IEEE International Conference on Data Mining, ICDM",
+		"page": "1299-1304",
+		"title": "Robust Unsupervised Domain Adaptation from A Corrupted Source",
+		"URL": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85147729954&doi=10.1109%2fICDM54844.2022.00171&partnerID=40&md5=556ad39d51119f2913db0a36ef016d76",
+		"volume": "2022-November",
+		"author": [
+			{
+				"family": "Yu",
+				"given": "S."
+			},
+			{
+				"family": "Zhu",
+				"given": "Z."
+			},
+			{
+				"family": "Liu",
+				"given": "B."
+			},
+			{
+				"family": "Jain",
+				"given": "A.K."
+			},
+			{
+				"family": "Zhou",
+				"given": "J."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2022"
+				]
+			]
+		}
+	},
+	{
+		"id": "schottImprovingRobustnessDeep2022",
+		"type": "paper-conference",
+		"abstract": "To improve robustness of deep reinforcement learning agents, a line of recent works focus on producing disturbances of the dynamics of the environment. Existing approaches of the literature to generate such disturbances are environment adversarial reinforcement learning methods. These methods set the problem as a two-player game between the protagonist agent, which learns to perform a task in an environment, and the adversary agent, which learns to disturb the dynamics of the considered environment to make the protagonist agent fail. Alternatively, we propose to build on gradient-based adversarial attacks, usually used for classification tasks for instance, that we apply on the critic network of the protagonist to identify efficient disturbances of the dynamics of the environment. Rather than training an adversary agent, which usually reveals as very complex and unstable, we leverage the knowledge of the critic network of the protagonist, to dynamically increase the complexity of the task at each step of the learning process. We show that our method, while being faster and lighter, leads to significantly better improvements in robustness of the policy than existing methods of the literature. © 2022 IEEE.",
+		"archive": "Scopus",
+		"DOI": "10.1109/IJCNN55064.2022.9892901",
+		"event-title": "Proceedings of the International Joint Conference on Neural Networks",
+		"title": "Improving Robustness of Deep Reinforcement Learning Agents: Environment Attack based on the Critic Network",
+		"URL": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85140781892&doi=10.1109%2fIJCNN55064.2022.9892901&partnerID=40&md5=3c7ba77dfe5886c14307e437ac8d50a3",
+		"volume": "2022-July",
+		"author": [
+			{
+				"family": "Schott",
+				"given": "L."
+			},
+			{
+				"family": "Hajri",
+				"given": "H."
+			},
+			{
+				"family": "Lamprier",
+				"given": "S."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2022"
+				]
+			]
+		}
+	},
+	{
+		"id": "motokawaDistributedMultiAgentDeep2022",
+		"type": "paper-conference",
+		"abstract": "In multi-agent systems, noise reduction techniques are considerable for improving the overall system reliability as agents are required to rely on limited environmental information to develop cooperative and coordinated behaviors with the surrounding agents. However, previous studies have often applied centralized noise reduction methods to build robust and versatile coordination in noisy multi-agent environments, while distributed and decentralized autonomous agents are more plausible for real-world application. In this paper, we introduce a distributed attentional actor architecture model for a multi-agent system (DA3-X), using which we demonstrate that agents with DA3-X can selectively learn the noisy environment and behave cooperatively. We experimentally evaluate the effectiveness of DA3-X by comparing learning methods with and without DA3-X and show that agents with DA3-X can achieve better performance than baseline agents. Furthermore, we visualize heatmaps of attentional weights from the DA3-X to analyze how the decision-making process and coordinated behavior are influenced by noise. © 2022 IEEE.",
+		"archive": "Scopus",
+		"DOI": "10.1109/IJCNN55064.2022.9892253",
+		"event-title": "Proceedings of the International Joint Conference on Neural Networks",
+		"title": "Distributed Multi-Agent Deep Reinforcement Learning for Robust Coordination against Noise",
+		"URL": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85140784231&doi=10.1109%2fIJCNN55064.2022.9892253&partnerID=40&md5=bbbe0e8c9ed49dd82a27932e6dcb977a",
+		"volume": "2022-July",
+		"author": [
+			{
+				"family": "Motokawa",
+				"given": "Y."
+			},
+			{
+				"family": "Sugawara",
+				"given": "T."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2022"
+				]
+			]
+		}
+	},
+	{
+		"id": "liangEfficientAdversarialTraining2022",
+		"type": "paper-conference",
+		"abstract": "Recent studies reveal that a well-trained deep reinforcement learning (RL) policy can be particularly vulnerable to adversarial perturbations on input observations. Therefore, it is crucial to train RL agents that are robust against any attacks with a bounded budget. Existing robust training methods in deep RL either treat correlated steps separately, ignoring the robustness of long-term rewards, or train the agents and RL-based attacker together, doubling the computational burden and sample complexity of the training process. In this work, we propose a strong and efficient robust training framework for RL, named Worst-case-aware Robust RL (WocaR-RL), that directly estimates and optimizes the worst-case reward of a policy under bounded ℓp attacks without requiring extra samples for learning an attacker. Experiments on multiple environments show that WocaR-RL achieves state-of-the-art performance under various strong attacks, and obtains significantly higher training efficiency than prior state-of-the-art robust training methods. The code of this work is available at https://github.com/umd-huang-lab/WocaR-RL. © 2022 Neural information processing systems foundation. All rights reserved.",
+		"archive": "Scopus",
+		"event-title": "Advances in Neural Information Processing Systems",
+		"title": "Efficient Adversarial Training without Attacking: Worst-Case-Aware Robust Reinforcement Learning",
+		"URL": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85150009921&partnerID=40&md5=f780a63268f2da04aa1b18bf9fc5d208",
+		"volume": "35",
+		"author": [
+			{
+				"family": "Liang",
+				"given": "Y."
+			},
+			{
+				"family": "Sun",
+				"given": "Y."
+			},
+			{
+				"family": "Zheng",
+				"given": "R."
+			},
+			{
+				"family": "Huang",
+				"given": "F."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2022"
+				]
+			]
+		}
+	},
+	{
+		"id": "choAdversarialTrainingChannel2022",
+		"type": "paper-conference",
+		"abstract": "Adversarial attack shows that deep neural networks (DNNs) are highly vulnerable to small perturbation. Currently, one of the most effective ways to defend against adversarial attacks is adversarial training, which generates adversarial examples during training and induces the models to classify them correctly. To further increase robustness, various techniques such as exploiting additional unlabeled data and novel training loss have been proposed. In this paper, we propose a novel regularization method that exploits latent features, which can be easily combined with existing approaches. We discover that particular channels are more sensitive to adversarial perturbation, motivating us to propose regularizing these channels. Specifically, we attach a channel attention module for adjusting sensitivity of each channel by reducing the difference between the latent feature of the natural image and that of the adversarial image, which we call Channel Attention Regularization (CAR). CAR can be combined with the existing adversarial training framework, showing that it improves the robustness of state-of-the-art defense models. Experiments on various existing adversarial training methods against diverse attacks show the effectiveness of our methods. Codes are available at https://github.com/sgmath12/Adversarial-Training-CAR. © 2022 IEEE.",
+		"archive": "Scopus",
+		"DOI": "10.1109/ICIP46576.2022.9897754",
+		"event-title": "Proceedings - International Conference on Image Processing, ICIP",
+		"page": "2996-3000",
+		"title": "Adversarial Training With Channel Attention Regularization",
+		"URL": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85146701970&doi=10.1109%2fICIP46576.2022.9897754&partnerID=40&md5=5bfdee444f7399d1ed29bce966f3d6f0",
+		"author": [
+			{
+				"family": "Cho",
+				"given": "S."
+			},
+			{
+				"family": "Byun",
+				"given": "J."
+			},
+			{
+				"family": "Kwon",
+				"given": "M.-J."
+			},
+			{
+				"family": "Kim",
+				"given": "Y."
+			},
+			{
+				"family": "Kim",
+				"given": "C."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2022"
+				]
+			]
+		}
+	},
+	{
+		"id": "yangTrainingTransferringSafe2022",
+		"type": "paper-conference",
+		"abstract": "Safety is critical to broadening the application of reinforcement learning (RL). Often, RL agents are trained in a controlled environment, such as a laboratory, before being deployed in the real world. However, the target reward might be unknown prior to deployment. Reward-free RL addresses this problem by training an agent without the reward to adapt quickly once the reward is revealed. We consider the constrained reward-free setting, where an agent (the guide) learns to explore safely without the reward signal. This agent is trained in a controlled environment, which allows unsafe interactions and still provides the safety signal. After the target task is revealed, safety violations are not allowed anymore. Thus, the guide is leveraged to compose a safe sampling policy. Drawing from transfer learning, we also regularize a target policy (the student) towards the guide while the student is unreliable and gradually eliminate the influence from the guide as training progresses. The empirical analysis shows that this method can achieve safe transfer learning and helps the student solve the target task faster. © 2022 ALA 2022 - Adaptive and Learning Agents Workshop at AAMAS 2022. All rights reserved.",
+		"archive": "Scopus",
+		"event-title": "ALA 2022 - Adaptive and Learning Agents Workshop at AAMAS 2022",
+		"title": "Training and Transferring Safe Policies in Reinforcement Learning",
+		"URL": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85168254751&partnerID=40&md5=69ee98d03db848dbd74b02d5ad5311a6",
+		"author": [
+			{
+				"family": "Yang",
+				"given": "Q."
+			},
+			{
+				"family": "Simão",
+				"given": "T.D."
+			},
+			{
+				"family": "Jansen",
+				"given": "N."
+			},
+			{
+				"family": "Tindemans",
+				"given": "S.H."
+			},
+			{
+				"family": "Spaan",
+				"given": "M.T.J."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2022"
+				]
+			]
+		}
+	},
+	{
+		"id": "wangDataDrivenRobustMultiAgent2022",
+		"type": "paper-conference",
+		"abstract": "Multi-agent reinforcement learning (MARL) in the collaborative setting aims to find a joint policy that maximizes the accumulated reward averaged over all the agents. In this paper, we focus on MARL under model uncertainty, where the transition kernel is assumed to be in an uncertainty set, and the goal is to optimize the worst-case performance over the uncertainty set. We investigate the model-free setting, where the uncertain set centers around an unknown Markov decision process from which a single sample trajectory can be obtained sequentially. We develop a robust multi-agent Q-learning algorithm, which is model-free and fully decentralized. We theoretically prove that the proposed algorithm converges to the minimax robust policy, and further characterize its sample complexity. Our algorithm, comparing to the vanilla multi-agent Q-learning, offers provable robustness under model uncertainty without incurring additional computational and memory cost.  © 2022 IEEE.",
+		"archive": "Scopus",
+		"DOI": "10.1109/MLSP55214.2022.9943500",
+		"event-title": "IEEE International Workshop on Machine Learning for Signal Processing, MLSP",
+		"title": "Data-Driven Robust Multi-Agent Reinforcement Learning",
+		"URL": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85142763167&doi=10.1109%2fMLSP55214.2022.9943500&partnerID=40&md5=d95526b627560183e68f0e84ebf1a926",
+		"volume": "2022-August",
+		"author": [
+			{
+				"family": "Wang",
+				"given": "Y."
+			},
+			{
+				"family": "Wang",
+				"given": "Y."
+			},
+			{
+				"family": "Zhou",
+				"given": "Y."
+			},
+			{
+				"family": "Velasquez",
+				"given": "A."
+			},
+			{
+				"family": "Zou",
+				"given": "S."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2022"
+				]
+			]
+		}
+	},
+	{
+		"id": "wangLearningRobustInvariant2022",
+		"type": "paper-conference",
+		"abstract": "Data augmentation has been proven to be an effective technique for developing machine learning models that are robust to known classes of distributional shifts (e.g., rotations of images), and alignment regularization is a technique often used together with data augmentation to further help the model learn representations invariant to the shifts used to augment the data. In this paper, motivated by a proliferation of options of alignment regularizations, we seek to evaluate the performances of several popular design choices along the dimensions of robustness and invariance, for which we introduce a new test procedure. Our synthetic experiment results speak to the benefits of squared \"2 norm regularization. Further, we also formally analyze the behavior of alignment regularization to complement our empirical study under assumptions we consider realistic. Finally, we test this simple technique we identify (worst-case data augmentation with squared \"2 norm alignment regularization) and show that the benefits of this method outrun those of the specially designed methods. We also release a software package in both TensorFlow and PyTorch for users to use the method with a couple of lines at https://github.com/jyanln/AlignReg.  © 2022 Owner/Author.",
+		"archive": "Scopus",
+		"DOI": "10.1145/3534678.3539438",
+		"event-title": "Proceedings of the ACM SIGKDD International Conference on Knowledge Discovery and Data Mining",
+		"page": "1846-1856",
+		"title": "Toward Learning Robust and Invariant Representations with Alignment Regularization and Data Augmentation",
+		"URL": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85137145889&doi=10.1145%2f3534678.3539438&partnerID=40&md5=ee29243ec5958682d44789213dc6ab47",
+		"author": [
+			{
+				"family": "Wang",
+				"given": "H."
+			},
+			{
+				"family": "Huang",
+				"given": "Z."
+			},
+			{
+				"family": "Wu",
+				"given": "X."
+			},
+			{
+				"family": "Xing",
+				"given": "E."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2022"
+				]
+			]
+		}
+	},
+	{
+		"id": "tanRobustifyingReinforcementLearning2020",
+		"type": "paper-conference",
+		"abstract": "Adoption of machine learning (ML)-enabled cyber-physical systems (CPS) are becoming prevalent in various sectors of modern society such as transportation, industrial, and power grids. Recent studies in deep reinforcement learning (DRL) have demonstrated its benefits in a large variety of data-driven decisions and control applications. As reliance on ML-enabled systems grows, it is imperative to study the performance of these systems under malicious state and actuator attacks. Traditional control systems employ resilient/fault-tolerant controllers that counter these attacks by correcting the system via error observations. However, in some applications, a resilient controller may not be sufficient to avoid a catastrophic failure. Ideally, a robust approach is more useful in these scenarios where a system is inherently robust (by design) to adversarial attacks. While robust control has a long history of development, robust ML is an emerging research area that has already demonstrated its relevance and urgency. However, the majority of robust ML research has focused on perception tasks and not on decision and control tasks, although the ML (specifically RL) models used for control applications are equally vulnerable to adversarial attacks. In this paper, we show that a well-performing DRL agent that is initially susceptible to action space perturbations (e.g. actuator attacks) can be robustified against similar perturbations through adversarial training. © 2020 AACC.",
+		"archive": "Scopus",
+		"DOI": "10.23919/ACC45564.2020.9147846",
+		"event-title": "Proceedings of the American Control Conference",
+		"page": "3959-3964",
+		"title": "Robustifying Reinforcement Learning Agents via Action Space Adversarial Training",
+		"URL": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85089561387&doi=10.23919%2fACC45564.2020.9147846&partnerID=40&md5=501add6087ff53cc19dbca4920ba956e",
+		"volume": "2020-July",
+		"author": [
+			{
+				"family": "Tan",
+				"given": "K.L."
+			},
+			{
+				"family": "Esfandiari",
+				"given": "Y."
+			},
+			{
+				"family": "Lee",
+				"given": "X.Y."
+			},
+			{
+				"family": "Sarkar",
+				"given": "S."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2020"
+				]
+			]
+		}
+	},
+	{
+		"id": "chenMultiModalMutualInformation2021",
+		"type": "paper-conference",
+		"abstract": "This work focuses on learning useful and robust deep world models using multiple, possibly unreliable, sensors. We find that current methods do not sufficiently encourage a shared representation between modalities; this can cause poor performance on downstream tasks and over-reliance on specific sensors. As a solution, we contribute a new multi-modal deep latent state-space model, trained using a mutual information lower-bound. The key innovation is a specially-designed density ratio estimator that encourages consistency between the latent codes of each modality. We tasked our method to learn policies (in a self-supervised manner) on multi-modal Natural MuJoCo benchmarks and a challenging Table Wiping task. Experiments show our method significantly outperforms state-of-the-art deep reinforcement learning methods, particularly in the presence of missing observations. © 2021 IEEE",
+		"archive": "Scopus",
+		"DOI": "10.1109/ICRA48506.2021.9561187",
+		"event-title": "Proceedings - IEEE International Conference on Robotics and Automation",
+		"page": "4274-4280",
+		"title": "Multi-Modal Mutual Information (MuMMI) Training for Robust Self-Supervised Deep Reinforcement Learning",
+		"URL": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85119129739&doi=10.1109%2fICRA48506.2021.9561187&partnerID=40&md5=22b8ddbec48150346ed766f970d0348e",
+		"volume": "2021-May",
+		"author": [
+			{
+				"family": "Chen",
+				"given": "K."
+			},
+			{
+				"family": "Lee",
+				"given": "Y."
+			},
+			{
+				"family": "Soh",
+				"given": "H."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2021"
+				]
+			]
+		}
+	},
+	{
+		"id": "ramirez-padronRobustWeightedGaussian2021",
+		"type": "article-journal",
+		"abstract": "This paper presents robust weighted variants of batch and online standard Gaussian processes (GPs) to effectively reduce the negative impact of outliers in the corresponding GP models. This is done by introducing robust data weighers that rely on robust and quasi-robust weight functions that come from robust M-estimators. Our robust GPs are compared to various GP models on four datasets. It is shown that our batch and online robust weighted GPs are indeed robust to outliers, significantly outperforming the corresponding standard GPs and the recently proposed heteroscedastic GP method GPz. Our experiments also show that our methods are comparable to and sometimes better than a state-of-the-art robust GP that uses a Student-t likelihood. © 2020, Springer-Verlag GmbH Germany, part of Springer Nature.",
+		"archive": "Scopus",
+		"container-title": "Computational Statistics",
+		"DOI": "10.1007/s00180-020-01011-0",
+		"issue": "1",
+		"page": "347-373",
+		"title": "Robust weighted Gaussian processes",
+		"URL": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85087661618&doi=10.1007%2fs00180-020-01011-0&partnerID=40&md5=3825bbaaabcd6c0ed09caeca5ecb0a79",
+		"volume": "36",
+		"author": [
+			{
+				"family": "Ramirez-Padron",
+				"given": "R."
+			},
+			{
+				"family": "Mederos",
+				"given": "B."
+			},
+			{
+				"family": "Gonzalez",
+				"given": "A.J."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2021"
+				]
+			]
+		}
+	},
+	{
+		"id": "yuRobustReinforcementLearning2021",
+		"type": "paper-conference",
+		"abstract": "Reinforcement learning (RL) methods provide state-of-art performance in complex control tasks. However, it has been widely recognized that RL methods often fail to generalize due to unaccounted uncertainties. In this work, we propose a game theoretic framework for robust reinforcement learning that comprises many previous works as special cases. We formulate robust RL as a constrained minimax game between the RL agent and an environmental agent which represents uncertainties such as model parameter variations and adversarial disturbances. To solve the competitive optimization problems arising in our framework, we propose to use competitive mirror descent (CMD). This method accounts for the interactive nature of the game at each iteration while using Bregman divergences to adapt to the global structure of the constraint set. leveraging Lagrangian duality, we demonstrate an RRL policy gradient algorithm based on CMD. We empirically show that our algorithm is stable for large step sizes, resulting in faster convergence on constrained linear quadratic games. © 2021 J. Yu, C. Gehring, F. Schäfer & A. Anandkumar.",
+		"archive": "Scopus",
+		"event-title": "Proceedings of Machine Learning Research",
+		"page": "1242-1254",
+		"title": "Robust Reinforcement Learning: A Constrained Game-theoretic Approach",
+		"URL": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85129673722&partnerID=40&md5=924f503e07b0d4790f2ca10f68012f4f",
+		"volume": "144",
+		"author": [
+			{
+				"family": "Yu",
+				"given": "J."
+			},
+			{
+				"family": "Gehring",
+				"given": "C."
+			},
+			{
+				"family": "Schäfer",
+				"given": "F."
+			},
+			{
+				"family": "Anandkumar",
+				"given": "A."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2021"
+				]
+			]
+		}
+	},
+	{
+		"id": "simaoAlwaysSafeReinforcementLearning2021",
+		"type": "paper-conference",
+		"abstract": "Deploying reinforcement learning (RL) involves major concerns around safety. Engineering a reward signal that allows the agent to maximize its performance while remaining safe is not trivial. Safe RL studies how to mitigate such problems. For instance, we can decouple safety from reward using constrained Markov decision processes (CMDPs), where an independent signal models the safety aspects. In this setting, an RL agent can autonomously find tradeoffs between performance and safety. Unfortunately, most RL agents designed for CMDPs only guarantee safety after the learning phase, which might prevent their direct deployment. In this work, we investigate settings where a concise abstract model of the safety aspects is given, a reasonable assumption since a thorough understanding of safety-related matters is a prerequisite for deploying RL in typical applications. Factored CMDPs provide such compact models when a small subset of features describe the dynamics relevant for the safety constraints. We propose an RL algorithm that uses this abstract model to learn policies for CMDPs safely, that is without violating the constraints. During the training process, this algorithm can seamlessly switch from a conservative policy to a greedy policy without violating the safety constraints. We prove that this algorithm is safe under the given assumptions. Empirically, we show that even if safety and reward signals are contradictory, this algorithm always operates safely and, when they are aligned, this approach also improves the agent’s performance. © 2021 International Foundation for Autonomous Agents and Multiagent Systems (www.ifaamas.org). All rights reserved.",
+		"archive": "Scopus",
+		"event-title": "Proceedings of the International Joint Conference on Autonomous Agents and Multiagent Systems, AAMAS",
+		"page": "1214-1223",
+		"title": "AlwaysSafe: Reinforcement learning without safety constraint violations during training",
+		"URL": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85103674313&partnerID=40&md5=359b14bfd08a91ba735c0f4b935475f4",
+		"volume": "2",
+		"author": [
+			{
+				"family": "Simão",
+				"given": "T.D."
+			},
+			{
+				"family": "Jansen",
+				"given": "N."
+			},
+			{
+				"family": "Spaan",
+				"given": "M.T.J."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2021"
+				]
+			]
+		}
+	},
+	{
+		"id": "nieAdversarialTrainingMethod2021",
+		"type": "paper-conference",
+		"abstract": "The easily-perturbed nature of deep neural network makes it vulnerable to adversarial attacks, and such vulnerability has become a major threat to the security of machine learning. The transferability of adversarial samples further increases the threat. Adversarial training has made considerable progress in defending against adversarial samples. In transfer learning, unsupervised domain adaptation is an important research branch, however, due to the label of the target domain samples can’t be obtained, it is difficult to implement adversarial training. In this paper, we found that using source domain data for adversarial training and adding the generated adversarial perturbation to the target domain data could effectively enhance the robustness of the transferred model. Experimental results showed that our proposed method can not only ensure the model’s classification accuracy, but also greatly improve the model’s defense performance against adversarial attacks. In simple, our proposed method not only guarantees the transfer of knowledge, but also realizes the transfer of model robustness. It is the main contribution of this paper. © 2021, Springer Nature Switzerland AG.",
+		"archive": "Scopus",
+		"DOI": "10.1007/978-3-030-82153-1_1",
+		"event-title": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
+		"page": "3-13",
+		"title": "An Adversarial Training Method for Improving Model Robustness in Unsupervised Domain Adaptation",
+		"URL": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85113779102&doi=10.1007%2f978-3-030-82153-1_1&partnerID=40&md5=cece8d66fb799aeb2aabc95146e3819c",
+		"volume": "12817 LNAI",
+		"author": [
+			{
+				"family": "Nie",
+				"given": "Z."
+			},
+			{
+				"family": "Lin",
+				"given": "Y."
+			},
+			{
+				"family": "Yan",
+				"given": "M."
+			},
+			{
+				"family": "Cao",
+				"given": "Y."
+			},
+			{
+				"family": "Ning",
+				"given": "S."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2021"
+				]
+			]
+		}
+	},
+	{
+		"id": "liBayesianRobustMultiextreme2020",
+		"type": "article-journal",
+		"abstract": "Outliers usually exist in the collected data due to human or instrumentation errors. Their existence makes the regression error obey a non-Gaussian distribution. So, people assume that the regression error obeys finite mixture distributions, such as mixture of Gaussians and mixture of Student's t-distributions. This paper proposed two Bayesian robust regression models based on multiple extreme learning machines. First, the finite mixture error distributions are extended to their infinite counterparts according to the theory of stick-breaking construction, which can avoid selecting the optimal number of components in mixture models. Second, a multi-extreme learning machine, which combines many single extreme learning machines with different numbers of hidden nodes, is constructed, which can avoid the effects of different numbers of hidden nodes on the final regression performance. Besides, sparse Bayesian learning has also been derived to perform the sparse model weight and output weight inference automatically. The experimental results on artificial datasets and eight benchmark datasets show that the proposed two models outperform the other compared models under different rates of outliers. Also, they generate better multi-step ahead wind speed and traffic speed forecasts in real applications. © 2020 Elsevier B.V.",
+		"archive": "Scopus",
+		"container-title": "Knowledge-Based Systems",
+		"DOI": "10.1016/j.knosys.2020.106468",
+		"title": "Bayesian robust multi-extreme learning machine",
+		"URL": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85092367835&doi=10.1016%2fj.knosys.2020.106468&partnerID=40&md5=2ec59fb714cd1fc853238e3e820f652e",
+		"volume": "210",
+		"author": [
+			{
+				"family": "Li",
+				"given": "Y."
+			},
+			{
+				"family": "Wang",
+				"given": "Y."
+			},
+			{
+				"family": "Chen",
+				"given": "Z."
+			},
+			{
+				"family": "Zou",
+				"given": "R."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2020"
+				]
+			]
+		}
+	},
+	{
+		"id": "aghakhaniBullseyePolytopeScalable2021",
+		"type": "paper-conference",
+		"abstract": "A recent source of concern for the security of neural networks is the emergence of clean-label dataset poisoning attacks, wherein correctly labeled poison samples are injected into the training dataset. While these poison samples look legitimate to the human observer, they contain malicious characteristics that trigger a targeted misclassification during inference. We propose a scalable and transferable clean-label poisoning attack against transfer learning, which creates poison images with their center close to the target image in the feature space. Our attack, Bullseye Polytope, improves the attack success rate of the current state-of-the-art by 26.75% in end-to-end transfer learning, while increasing attack speed by a factor of 12. We further extend Bullseye Polytope to a more practical attack model by including multiple images of the same object (e.g., from different angles) when crafting the poison samples. We demonstrate that this extension improves attack transferability by over 16% to unseen images (of the same object) without using extra poison samples.  © 2021 IEEE.",
+		"archive": "Scopus",
+		"DOI": "10.1109/EuroSP51992.2021.00021",
+		"event-title": "Proceedings - 2021 IEEE European Symposium on Security and Privacy, Euro S and P 2021",
+		"page": "159-178",
+		"title": "Bullseye polytope: A scalable clean-label poisoning attack with improved transferability",
+		"URL": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85119113061&doi=10.1109%2fEuroSP51992.2021.00021&partnerID=40&md5=5329947511ad01222151c43dc05e8e58",
+		"author": [
+			{
+				"family": "Aghakhani",
+				"given": "H."
+			},
+			{
+				"family": "Meng",
+				"given": "D."
+			},
+			{
+				"family": "Wang",
+				"given": "Y.-X."
+			},
+			{
+				"family": "Kruegel",
+				"given": "C."
+			},
+			{
+				"family": "Vigna",
+				"given": "G."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2021"
+				]
+			]
+		}
+	},
+	{
+		"id": "leAnomalyDetectionInsider2021",
+		"type": "article-journal",
+		"abstract": "Insider threat represents a major cybersecurity challenge to companies, organizations, and government agencies. Insider threat detection involves many challenges, including unbalanced data, limited ground truth, and possible user behavior changes. This research presents an unsupervised learning based anomaly detection approach for insider threat detection. We employ four unsupervised learning methods with different working principles, and explore various representations of data with temporal information. Furthermore, different computational intelligence schemes are explored to combine these models to create anomaly detection ensembles for improving the detection performance. Evaluation results show that the approach allows learning from unlabelled data under challenging conditions for insider threat detection. Insider threats are detected with high detection and low false positive rates. For example, 60% of malicious insiders are detected under 0.1% investigation budget, and all malicious insiders are detected at less than 5% investigation budget. Furthermore, we explore the ability of the proposed approach to generalize for detecting new anomalous behaviors in different datasets, i.e., robustness. Finally, results demonstrate that a voting-based ensemble of anomaly detection can be used to improve detection performance as well as the robustness. Comparisons with the state-of-the-art confirm the effectiveness of the proposed approach.  © 2004-2012 IEEE.",
+		"archive": "Scopus",
+		"container-title": "IEEE Transactions on Network and Service Management",
+		"DOI": "10.1109/TNSM.2021.3071928",
+		"issue": "2",
+		"page": "1152-1164",
+		"title": "Anomaly Detection for Insider Threats Using Unsupervised Ensembles",
+		"URL": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85104195907&doi=10.1109%2fTNSM.2021.3071928&partnerID=40&md5=2799dabb5e1f8d9dd1e14124ec6ce3cd",
+		"volume": "18",
+		"author": [
+			{
+				"family": "Le",
+				"given": "D.C."
+			},
+			{
+				"family": "Zincir-Heywood",
+				"given": "N."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2021"
+				]
+			]
+		}
+	},
+	{
+		"id": "chenDistributionallyRobustSemisupervised2019",
+		"type": "paper-conference",
+		"abstract": "Semi-supervised learning is crucial for alleviating la-belling burdens in people-centric sensing. However, human-generated data inherently suffer from distribution shift in semi-supervised learning due to the diverse biological conditions and behavior patterns of humans. To address this problem, we propose a generic distributionally robust model for semi-supervised learning on distributionally shifted data. Considering both the discrepancy and the consistency between the labeled data and the unlabeled data, we learn the latent features that reduce person-specific discrepancy and preserve task-specific consistency. We evaluate our model in a variety of people-centric recognition tasks on real-world datasets, including intention recognition, activity recognition, muscular movement recognition and gesture recognition. The experiment results demonstrate that the proposed model outperforms the state-of-the-art methods. © 2019, Association for the Advancement of Artificial Intelligence (www.aaai.org).",
+		"archive": "Scopus",
+		"event-title": "33rd AAAI Conference on Artificial Intelligence, AAAI 2019, 31st Innovative Applications of Artificial Intelligence Conference, IAAI 2019 and the 9th AAAI Symposium on Educational Advances in Artificial Intelligence, EAAI 2019",
+		"page": "3321-3328",
+		"title": "Distributionally robust semi-supervised learning for people-centric sensing",
+		"URL": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85090808244&partnerID=40&md5=68a7c553d7f705a73dd28cb3ab222b33",
+		"author": [
+			{
+				"family": "Chen",
+				"given": "K."
+			},
+			{
+				"family": "Yao",
+				"given": "L."
+			},
+			{
+				"family": "Zhang",
+				"given": "D."
+			},
+			{
+				"family": "Chang",
+				"given": "X."
+			},
+			{
+				"family": "Long",
+				"given": "G."
+			},
+			{
+				"family": "Wang",
+				"given": "S."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2019"
+				]
+			]
+		}
+	},
+	{
+		"id": "singhImprovingRobustnessRisk2020",
+		"type": "paper-conference",
+		"abstract": "One major obstacle that precludes the success of reinforcement learning in real-world applications is the lack of robustness, either to model uncertainties or external disturbances, of the trained policies. Robustness is critical when the policies are trained in simulations instead of real world environment. In this work, we propose a risk-aware algorithm to learn robust policies in order to bridge the gap between simulation training and real-world implementation. Our algorithm is based on recently discovered distributional RL framework. We incorporate CVaR risk measure in sample based distributional policy gradients (SDPG) for learning risk-averse policies to achieve robustness against a range of system disturbances. We validate the robustness of risk-aware SDPG on multiple environments. © 2020 R. Singh, Q. Zhang & Y. Chen.",
+		"archive": "Scopus",
+		"event-title": "Proceedings of Machine Learning Research",
+		"page": "958-968",
+		"title": "Improving Robustness via Risk Averse Distributional Reinforcement Learning",
+		"URL": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85160153359&partnerID=40&md5=819ea330ab2feb455bbe62ea271c4e74",
+		"volume": "120",
+		"author": [
+			{
+				"family": "Singh",
+				"given": "R."
+			},
+			{
+				"family": "Zhang",
+				"given": "Q."
+			},
+			{
+				"family": "Chen",
+				"given": "Y."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2020"
+				]
+			]
+		}
+	},
+	{
+		"id": "chakrabortyFairMixRepSelfsupervisedRobust2020",
+		"type": "paper-conference",
+		"abstract": "Representation Learning in a heterogeneous space with mixed variables of numerical and categorical types has interesting challenges due to its complex feature manifold. Moreover, feature learning in an unsupervised setup, without class labels and a suitable learning loss function, adds to the problem complexity. Further, the learned representation and subsequent predictions should not reflect discriminatory behavior towards certain sensitive groups or attributes. The proposed feature map should preserve maximum variations present in the data and needs to be fair with respect to the sensitive variables. We propose, in the first phase of our work, an efficient encoder-decoder framework to capture the mixed-domain information. The second phase of our work focuses on de-biasing the mixed space representations by adding relevant fairness constraints. This ensures minimal information loss between the representations before and after the fairness-preserving projections. Both the information content and the fairness aspect of the final representation learned has been validated through several metrics where it shows excellent performance. Our work (FairMixRep) addresses the problem of Mixed Space Fair Representation learning from an unsupervised perspective and learns a Universal representation which is timely, unique and a novel research contribution. 11This paper is accepted at ICDM'2020 DLC Workshop. © 2020 IEEE.",
+		"archive": "Scopus",
+		"DOI": "10.1109/ICDMW51313.2020.00069",
+		"event-title": "IEEE International Conference on Data Mining Workshops, ICDMW",
+		"page": "458-463",
+		"title": "FairMixRep: Self-supervised Robust Representation Learning for Heterogeneous Data with Fairness constraints",
+		"URL": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85101347891&doi=10.1109%2fICDMW51313.2020.00069&partnerID=40&md5=ec831606edd1047b939929f22266868f",
+		"volume": "2020-November",
+		"author": [
+			{
+				"family": "Chakraborty",
+				"given": "S."
+			},
+			{
+				"family": "Verma",
+				"given": "E."
+			},
+			{
+				"family": "Sahoo",
+				"given": "S."
+			},
+			{
+				"family": "Datta",
+				"given": "J."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2020"
+				]
+			]
+		}
+	},
+	{
+		"id": "kamalarubanRobustReinforcementLearning2020",
+		"type": "paper-conference",
+		"abstract": "We introduce a sampling perspective to tackle the challenging task of training robust Reinforcement Learning (RL) agents. Leveraging the powerful Stochastic Gradient Langevin Dynamics, we present a novel, scalable two-player RL algorithm, which is a sampling variant of the two-player policy gradient method. Our algorithm consistently outperforms existing baselines, in terms of generalization across different training and testing conditions, on several MuJoCo environments. Our experiments also show that, even for objective functions that entirely ignore potential environmental shifts, our sampling approach remains highly robust in comparison to standard RL algorithms. © 2020 Neural information processing systems foundation. All rights reserved.",
+		"archive": "Scopus",
+		"event-title": "Advances in Neural Information Processing Systems",
+		"title": "Robust reinforcement learning via adversarial training with Langevin dynamics",
+		"URL": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85104088882&partnerID=40&md5=c4d1f8bdcf47f337e3c90c03ad3e14c6",
+		"volume": "2020-December",
+		"author": [
+			{
+				"family": "Kamalaruban",
+				"given": "P."
+			},
+			{
+				"family": "Huang",
+				"given": "Y.-T."
+			},
+			{
+				"family": "Hsieh",
+				"given": "Y.-P."
+			},
+			{
+				"family": "Rolland",
+				"given": "P."
+			},
+			{
+				"family": "Shi",
+				"given": "C."
+			},
+			{
+				"family": "Cevher",
+				"given": "V."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2020"
+				]
+			]
+		}
+	},
+	{
+		"id": "huDoesDistributionallyRobust2018",
+		"type": "paper-conference",
+		"abstract": "Distributionally Robust Supervised Learning (DRSL) is necessary for building reliable machine learning systems. When machine learning is deployed in the real world, its performance can be significantly degraded because test data may follow a different distribution from training data. DRSL with/-divergences explicitly considers the worst-case distribution shift by minimizing the adversarially reweighted training loss. In this paper, we analyze this DRSL, focusing on the classification scenario. Since the DRSL is explicitly formulated for a distribution shift scenario, we naturally expect it to give a robust classifier that can aggressively handle shifted distributions. However, surprisingly, we prove that the DRSL just ends up giving a classifier that exactly fits the given training distribution, which is too pessimistic. This pessimism comes from two sources: the particular losses used in classification and the fact that the variety of distributions to which the DRSL tries to be robust is too wide. Motivated by our analysis, we propose simple DRSL that overcomes this pessimism and empirically demonstrate its effectiveness. © 2018 by authors.All right reserved.",
+		"archive": "Scopus",
+		"event-title": "35th International Conference on Machine Learning, ICML 2018",
+		"page": "3220-3249",
+		"title": "Does distributionally robust supervised learning give robust classifiers?",
+		"URL": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85057279674&partnerID=40&md5=290395557bb261b75f67b472cfddea3d",
+		"volume": "5",
+		"author": [
+			{
+				"family": "Hu",
+				"given": "W."
+			},
+			{
+				"family": "Niu",
+				"given": "G."
+			},
+			{
+				"family": "Sato",
+				"given": "I."
+			},
+			{
+				"family": "Sugiyama",
+				"given": "M."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2018"
+				]
+			]
+		}
+	},
+	{
+		"id": "chauRobustSelfOrganizingApproach2016",
+		"type": "paper-conference",
+		"abstract": "In the real world, incomplete data are often encountered and located anywhere in a data set. Such incomplete data make a data clustering task more challenging. It's common practice to eliminate incomplete data from the input data set. If there are a large number of missing values, ignoring them may lead to the data insufficiency and ineffectiveness of the data clustering task. Hence, incomplete data clustering has been considered in many research works with many different approaches based on the well-known existing clustering algorithms such as k-means, fuzzy c-means, the self-organizing map (SOM), mean shift, etc. However, few of them have examined both effectiveness and robustness of the incomplete data clustering algorithms. Some of them are not practical due to a lot of parameters in hybrid approaches and/or cannot handle incomplete data which appear in any object at any dimension. In contrast, this paper aims at a SOM-based incomplete data clustering algorithm, iS nps, which is a robust and effective solution to clustering incomplete data in a simple but practical approach. Is nps can do clustering on incomplete data as well as estimate incomplete data using the nearest prototype strategy in an iterative manner. As compared to several different existing approaches, our proposed algorithm can produce the clusters of good quality and a better approximation of incomplete data via the experiments on benchmark data sets. © 2015 IEEE.",
+		"archive": "Scopus",
+		"DOI": "10.1109/KSE.2015.11",
+		"event-title": "Proceedings - 2015 IEEE International Conference on Knowledge and Systems Engineering, KSE 2015",
+		"page": "150-155",
+		"title": "A Robust Self-Organizing Approach to Effectively Clustering Incomplete Data",
+		"URL": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-84964723137&doi=10.1109%2fKSE.2015.11&partnerID=40&md5=d35101e780f00bdfb125cdc59dd8e77f",
+		"author": [
+			{
+				"family": "Chau",
+				"given": "V.T.N."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2016"
+				]
+			]
+		}
+	},
+	{
+		"id": "maRobustSupportVector2011",
+		"type": "paper-conference",
+		"abstract": "It is found that data points used for training may contain outliers that can generate unpredictable disturbance for some Support Vector Machines (SVMs) classification problems. No theoretical limit for such bad influence is held in traditional convex SVM methods. We present a novel robust misclassification penalty function for SVM which is inspired by the concept of \"Least Median Regression\". In our approach, total loss penalty in training is measured by the summation of two median hinge losses, each for a different class. We also propose a \"Rank and Convex Procedure\" to optimize our tasks. Though our approach is heuristic, it is faster than other known robust methods, such as SVM with Ramp Loss Penalty. © 2011 IFAC.",
+		"archive": "Scopus",
+		"DOI": "10.3182/20110828-6-IT-1002.03467",
+		"event-title": "IFAC Proceedings Volumes (IFAC-PapersOnline)",
+		"note": "issue: 1 PART 1",
+		"page": "11208-11213",
+		"title": "Robust Support Vector Machine using Least Median Loss Penalty",
+		"URL": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-84866749269&doi=10.3182%2f20110828-6-IT-1002.03467&partnerID=40&md5=21518c36cc565c7a29367397f3dff4f9",
+		"volume": "44",
+		"author": [
+			{
+				"family": "Ma",
+				"given": "Y."
+			},
+			{
+				"family": "Li",
+				"given": "L."
+			},
+			{
+				"family": "Huang",
+				"given": "X."
+			},
+			{
+				"family": "Wang",
+				"given": "S."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2011"
+				]
+			]
+		}
+	},
+	{
+		"id": "guoRobustSemisupervisedRepresentation2019",
+		"type": "paper-conference",
+		"abstract": "The success of machine learning algorithms generally depends on data representation and recently many representation learning methods have been proposed. However, learning a good representation may not always benefit the classification tasks. It sometimes even hurt the performance as the learned representation maybe not related to the ultimate tasks, especially when the labeled examples are few to afford a reliable model selection. In this paper, we propose a novel robust semi-supervised graph representation learning method based on graph convolutional network. To make the learned representation more related to the ultimate classification task, we propose to extend label information based on the smooth assumption and obtain pseudo-labels for unlabeled nodes. Moreover, to make the model robust with noise in the pseudo-label, we propose to apply a large margin classifier to the learned representation. Influenced by the pseudo-label and the large-margin principle, the learned representation can not only exploit the label information encoded in the graph-structure sufficiently but also can produce a more rigorous decision boundary. Experiments demonstrate the superior performance of the proposal over many related methods. © Springer Nature Switzerland AG 2019.",
+		"archive": "Scopus",
+		"DOI": "10.1007/978-3-030-16142-2_11",
+		"event-title": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
+		"page": "131-143",
+		"title": "Robust semi-supervised representation learning for graph-structured data",
+		"URL": "https://www.scopus.com/inward/record.uri?eid=2-s2.0-85065032165&doi=10.1007%2f978-3-030-16142-2_11&partnerID=40&md5=cdb26d866f80e05e4bd463563214ae0c",
+		"volume": "11441 LNAI",
+		"author": [
+			{
+				"family": "Guo",
+				"given": "L.-Z."
+			},
+			{
+				"family": "Han",
+				"given": "T."
+			},
+			{
+				"family": "Li",
+				"given": "Y.-F."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2019"
+				]
+			]
+		}
+	}
+]
