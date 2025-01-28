@@ -59,7 +59,9 @@ def load_data(cwd: str = ".") -> Tuple[pd.DataFrame, List[Dict[str, Any]], List[
         corpus.append(item["title"] + "; " + item["abstract"])
         dates.append(int(item["issued"]["date-parts"][0][0]))
 
-    return pd.DataFrame.from_records(anns), refs, corpus, dates
+    anns = pd.DataFrame.from_records(anns)
+    print(f"Loaded: {len(anns)} annotated papers")
+    return anns, refs, corpus, dates
 
 
 def get_counts(data: List[List[Any]]) -> pd.Series:

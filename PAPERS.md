@@ -20,7 +20,7 @@ This is a collection of all papers retrieved either through our systematic surve
 | Yampolskiy, R. V. Artificial Intelligence Safety and Cybersecurity: a Timeline of AI Failures. Preprint at <a href="https://doi.org/10.48550/arXiv.1610.07997">https://doi.org/10.48550/arXiv.1610.07997</a> (2016). |
 
 
-### Papers (N: 385)
+### Papers (N: 383)
 
 | Paper |
 | --- |
@@ -141,8 +141,7 @@ This is a collection of all papers retrieved either through our systematic surve
 | Gheraibia, Y., Kabir, S., Aslansefat, K., Sorokos, I. & Papadopoulos, Y. Safety AI: A Novel Approach to Update Safety Models Using Artificial Intelligence. <i>IEEE ACCESS</i> <b>7</b>, 135855–135869 (2019). |
 | Gholami, B., Liu, Q., El-Khamy, M. & Lee, J. Multiexpert Adversarial Regularization for Robust and Data-Efficient Deep Supervised Learning. <i>IEEE Access</i> <b>10</b>, 85080–85094 (2022). |
 | Gholampour, P. M. & Verma, R. M. Adversarial Robustness of Phishing Email Detection Models. in 67–76 (2023). doi:<a href="https://doi.org/10.1145/3579987.3586567">10.1145/3579987.3586567</a>. |
-| Ghosh, A., Mahdavi, H., Tschiatschek, S. & Singla, A. Towards deployment of robust cooperative ai agents: An algorithmic framework for learning adaptive policies. in vols 2020-May 447–455 (2020). |
-| Ghosh, A., Tschiatschek, S., Mahdavi, H. & Singla, A. Towards Deployment of Robust Cooperative AI Agents: An Algorithmic Framework for Learning Adaptive Policies. <i>New Zealand</i> (2020). |
+| Ghosh, A., Mahdavi, H., Tschiatschek, S. & Singla, A. Towards Deployment of Robust Cooperative AI Agents: An Algorithmic Framework for Learning Adaptive Policies. in vols 2020-May 447–455 (2020). |
 | Gittens, A., Yener, B. & Yung, M. An Adversarial Perspective on Accuracy, Robustness, Fairness, and Privacy: Multilateral-Tradeoffs in Trustworthy ML. <i>IEEE Access</i> <b>10</b>, 120850–120865 (2022). |
 | Goh, G. <i>et al.</i> Multimodal neurons in artificial neural networks. <i>Distill</i> (2021) doi:<a href="https://doi.org/10.23915/distill.00030">10.23915/distill.00030</a>. |
 | Golatkar, A., Achille, A. & Soatto, S. Forgetting Outside the Box: Scrubbing Deep Networks of Information Accessible from Input-Output Observations. in <i>Computer Vision – ECCV 2020: 16th European Conference, Glasgow, UK, August 23–28, 2020, Proceedings, Part XXIX</i> 383–398 (Springer-Verlag, Berlin, Heidelberg, 2020). doi:<a href="https://doi.org/10.1007/978-3-030-58526-6_23">10.1007/978-3-030-58526-6_23</a>. |
@@ -292,7 +291,6 @@ This is a collection of all papers retrieved either through our systematic surve
 | Ravichandran, B., Gandhe, A., Smith, R. & Mehra, R. Robust automatic target recognition using learning classifier systems. <i>Information Fusion</i> <b>8</b>, 252–265 (2007). |
 | Ray, A., Achiam, J. & Amodei, D. Benchmarking Safe Exploration in Deep Reinforcement Learning. (2023). |
 | Reimann, L. & Kniesel-Wünsche, G. Safe-DS: A Domain Specific Language to Make Data Science Safe. in 72–77 (2023). doi:<a href="https://doi.org/10.1109/ICSE-NIER58687.2023.00019">10.1109/ICSE-NIER58687.2023.00019</a>. |
-| Riley, J., Calinescu, R., Paterson, C., Kudenko, D. & Banks, A. Assured Deep Multi-Agent Reinforcement Learning for Safe Robotic Systems. in (eds. Rocha, A., Steels, L. & VanDenHerik, J.) vol. 13251 158–180 (2022). |
 | Riley, J., Calinescu, R., Paterson, C., Kudenko, D. & Banks, A. Assured Multi-agent Reinforcement Learning with Robust Agent-Interaction Adaptability. in vol. 309 87–97 (2022). |
 | Ring, M. & Orseau, L. Delusion, Survival, and Intelligent Agents. in <i>Artificial General Intelligence</i> (eds. Schmidhuber, J., Thórisson, K. R. & Looks, M.) 11–20 (Springer, Berlin, Heidelberg, 2011). doi:<a href="https://doi.org/10.1007/978-3-642-22887-2_2">10.1007/978-3-642-22887-2_2</a>. |
 | Robinette, P. K., Hamilton, N. P. & Johnson, T. T. Self-Preserving Genetic Algorithms for Safe Learning in Discrete Action Spaces. in 110–119 (2023). doi:<a href="https://doi.org/10.1145/3576841.3585936">10.1145/3576841.3585936</a>. |
