@@ -354,6 +354,7 @@
 		"ISBN": "978-1-4503-5649-7",
 		"page": "1017-1025",
 		"title": "Discovering Blind Spots in Reinforcement Learning",
+		"DOI": "10.5555/3237383.3237849",
 		"author": [
 			{
 				"family": "Ramakrishnan",
@@ -392,6 +393,7 @@
 		"event-title": "ADVANCES IN NEURAL INFORMATION PROCESSING SYSTEMS 32 (NIPS 2019)",
 		"ISBN": "1049-5258",
 		"title": "Safe Exploration for Interactive Machine Learning",
+		"DOI": "10.5555/3454287.3454547",
 		"volume": "32",
 		"author": [
 			{

@@ -107,11 +107,12 @@
 		"container-title": "Proceedings of the Seventeenth International Conference on Machine Learning",
 		"event-place": "San Francisco, CA, USA",
 		"ISBN": "978-1-55860-707-1",
-		"page": "663–670",
+		"page": "663-670",
 		"publisher": "Morgan Kaufmann Publishers Inc.",
 		"publisher-place": "San Francisco, CA, USA",
 		"source": "ACM Digital Library",
 		"title": "Algorithms for Inverse Reinforcement Learning",
+		"URL": "https://ai.stanford.edu/~ang/papers/icml00-irl.pdf",
 		"author": [
 			{
 				"family": "Ng",
@@ -949,12 +950,13 @@
 		"container-title": "Proceedings of the Sixteenth International Conference on Machine Learning",
 		"event-place": "San Francisco, CA, USA",
 		"ISBN": "978-1-55860-612-8",
-		"page": "278–287",
+		"page": "278-287",
 		"publisher": "Morgan Kaufmann Publishers Inc.",
 		"publisher-place": "San Francisco, CA, USA",
 		"source": "ACM Digital Library",
 		"title": "Policy Invariance Under Reward Transformations: Theory and Application to Reward Shaping",
 		"title-short": "Policy Invariance Under Reward Transformations",
+		"URL": "https://people.eecs.berkeley.edu/~pabbeel/cs287-fa09/readings/NgHaradaRussell-shaping-ICML1999.pdf",
 		"author": [
 			{
 				"family": "Ng",
@@ -1086,6 +1088,7 @@
 		"page": "194-214",
 		"source": "APA PsycNet",
 		"title": "Leakproofing the Singularity: Artificial intelligence confinement problem",
+		"URL": "http://cecs.louisville.edu/ry/LeakproofingtheSingularity.pdf",
 		"title-short": "Leakproofing the Singularity",
 		"volume": "19",
 		"author": [
@@ -1898,6 +1901,7 @@
 		"container-title": "New Zealand",
 		"language": "en",
 		"source": "Zotero",
+		"DOI": "10.5555/3398761.3398817",
 		"title": "Towards Deployment of Robust Cooperative AI Agents: An Algorithmic Framework for Learning Adaptive Policies",
 		"author": [
 			{
@@ -3997,6 +4001,7 @@
 		"language": "en",
 		"source": "Zotero",
 		"title": "Process for Adapting Language Models to Society (PALMS) with Values-Targeted Datasets",
+		"DOI": "10.5555/3540261.3540709",
 		"author": [
 			{
 				"family": "Solaiman",
@@ -4022,6 +4027,7 @@
 		"language": "en",
 		"source": "Zotero",
 		"title": "Benchmarking Safe Exploration in Deep Reinforcement Learning",
+		"URL": "https://cdn.openai.com/safexp-short.pdf",
 		"author": [
 			{
 				"family": "Ray",
@@ -4852,11 +4858,12 @@
 		"container-title": "Eighteenth national conference on Artificial intelligence",
 		"event-place": "USA",
 		"ISBN": "978-0-262-51129-2",
-		"page": "119–125",
+		"page": "119-125",
 		"publisher": "American Association for Artificial Intelligence",
 		"publisher-place": "USA",
 		"source": "ACM Digital Library",
 		"title": "State abstraction for programmable reinforcement learning agents",
+		"URL": "https://people.eecs.berkeley.edu/~russell/classes/cs294/f05/papers/andre+russell-2002.pdf",
 		"author": [
 			{
 				"family": "Andre",
@@ -5068,11 +5075,12 @@
 		"collection-title": "AAAI'16",
 		"container-title": "Proceedings of the Thirtieth AAAI Conference on Artificial Intelligence",
 		"event-place": "Phoenix, Arizona",
-		"page": "323–329",
+		"page": "323-329",
 		"publisher": "AAAI Press",
 		"publisher-place": "Phoenix, Arizona",
 		"source": "ACM Digital Library",
 		"title": "Learning the preferences of ignorant, inconsistent agents",
+		"DOI": "10.5555/3015812.3015860",
 		"author": [
 			{
 				"family": "Evans",
@@ -5610,11 +5618,12 @@
 		"container-title": "Proceedings of the 28th USENIX Conference on Security Symposium",
 		"event-place": "USA",
 		"ISBN": "978-1-939133-06-9",
-		"page": "267–284",
+		"page": "267-284",
 		"publisher": "USENIX Association",
 		"publisher-place": "USA",
 		"source": "ACM Digital Library",
 		"title": "The secret sharer: evaluating and testing unintended memorization in neural networks",
+		"DOI": "10.5555/3361338.3361358",
 		"title-short": "The secret sharer",
 		"author": [
 			{

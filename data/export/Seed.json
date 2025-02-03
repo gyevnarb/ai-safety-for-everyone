@@ -280,6 +280,7 @@
 		"publisher-place": "San Francisco, CA, USA",
 		"source": "ACM Digital Library",
 		"title": "Algorithms for Inverse Reinforcement Learning",
+		"URL": "https://ai.stanford.edu/~ang/papers/icml00-irl.pdf",
 		"author": [
 			{
 				"family": "Ng",

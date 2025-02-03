@@ -258,6 +258,7 @@
 		"ISBN": "2159-5399",
 		"page": "6874-6883",
 		"title": "Not All Parameters Should Be Treated Equally: Deep Safe Semi-supervised Learning under Class Distribution Mismatch",
+		"DOI": "10.1609/aaai.v36i6.20644",
 		"author": [
 			{
 				"family": "He",
@@ -492,6 +493,7 @@
 		"event-title": "INTERNATIONAL CONFERENCE ON MACHINE LEARNING, VOL 119",
 		"ISBN": "2640-3498",
 		"title": "Safe Deep Semi-Supervised Learning for Unseen-Class Unlabeled Data",
+		"URL": "https://proceedings.mlr.press/v119/guo20i.html",
 		"volume": "119",
 		"author": [
 			{
@@ -831,6 +833,7 @@
 		"ISBN": "1049-5258",
 		"title": "Learning Barrier Certificates: Towards Safe Reinforcement Learning with Zero Training-time Violations",
 		"volume": "34",
+		"URL": "https://arxiv.org/abs/2108.01846",
 		"author": [
 			{
 				"family": "Luo",

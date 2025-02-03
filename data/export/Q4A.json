@@ -504,6 +504,7 @@
 		"ISBN": "2161-2927",
 		"page": "3878-3883",
 		"title": "A Safe and Self-Recoverable Reinforcement Learning Framework for Autonomous Robots",
+		"DOI": "10.23919/CCC55666.2022.9901669",
 		"author": [
 			{
 				"family": "Wang",
@@ -639,6 +640,7 @@
 		"ISBN": "0743-1546",
 		"page": "3623-3630",
 		"title": "Censored Markov Decision Processes: A Framework for Safe Reinforcement Learning in Collaboration with External Systems",
+		"DOI": "10.1109/CDC42340.2020.9304411",
 		"author": [
 			{
 				"family": "Kohjima",
@@ -1430,6 +1432,7 @@
 		"event-title": "ROBOTICS: SCIENCE AND SYSTEM XVIII",
 		"ISBN": "2330-7668",
 		"title": "Bridging Model-based Safety and Model-free Reinforcement Learning through System Identification of Low Dimensional Linear Models",
+		"URL": "https://arxiv.org/abs/2205.05787",
 		"author": [
 			{
 				"family": "Li",
@@ -1551,6 +1554,7 @@
 		"ISBN": "978-1-4503-6309-9",
 		"page": "1565-1573",
 		"title": "Safe Policy Search Using Gaussian Process Models",
+		"URL": "https://arxiv.org/abs/1712.05556",
 		"author": [
 			{
 				"family": "Polymenakos",
@@ -1935,6 +1939,7 @@
 		"event-title": "2023 DESIGN, AUTOMATION & TEST IN EUROPE CONFERENCE & EXHIBITION, DATE",
 		"ISBN": "1530-1591",
 		"title": "SAFEXPLAIN: Safe and Explainable Critical Embedded Systems Based on AI",
+		"DOI": "10.23919/DATE56975.2023.10137128",
 		"author": [
 			{
 				"family": "Abella",
@@ -2513,6 +2518,7 @@
 		"ISBN": "2159-5399",
 		"page": "5404-5412",
 		"title": "Conservative and Adaptive Penalty for Model-Based Safe Reinforcement Learning",
+		"URL": "https://arxiv.org/abs/2112.07701",
 		"author": [
 			{
 				"family": "Ma",
@@ -2859,6 +2865,7 @@
 		"ISBN": "0962-9505",
 		"page": "109-114",
 		"title": "A study on real-time artificial intelligence",
+		"URL": "https://www.sciencedirect.com/science/article/pii/S1474667017413097",
 		"author": [
 			{
 				"family": "Tay",
@@ -3014,6 +3021,7 @@
 		"ISBN": "2161-9484",
 		"page": "140-147",
 		"title": "Parallel reward and punishment control in humans and robots: safe reinforcement learning using the MaxPain algorithm",
+		"DOI": "10.1109/DEVLRN.2017.8329799",
 		"author": [
 			{
 				"family": "Elfwing",
@@ -3191,6 +3199,7 @@
 		"ISBN": "1520-6149",
 		"page": "8162-8166",
 		"title": "Safety in the Face of Unknown Unknowns: Algorithm Fusion in Data-driven Engineering Systems",
+		"DOI": "10.1109/ICASSP.2019.8683392",
 		"author": [
 			{
 				"family": "Kshetry",
