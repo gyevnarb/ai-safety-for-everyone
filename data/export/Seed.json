@@ -1,0 +1,650 @@
+[
+	{
+		"id": "amodeiConcreteProblemsAI2016",
+		"type": "article",
+		"abstract": "Rapid progress in machine learning and artificial intelligence (AI) has brought increasing attention to the potential impacts of AI technologies on society. In this paper we discuss one such potential impact: the problem of accidents in machine learning systems, defined as unintended and harmful behavior that may emerge from poor design of real-world AI systems. We present a list of five practical research problems related to accident risk, categorized according to whether the problem originates from having the wrong objective function (\"avoiding side effects\" and \"avoiding reward hacking\"), an objective function that is too expensive to evaluate frequently (\"scalable supervision\"), or undesirable behavior during the learning process (\"safe exploration\" and \"distributional shift\"). We review previous work in these areas as well as suggesting research directions with a focus on relevance to cutting-edge AI systems. Finally, we consider the high-level question of how to think most productively about the safety of forward-looking applications of AI.",
+		"DOI": "10.48550/arXiv.1606.06565",
+		"note": "arXiv:1606.06565 [cs]",
+		"number": "arXiv:1606.06565",
+		"publisher": "arXiv",
+		"source": "arXiv.org",
+		"title": "Concrete Problems in AI Safety",
+		"URL": "http://arxiv.org/abs/1606.06565",
+		"author": [
+			{
+				"family": "Amodei",
+				"given": "Dario"
+			},
+			{
+				"family": "Olah",
+				"given": "Chris"
+			},
+			{
+				"family": "Steinhardt",
+				"given": "Jacob"
+			},
+			{
+				"family": "Christiano",
+				"given": "Paul"
+			},
+			{
+				"family": "Schulman",
+				"given": "John"
+			},
+			{
+				"family": "Mané",
+				"given": "Dan"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					7,
+					21
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2016",
+					7,
+					25
+				]
+			]
+		}
+	},
+	{
+		"id": "willersSafetyConcernsMitigation2020",
+		"type": "paper-conference",
+		"abstract": "Deep learning methods are widely regarded as indispensable when it comes to designing perception pipelines for autonomous agents such as robots, drones or automated vehicles. The main reasons, however, for deep learning not being used for autonomous agents at large scale already are safety concerns. Deep learning approaches typically exhibit a black-box behavior which makes it hard for them to be evaluated with respect to safety-critical aspects. While there have been some work on safety in deep learning, most papers typically focus on high-level safety concerns. In this work, we seek to dive into the safety concerns of deep learning methods on a deeply technical level. Additionally, we present extensive discussions on possible mitigation methods and give an outlook regarding what mitigation methods are still missing in order to facilitate an argumentation for the safety of a deep learning method.",
+		"collection-title": "Lecture Notes in Computer Science",
+		"container-title": "Computer Safety, Reliability, and Security. SAFECOMP 2020 Workshops",
+		"DOI": "10.1007/978-3-030-55583-2_25",
+		"event-place": "Cham",
+		"ISBN": "978-3-030-55583-2",
+		"language": "en",
+		"page": "336-350",
+		"publisher": "Springer International Publishing",
+		"publisher-place": "Cham",
+		"source": "Springer Link",
+		"title": "Safety Concerns and Mitigation Approaches Regarding the Use of Deep Learning in Safety-Critical Perception Tasks",
+		"author": [
+			{
+				"family": "Willers",
+				"given": "Oliver"
+			},
+			{
+				"family": "Sudholt",
+				"given": "Sebastian"
+			},
+			{
+				"family": "Raafatnia",
+				"given": "Shervin"
+			},
+			{
+				"family": "Abrecht",
+				"given": "Stephanie"
+			}
+		],
+		"editor": [
+			{
+				"family": "Casimiro",
+				"given": "António"
+			},
+			{
+				"family": "Ortmeier",
+				"given": "Frank"
+			},
+			{
+				"family": "Schoitsch",
+				"given": "Erwin"
+			},
+			{
+				"family": "Bitsch",
+				"given": "Friedemann"
+			},
+			{
+				"family": "Ferreira",
+				"given": "Pedro"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2020"
+				]
+			]
+		}
+	},
+	{
+		"id": "mohseniTaxonomyMachineLearning2022",
+		"type": "article",
+		"abstract": "The open-world deployment of Machine Learning (ML) algorithms in safety-critical applications such as autonomous vehicles needs to address a variety of ML vulnerabilities such as interpretability, verifiability, and performance limitations. Research explores different approaches to improve ML dependability by proposing new models and training techniques to reduce generalization error, achieve domain adaptation, and detect outlier examples and adversarial attacks. However, there is a missing connection between ongoing ML research and well-established safety principles. In this paper, we present a structured and comprehensive review of ML techniques to improve the dependability of ML algorithms in uncontrolled open-world settings. From this review, we propose the Taxonomy of ML Safety that maps state-of-the-art ML techniques to key engineering safety strategies. Our taxonomy of ML safety presents a safety-oriented categorization of ML techniques to provide guidance for improving dependability of the ML design and development. The proposed taxonomy can serve as a safety checklist to aid designers in improving coverage and diversity of safety strategies employed in any given ML system.",
+		"language": "en",
+		"note": "arXiv:2106.04823 [cs]",
+		"number": "arXiv:2106.04823",
+		"publisher": "arXiv",
+		"source": "arXiv.org",
+		"title": "Taxonomy of Machine Learning Safety: A Survey and Primer",
+		"title-short": "Taxonomy of Machine Learning Safety",
+		"URL": "http://arxiv.org/abs/2106.04823",
+		"author": [
+			{
+				"family": "Mohseni",
+				"given": "Sina"
+			},
+			{
+				"family": "Wang",
+				"given": "Haotao"
+			},
+			{
+				"family": "Yu",
+				"given": "Zhiding"
+			},
+			{
+				"family": "Xiao",
+				"given": "Chaowei"
+			},
+			{
+				"family": "Wang",
+				"given": "Zhangyang"
+			},
+			{
+				"family": "Yadawa",
+				"given": "Jay"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					10,
+					12
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2022",
+					3,
+					7
+				]
+			]
+		}
+	},
+	{
+		"id": "hendrycksUnsolvedProblemsML2022",
+		"type": "article",
+		"abstract": "Machine learning (ML) systems are rapidly increasing in size, are acquiring new capabilities, and are increasingly deployed in high-stakes settings. As with other powerful technologies, safety for ML should be a leading research priority. In response to emerging safety challenges in ML, such as those introduced by recent large-scale models, we provide a new roadmap for ML Safety and refine the technical problems that the field needs to address. We present four problems ready for research, namely withstanding hazards (\"Robustness\"), identifying hazards (\"Monitoring\"), reducing inherent model hazards (\"Alignment\"), and reducing systemic hazards (\"Systemic Safety\"). Throughout, we clarify each problem's motivation and provide concrete research directions.",
+		"DOI": "10.48550/arXiv.2109.13916",
+		"note": "arXiv:2109.13916 [cs]",
+		"number": "arXiv:2109.13916",
+		"publisher": "arXiv",
+		"source": "arXiv.org",
+		"title": "Unsolved Problems in ML Safety",
+		"URL": "http://arxiv.org/abs/2109.13916",
+		"author": [
+			{
+				"family": "Hendrycks",
+				"given": "Dan"
+			},
+			{
+				"family": "Carlini",
+				"given": "Nicholas"
+			},
+			{
+				"family": "Schulman",
+				"given": "John"
+			},
+			{
+				"family": "Steinhardt",
+				"given": "Jacob"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					11,
+					14
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2022",
+					6,
+					16
+				]
+			]
+		}
+	},
+	{
+		"id": "irvingAISafetyDebate2018",
+		"type": "article",
+		"abstract": "To make AI systems broadly useful for challenging real-world tasks, we need them to learn complex human goals and preferences. One approach to specifying complex goals asks humans to judge during training which agent behaviors are safe and useful, but this approach can fail if the task is too complicated for a human to directly judge. To help address this concern, we propose training agents via self play on a zero sum debate game. Given a question or proposed action, two agents take turns making short statements up to a limit, then a human judges which of the agents gave the most true, useful information. In an analogy to complexity theory, debate with optimal play can answer any question in PSPACE given polynomial time judges (direct judging answers only NP questions). In practice, whether debate works involves empirical questions about humans and the tasks we want AIs to perform, plus theoretical questions about the meaning of AI alignment. We report results on an initial MNIST experiment where agents compete to convince a sparse classifier, boosting the classifier's accuracy from 59.4% to 88.9% given 6 pixels and from 48.2% to 85.2% given 4 pixels. Finally, we discuss theoretical and practical aspects of the debate model, focusing on potential weaknesses as the model scales up, and we propose future human and computer experiments to test these properties.",
+		"DOI": "10.48550/arXiv.1805.00899",
+		"note": "arXiv:1805.00899 [cs, stat]",
+		"number": "arXiv:1805.00899",
+		"publisher": "arXiv",
+		"source": "arXiv.org",
+		"title": "AI safety via debate",
+		"URL": "http://arxiv.org/abs/1805.00899",
+		"author": [
+			{
+				"family": "Irving",
+				"given": "Geoffrey"
+			},
+			{
+				"family": "Christiano",
+				"given": "Paul"
+			},
+			{
+				"family": "Amodei",
+				"given": "Dario"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					11,
+					16
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2018",
+					10,
+					22
+				]
+			]
+		}
+	},
+	{
+		"id": "ngAlgorithmsInverseReinforcement2000",
+		"type": "paper-conference",
+		"abstract": "This paper addresses the problem of inverse reinforcement learning (IRL) in Markov decision processes, that is, the problem of extracting a reward function given observed, optimal\nbehavior. IRL may be useful for apprenticeship learning to acquire skilled behavior, and for ascertaining the reward function being optimized by a natural system. We first characterize the set of all reward func-tions for which a given policy is optimal. We then derive three algorithms for IRL. The first two deal with the case where the entire policy is known; we",
+		"collection-title": "ICML '00",
+		"container-title": "Proceedings of the Seventeenth International Conference on Machine Learning",
+		"event-place": "San Francisco, CA, USA",
+		"ISBN": "978-1-55860-707-1",
+		"page": "663–670",
+		"publisher": "Morgan Kaufmann Publishers Inc.",
+		"publisher-place": "San Francisco, CA, USA",
+		"source": "ACM Digital Library",
+		"title": "Algorithms for Inverse Reinforcement Learning",
+		"author": [
+			{
+				"family": "Ng",
+				"given": "Andrew Y."
+			},
+			{
+				"family": "Russell",
+				"given": "Stuart J."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					11,
+					16
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2000",
+					6,
+					29
+				]
+			]
+		}
+	},
+	{
+		"id": "hadfield-menellCooperativeInverseReinforcement2016",
+		"type": "paper-conference",
+		"abstract": "For an autonomous system to be helpful to humans and to pose no unwarranted risks, it needs to align its values with those of the humans in its environment in such a way that its actions contribute to the maximization of value for the humans. We propose a formal definition of the value alignment problem as cooperative inverse reinforcement learning (CIRL). A CIRL problem is a cooperative, partial- information game with two agents, human and robot; both are rewarded according to the human’s reward function, but the robot does not initially know what this is. In contrast to classical IRL, where the human is assumed to act optimally in isolation, optimal CIRL solutions produce behaviors such as active teaching, active learning, and communicative actions that are more effective in achieving value alignment. We show that computing optimal joint policies in CIRL games can be reduced to solving a POMDP, prove that optimality in isolation is suboptimal in CIRL, and derive an approximate CIRL algorithm.",
+		"container-title": "Advances in Neural Information Processing Systems",
+		"publisher": "Curran Associates, Inc.",
+		"source": "Neural Information Processing Systems",
+		"title": "Cooperative Inverse Reinforcement Learning",
+		"URL": "https://proceedings.neurips.cc/paper_files/paper/2016/hash/c3395dd46c34fa7fd8d729d8cf88b7a8-Abstract.html",
+		"volume": "29",
+		"author": [
+			{
+				"family": "Hadfield-Menell",
+				"given": "Dylan"
+			},
+			{
+				"family": "Russell",
+				"given": "Stuart J"
+			},
+			{
+				"family": "Abbeel",
+				"given": "Pieter"
+			},
+			{
+				"family": "Dragan",
+				"given": "Anca"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					11,
+					16
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2016"
+				]
+			]
+		}
+	},
+	{
+		"id": "yampolskiyArtificialIntelligenceSafety2016",
+		"type": "article",
+		"abstract": "In this work, we present and analyze reported failures of artificially intelligent systems and extrapolate our analysis to future AIs. We suggest that both the frequency and the seriousness of future AI failures will steadily increase. AI Safety can be improved based on ideas developed by cybersecurity experts. For narrow AIs safety failures are at the same, moderate, level of criticality as in cybersecurity, however for general AI, failures have a fundamentally different impact. A single failure of a superintelligent system may cause a catastrophic event without a chance for recovery. The goal of cybersecurity is to reduce the number of successful attacks on the system; the goal of AI Safety is to make sure zero attacks succeed in bypassing the safety mechanisms. Unfortunately, such a level of performance is unachievable. Every security system will eventually fail; there is no such thing as a 100% secure system.",
+		"DOI": "10.48550/arXiv.1610.07997",
+		"note": "arXiv:1610.07997 [cs]",
+		"number": "arXiv:1610.07997",
+		"publisher": "arXiv",
+		"source": "arXiv.org",
+		"title": "Artificial Intelligence Safety and Cybersecurity: a Timeline of AI Failures",
+		"title-short": "Artificial Intelligence Safety and Cybersecurity",
+		"URL": "http://arxiv.org/abs/1610.07997",
+		"author": [
+			{
+				"family": "Yampolskiy",
+				"given": "Roman V."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					11,
+					16
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2016",
+					10,
+					25
+				]
+			]
+		}
+	},
+	{
+		"id": "hendrycksAligningAIShared2023",
+		"type": "article",
+		"abstract": "We show how to assess a language model's knowledge of basic concepts of morality. We introduce the ETHICS dataset, a new benchmark that spans concepts in justice, well-being, duties, virtues, and commonsense morality. Models predict widespread moral judgments about diverse text scenarios. This requires connecting physical and social world knowledge to value judgements, a capability that may enable us to steer chatbot outputs or eventually regularize open-ended reinforcement learning agents. With the ETHICS dataset, we find that current language models have a promising but incomplete ability to predict basic human ethical judgements. Our work shows that progress can be made on machine ethics today, and it provides a steppingstone toward AI that is aligned with human values.",
+		"DOI": "10.48550/arXiv.2008.02275",
+		"note": "arXiv:2008.02275 [cs]",
+		"number": "arXiv:2008.02275",
+		"publisher": "arXiv",
+		"source": "arXiv.org",
+		"title": "Aligning AI With Shared Human Values",
+		"URL": "http://arxiv.org/abs/2008.02275",
+		"author": [
+			{
+				"family": "Hendrycks",
+				"given": "Dan"
+			},
+			{
+				"family": "Burns",
+				"given": "Collin"
+			},
+			{
+				"family": "Basart",
+				"given": "Steven"
+			},
+			{
+				"family": "Critch",
+				"given": "Andrew"
+			},
+			{
+				"family": "Li",
+				"given": "Jerry"
+			},
+			{
+				"family": "Song",
+				"given": "Dawn"
+			},
+			{
+				"family": "Steinhardt",
+				"given": "Jacob"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					11,
+					16
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2023",
+					2,
+					17
+				]
+			]
+		}
+	},
+	{
+		"id": "elhageToyModelsSuperposition2022",
+		"type": "article",
+		"abstract": "Neural networks often pack many unrelated concepts into a single neuron - a puzzling phenomenon known as 'polysemanticity' which makes interpretability much more challenging. This paper provides a toy model where polysemanticity can be fully understood, arising as a result of models storing additional sparse features in \"superposition.\" We demonstrate the existence of a phase change, a surprising connection to the geometry of uniform polytopes, and evidence of a link to adversarial examples. We also discuss potential implications for mechanistic interpretability.",
+		"DOI": "10.48550/arXiv.2209.10652",
+		"note": "arXiv:2209.10652 [cs]",
+		"number": "arXiv:2209.10652",
+		"publisher": "arXiv",
+		"source": "arXiv.org",
+		"title": "Toy Models of Superposition",
+		"URL": "http://arxiv.org/abs/2209.10652",
+		"author": [
+			{
+				"family": "Elhage",
+				"given": "Nelson"
+			},
+			{
+				"family": "Hume",
+				"given": "Tristan"
+			},
+			{
+				"family": "Olsson",
+				"given": "Catherine"
+			},
+			{
+				"family": "Schiefer",
+				"given": "Nicholas"
+			},
+			{
+				"family": "Henighan",
+				"given": "Tom"
+			},
+			{
+				"family": "Kravec",
+				"given": "Shauna"
+			},
+			{
+				"family": "Hatfield-Dodds",
+				"given": "Zac"
+			},
+			{
+				"family": "Lasenby",
+				"given": "Robert"
+			},
+			{
+				"family": "Drain",
+				"given": "Dawn"
+			},
+			{
+				"family": "Chen",
+				"given": "Carol"
+			},
+			{
+				"family": "Grosse",
+				"given": "Roger"
+			},
+			{
+				"family": "McCandlish",
+				"given": "Sam"
+			},
+			{
+				"family": "Kaplan",
+				"given": "Jared"
+			},
+			{
+				"family": "Amodei",
+				"given": "Dario"
+			},
+			{
+				"family": "Wattenberg",
+				"given": "Martin"
+			},
+			{
+				"family": "Olah",
+				"given": "Christopher"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					11,
+					16
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2022",
+					9,
+					21
+				]
+			]
+		}
+	},
+	{
+		"id": "russellResearchPrioritiesRobust2016",
+		"type": "article",
+		"abstract": "Success in the quest for artificial intelligence has the potential to bring unprecedented benefits to humanity, and it is therefore worthwhile to investigate how to maximize these benefits while avoiding potential pitfalls. This article gives numerous examples (which should by no means be construed as an exhaustive list) of such worthwhile research aimed at ensuring that AI remains robust and beneficial.",
+		"DOI": "10.48550/arXiv.1602.03506",
+		"note": "arXiv:1602.03506 [cs, stat]",
+		"number": "arXiv:1602.03506",
+		"publisher": "arXiv",
+		"source": "arXiv.org",
+		"title": "Research Priorities for Robust and Beneficial Artificial Intelligence",
+		"URL": "http://arxiv.org/abs/1602.03506",
+		"author": [
+			{
+				"family": "Russell",
+				"given": "Stuart"
+			},
+			{
+				"family": "Dewey",
+				"given": "Daniel"
+			},
+			{
+				"family": "Tegmark",
+				"given": "Max"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					11,
+					16
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2016",
+					2,
+					10
+				]
+			]
+		}
+	},
+	{
+		"id": "xuMachineUnlearningSurvey2023",
+		"type": "article-journal",
+		"abstract": "Machine learning has attracted widespread attention and evolved into an enabling technology for a wide range of highly successful applications, such as intelligent computer vision, speech recognition, medical diagnosis, and more. Yet, a special need has arisen where, due to privacy, usability, and/or the right to be forgotten, information about some specific samples needs to be removed from a model, called machine unlearning. This emerging technology has drawn significant interest from both academics and industry due to its innovation and practicality. At the same time, this ambitious problem has led to numerous research efforts aimed at confronting its challenges. To the best of our knowledge, no study has analyzed this complex topic or compared the feasibility of existing unlearning solutions in different kinds of scenarios. Accordingly, with this survey, we aim to capture the key concepts of unlearning techniques. The existing solutions are classified and summarized based on their characteristics within an up-to-date and comprehensive review of each category’s advantages and limitations. The survey concludes by highlighting some of the outstanding issues with unlearning techniques, along with some feasible directions for new research opportunities.",
+		"container-title": "ACM Computing Surveys",
+		"DOI": "10.1145/3603620",
+		"ISSN": "0360-0300",
+		"issue": "1",
+		"journalAbbreviation": "ACM Comput. Surv.",
+		"page": "9:1–9:36",
+		"source": "ACM Digital Library",
+		"title": "Machine Unlearning: A Survey",
+		"title-short": "Machine Unlearning",
+		"URL": "https://dl.acm.org/doi/10.1145/3603620",
+		"volume": "56",
+		"author": [
+			{
+				"family": "Xu",
+				"given": "Heng"
+			},
+			{
+				"family": "Zhu",
+				"given": "Tianqing"
+			},
+			{
+				"family": "Zhang",
+				"given": "Lefeng"
+			},
+			{
+				"family": "Zhou",
+				"given": "Wanlei"
+			},
+			{
+				"family": "Yu",
+				"given": "Philip S."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					12,
+					20
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2023",
+					8,
+					28
+				]
+			]
+		}
+	}
+]

@@ -30,7 +30,7 @@ This will recreate all figures in the paper into a folder called `output`.
 If you found our work useful and/or used it for your work, we would appreciate you cite our paper:
 
 ```text
-@article{
+@article{gyevnar2025AISafety
     title     = {A Systematic Review of AI Safety and Safe AI},
     author    = {Gyevnar, Balint and Kasirzadeh, Atoosa},
     journal   = {Nature Machine Intelligence},

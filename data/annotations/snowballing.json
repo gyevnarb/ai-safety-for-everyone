@@ -25,7 +25,7 @@
         "AuthorAffiliation": ["University of California at Berkley, United States", "Toyota Technological Institute at Chicago, United States"],
         "AuthorAffiliationType": ["university", "corporate"],
         "Citations": 2882
-    },    
+    },
     {
         "Title": "A Hazard Analysis Framework for Code Synthesis Large Language Models",
         "BibtexKey": "khlaafHazardAnalysisFramework2022",
@@ -53,7 +53,7 @@
         "AuthorAffiliation": ["OpenAI, United States"],
         "AuthorAffiliationType": ["big-tech corporate"],
         "Citations": 14
-    },    
+    },
     {
         "Title": "A Mathematical Framework For Transformer Circuits",
         "BibtexKey": "elhageMathematicalFrameworkTransformer2021",
@@ -81,7 +81,7 @@
         "AuthorAffiliation": ["Anthropic, United States"],
         "AuthorAffiliationType": ["research institution"],
         "Citations": 84
-    },    
+    },
     {
         "Title": "Active Reward Learning",
         "BibtexKey": "danielActiveRewardLearning2014",
@@ -106,7 +106,7 @@
         "AuthorAffiliation": ["Technische Universitat Darmstadt, Germany"],
         "AuthorAffiliationType": ["university"],
         "Citations": 133
-    },    
+    },
     {
         "Title": "Adversarial Examples Are Not Bugs, They Are Features",
         "BibtexKey": "ilyasAdversarialExamplesAre2019",
@@ -133,7 +133,7 @@
         "AuthorAffiliation": ["Massachusetts Institute of Technology, United States"],
         "AuthorAffiliationType": ["university"],
         "Citations": 1765
-    },    
+    },
     {
         "Title": "Adversarial Filters of Dataset Biases",
         "BibtexKey": "brasAdversarialFiltersDataset2020",
@@ -158,7 +158,7 @@
         "AuthorAffiliation": ["Allen Institute for Artificial Intelligence, United States", "University of Washington, United States"],
         "AuthorAffiliationType": ["university"],
         "Citations": 190
-    },    
+    },
     {
         "Title": "Adversarial Robustness as a Prior for Learned Representations",
         "BibtexKey": "engstromAdversarialRobustnessPrior2019b",
@@ -186,7 +186,7 @@
         "AuthorAffiliation": ["Massachusetts Institute of Technology, United States"],
         "AuthorAffiliationType": ["university"],
         "Citations": 167
-    },    
+    },
     {
         "Title": "Agreeing To Disagree: Active Learning With Noisy Labels Without Crowdsourcing",
         "BibtexKey": "bougueliaAgreeingDisagreeActive2018",
@@ -212,7 +212,7 @@
         "AuthorAffiliation": ["Halmstad University, Sweden", "University of South Dakota, United States"],
         "AuthorAffiliationType": ["university"],
         "Citations": 111
-    },    
+    },
     {
         "Title": "Aligning AI With Shared Human Values",
         "BibtexKey": "hendrycksAligningAIShared2023a",
@@ -269,7 +269,7 @@
         "AuthorAffiliation": ["Allen Institute for Artificial Intelligence, United States", "University of Washington, United States"],
         "AuthorAffiliationType": ["university", "research institution"],
         "Citations": 15
-    },    
+    },
     {
         "Title": "Analyzing Information Leakage of Updates to Natural Language Models",
         "BibtexKey": "zanella-beguelinAnalyzingInformationLeakage2020",
@@ -290,7 +290,7 @@
         "AuthorAffiliation": ["Microsoft, United States", "University of Melbourne, Australia"],
         "AuthorAffiliationType": ["big-tech corporate", "university"],
         "Citations": 90
-    }, 
+    },
     {
         "Title": "Apprenticeship Learning Via Inverse Reinforcement Learning",
         "BibtexKey": "abbeelApprenticeshipLearningInverse2004",
@@ -313,11 +313,11 @@
         "AuthorKeywords": [],
         "RiskTypes": ["alignment"],
         "Stage": ["deployment"],
-        "Method": "simulated agents", 
+        "Method": "simulated agents",
         "AuthorAffiliation": ["Stanford University, United States"],
         "AuthorAffiliationType": ["university"],
         "Citations": 3892
-    },   
+    },
     {
         "Title": "Approximate Data Deletion from Machine Learning Models",
         "BibtexKey": "izzoApproximateDataDeletion2021",
@@ -339,7 +339,7 @@
         "AuthorAffiliation": ["Stanford University, United States", "University of California at San Diego, United States"],
         "AuthorAffiliationType": ["university"],
         "Citations": 149
-    },  
+    },
     {
         "Title": "Artificial Intelligence Safety Engineering: Why Machine Ethics Is a Wrong Approach",
         "BibtexKey": "yampolskiyArtificialIntelligenceSafety2013",
@@ -364,7 +364,7 @@
         "AuthorAffiliation": ["University of Louisville, United States"],
         "AuthorAffiliationType": ["university"],
         "Citations": 163
-    },    
+    },
     {
         "Title": "Assuring the Behavior of Adaptive Agents",
         "BibtexKey": "spearsAssuringBehaviorAdaptive2006",
@@ -390,7 +390,7 @@
         "AuthorAffiliation": ["University of Wyoming, United States"],
         "AuthorAffiliationType": ["university"],
         "Citations": 16
-    },    
+    },
     {
         "Title": "ATOM: Robustifying Out-of-distribution Detection Using Outlier Mining",
         "BibtexKey": "chenATOMRobustifyingOutofdistribution2021",
@@ -417,7 +417,7 @@
         "AuthorAffiliation": ["University of Wisconsin-Madison, United States", "Google, United States"],
         "AuthorAffiliationType": ["big-tech corporate", "university"],
         "Citations": 95
-    },    
+    },
     {
         "Title": "Avoiding Unintended AI Behaviors",
         "BibtexKey": "hibbardAvoidingUnintendedAI2012",
@@ -480,7 +480,7 @@
         "AuthorAffiliation": ["State Key Laboratory of Integrated Services Networks, China", "Xidian University, China", "Fuzhou University, China", "China Normal University, China", "Ant Group, China"],
         "AuthorAffiliationType": ["government", "university", "corporate"],
         "Citations": 35
-    },    
+    },
     {
         "Title": "Batch Learning from Logged Bandit Feedback through Counterfactual Risk Minimization",
         "BibtexKey": "swaminathanBatchLearningLogged2015",
@@ -500,7 +500,7 @@
         "AuthorAffiliation": ["Cornell University, United States"],
         "AuthorAffiliationType": ["university"],
         "Citations": 497
-    },    
+    },
     {
         "Title": "Bayesian optimization with safety constraints: safe and automatic parameter tuning in robotics",
         "BibtexKey": "berkenkampBayesianOptimizationSafety2023",
@@ -546,7 +546,7 @@
         "AuthorAffiliation": ["University of California at Berkley, United States", "Oregon State University, United States"],
         "AuthorAffiliationType": ["university"],
         "Citations": 2841
-    },   
+    },
     {
         "Title": "Benchmarking Safe Exploration in Deep Reinforcement Learning",
         "BibtexKey": "rayBenchmarkingSafeExploration",
@@ -574,7 +574,7 @@
         "AuthorAffiliation": ["OpenAI, United States"],
         "AuthorAffiliationType": ["big-tech corporate"],
         "Citations": 341
-    },    
+    },
     {
         "Title": "Corrigibility",
         "BibtexKey": "soaresCorrigibility2015",
@@ -601,7 +601,7 @@
         "AuthorAffiliation": ["University of California at Berkley, United States", "Machine Intelligence Research Institute, United States", "Future of Humanity Institute, UK"],
         "AuthorAffiliationType": ["big-tech corporate", "university"],
         "Citations": 124
-    },    
+    },
     {
         "Title": "Curve Detectors",
         "BibtexKey": "cammarata2020curve",
@@ -614,7 +614,7 @@
         "Limitations": "",
         "Keywords": [
             "convolutional neural network",
-            "mechanistic interpretability", 
+            "mechanistic interpretability",
             "curve detection",
             "applied"
         ],
@@ -622,7 +622,7 @@
         "RiskTypes": ["interpretability"],
         "Stage": ["design"],
         "Unpublished": true,
-        "Method": "mechanistic interpretability", 
+        "Method": "mechanistic interpretability",
         "AuthorAffiliation": ["OpenAI, United States"],
         "AuthorAffiliationType": ["big-tech corporate"],
         "Citations": 19
@@ -694,7 +694,7 @@
         "AuthorAffiliation": ["University of Pennsylvania, United States"],
         "AuthorAffiliationType": ["university"],
         "Citations": 139
-    },    
+    },
     {
         "Title": "Delusion, Survival, and Intelligent Agents",
         "BibtexKey": "ringDelusionSurvivalIntelligent2011",
@@ -735,14 +735,14 @@
         "AuthorAffiliation": ["Shanghai Jiao Tong University, China", "University of California at Berkley, United States"],
         "AuthorAffiliationType": ["university"],
         "Citations": 1797
-    },    
+    },
     {
         "Title": "Discovering Robust Convolutional Architecture at Targeted Capacity: A Multi-Shot Approach",
         "BibtexKey": "ningDiscoveringRobustConvolutional2021",
         "Year": 2021,
         "Keywords": [
-            "convolutional neural network", 
-            "adversarial robustness", 
+            "convolutional neural network",
+            "adversarial robustness",
             "capacity budget",
             "neural architecture search",
             "algorithm"
@@ -754,7 +754,7 @@
         "AuthorAffiliation": ["Tsinghua University, China", "Tencent, China"],
         "AuthorAffiliationType": ["university", "big-tech corporate"],
         "Citations": 9
-    },   
+    },
     {
         "Title": "Disentangling by Factorising",
         "BibtexKey": "kimDisentanglingFactorising2019",
@@ -773,13 +773,13 @@
         "AuthorAffiliation": ["DeepMind, UK", "University of Oxford, UK"],
         "AuthorAffiliationType": ["university", "big-tech corporate"],
         "Citations": 1407
-    },    
+    },
     {
         "Title": "Domain-Adversarial Training of Neural Networks",
         "BibtexKey": "ganinDomainAdversarialTrainingNeural2017",
         "Year": 2017,
         "Keywords": [
-            "representation learning", 
+            "representation learning",
             "deep neural network",
             "domain adaptation",
             "algorithm",
@@ -794,7 +794,7 @@
         "AuthorAffiliation": ["Skolkovo Institute of Science and Technology, Russia", "Universite Laval, Canada", "Universite de Sherbrooke, Canada"],
         "AuthorAffiliationType": ["university", "research institution"],
         "Citations": 8361
-    },    
+    },
     {
         "Title": "Establishing Safety Criteria for Artificial Neural Networks",
         "BibtexKey": "kurdEstablishingSafetyCriteria2003",
@@ -803,7 +803,7 @@
             "deep neural network",
             "safety-critical systems",
             "verification",
-            "framework", 
+            "framework",
             "safety criteria"
         ],
         "AuthorKeywords": [],
@@ -813,7 +813,7 @@
         "AuthorAffiliation": ["University of York, UK"],
         "AuthorAffiliationType": ["university"],
         "Citations": 47
-    },    
+    },
     {
         "Title": "Evaluating Models' Local Decision Boundaries via Contrast Sets",
         "BibtexKey": "gardnerEvaluatingModelsLocal2020",
@@ -837,7 +837,7 @@
         "AuthorAffiliation": ["Allen Institute for Artificial Intelligence, United States", "Cornell University, United States", "Bar-Ilan University, Israel", "Tel-Aviv University, Israel", "University of Pennsylvania, United States", "University of Washington, United States", "University of California at Irvine, United States", "University of California at Berkley, United States", "University of Edinburgh, UK", "Stanford University, United States"],
         "AuthorAffiliationType": ["university", "research institution"],
         "Citations": 398
-    },    
+    },
     {
         "Title": "Explaining and Harnessing Adversarial Examples",
         "BibtexKey": "goodfellowExplainingHarnessingAdversarial2015",
@@ -858,7 +858,7 @@
         "AuthorAffiliation": ["Google, United States"],
         "AuthorAffiliationType": ["big-tech corporate"],
         "Citations": 18990
-    },    
+    },
     {
         "Title": "Exploration-exploitation in multi-agent learning: Catastrophe theory meets game theory",
         "BibtexKey": "leonardosExplorationexploitationMultiagentLearning2022",
@@ -877,7 +877,7 @@
         "AuthorAffiliation": ["Singapore University of Technology and Design, Singapore"],
         "AuthorAffiliationType": ["university"],
         "Citations": 33
-    }, 
+    },
     {
         "Title": "Forgetting Outside the Box: Scrubbing Deep Networks of Information Accessible from Input-Output Observations",
         "BibtexKey": "golatkarForgettingOutsideBox2020",
@@ -897,7 +897,7 @@
         "AuthorAffiliation": ["University of California at Los Angeles, United States"],
         "AuthorAffiliationType": ["university"],
         "Citations": 107
-    },      
+    },
     {
         "Title": "Formalizing Data Deletion in the Context of the Right to Be Forgotten",
         "BibtexKey": "gargFormalizingDataDeletion2020",
@@ -916,7 +916,7 @@
         "AuthorAffiliation": ["University of California at Berkley, United States"],
         "AuthorAffiliationType": ["university"],
         "Citations": 65
-    },     
+    },
     {
         "Title": "Get It in Writing: Formal Contracts Mitigate Social Dilemmas in Multi-Agent RL",
         "BibtexKey": "christoffersenGetItWriting2023",
@@ -938,7 +938,7 @@
         "AuthorAffiliation": ["Massachusetts Institute of Technology, United States"],
         "AuthorAffiliationType": ["university"],
         "Citations": 10
-    },    
+    },
     {
         "Title": "Hardening of Artificial Neural Networks for Use in Safety-Critical Applications -- A Mapping Study",
         "BibtexKey": "adlerHardeningArtificialNeural2019",
@@ -957,7 +957,7 @@
         "AuthorAffiliation": ["Fraunhofer Institute for Experimental Software Engineering, Germany", "SICK AG, Germany"],
         "AuthorAffiliationType": ["research institution", "corporate"],
         "Citations": 6
-    },    
+    },
     {
         "Title": "Have You Forgotten? A Method to Assess if Machine Learning Models Have Forgotten Data",
         "BibtexKey": "liuHaveYouForgotten2020",
@@ -976,7 +976,7 @@
         "AuthorAffiliation": ["University of Edinburgh, UK", "The Alan Turing Institute, UK"],
         "AuthorAffiliationType": ["university", "research institution"],
         "Citations": 20
-    },  
+    },
     {
         "Title": "High-Low Frequency Detectors",
         "BibtexKey": "schubert2021high-low",
@@ -995,7 +995,7 @@
         "AuthorAffiliation": ["OpenAI, United States"],
         "AuthorAffiliationType": ["big-tech corporate"],
         "Citations": 16
-    },    
+    },
     {
         "Title": "How To Talk So AI Will Learn: Instructions, Descriptions, And Autonomy",
         "BibtexKey": "sumersHowTalkAI2022",
@@ -1015,7 +1015,7 @@
         "AuthorAffiliation": ["Princeton University, United States", "Machine Intelligence Research Institute, United States"],
         "AuthorAffiliationType": ["university"],
         "Citations": 12
-    },    
+    },
     {
         "Title": "Human-in-the-Loop Interpretability Prior",
         "BibtexKey": "lageHumanintheLoopInterpretabilityPrior2018",
@@ -1035,7 +1035,7 @@
         "AuthorAffiliation": ["Harvard University, United States", "Google Brain, United States"],
         "AuthorAffiliationType": ["university", "big-tech corporate"],
         "Citations": 152
-    },    
+    },
     {
         "Title": "Identifying Unknown Unknowns in the Open World: Representations and Policies for Guided Exploration",
         "BibtexKey": "lakkarajuIdentifyingUnknownUnknowns2016",
@@ -1055,7 +1055,7 @@
         "AuthorAffiliation": ["Stanford University, United States", "Microsoft, United States"],
         "AuthorAffiliationType": ["university", "big-tech corporate"],
         "Citations": 184
-    },    
+    },
     {
         "Title": "In-Context Learning And Induction Heads",
         "BibtexKey": "olssonIncontextLearningInduction2022",
@@ -1074,7 +1074,7 @@
         "AuthorAffiliation": ["Anthropic, United States"],
         "AuthorAffiliationType": ["research institution"],
         "Citations": 113
-    },    
+    },
     {
         "Title": "Inference-Time Intervention: Eliciting Truthful Answers from a Language Model",
         "BibtexKey": "liInferenceTimeInterventionEliciting2023",
@@ -1093,7 +1093,7 @@
         "AuthorAffiliation": ["Harvard University, United States"],
         "AuthorAffiliationType": ["university"],
         "Citations": 31
-    },    
+    },
     {
         "Title": "Interpretability Beyond Feature Attribution: Quantitative Testing with Concept Activation Vectors (TCAV)",
         "BibtexKey": "kimInterpretabilityFeatureAttribution2018",
@@ -1114,7 +1114,7 @@
         "AuthorAffiliation": ["Google, United States"],
         "AuthorAffiliationType": ["big-tech corporate"],
         "Citations": 1596
-    },    
+    },
     {
         "Title": "Interpretability in the Wild: a Circuit for Indirect Object Identification in GPT-2 small",
         "BibtexKey": "wangInterpretabilityWildCircuit2022",
@@ -1135,7 +1135,7 @@
         "AuthorAffiliation": ["Redwood Research, United States", "University of California at Berkley, United States"],
         "AuthorAffiliationType": ["university", "research institution"],
         "Citations": 90
-    },    
+    },
     {
         "Title": "Inverse Game Theory: Learning Utilities in Succinct Games",
         "BibtexKey": "kuleshovInverseGameTheory2015",
@@ -1154,7 +1154,7 @@
         "AuthorAffiliation": ["Stanford University, United States"],
         "AuthorAffiliationType": ["university"],
         "Citations": 51
-    },    
+    },
     {
         "Title": "Is Attention Interpretable?",
         "BibtexKey": "serranoAttentionInterpretable2019",
@@ -1229,7 +1229,7 @@
         "AuthorAffiliation": ["Carnegie Mellon University, United States"],
         "AuthorAffiliationType": ["university"],
         "Citations": 207
-    }, 
+    },
     {
         "Title": "Learning Fair Representations",
         "BibtexKey": "zemelLearningFairRepresentations2013",
@@ -1252,7 +1252,7 @@
         "AuthorAffiliation": ["University of Toronto, Canada", "Microsoft, United States"],
         "AuthorAffiliationType": ["university", "big-tech corporate"],
         "Citations": 1868
-    }, 
+    },
     {
         "Title": "Learning Rewards from Linguistic Feedback",
         "BibtexKey": "sumersLearningRewardsLinguistic2021",
@@ -1274,7 +1274,7 @@
         "AuthorAffiliation": ["Princeton University, United States"],
         "AuthorAffiliationType": ["university"],
         "Citations": 40
-    }, 
+    },
     {
         "Title": "Learning Robust Representations by Projecting Superficial Statistics Out",
         "BibtexKey": "wangLearningRobustRepresentations2019",
@@ -1295,7 +1295,7 @@
         "AuthorAffiliation": ["Carnegie Mellon University, United States"],
         "AuthorAffiliationType": ["university"],
         "Citations": 210
-    }, 
+    },
     {
         "Title": "Learning the Difference that Makes a Difference with Counterfactually-Augmented Data",
         "BibtexKey": "kaushikLearningDifferenceThat2020",
@@ -1318,7 +1318,7 @@
         "AuthorAffiliation": ["Carnegie Mellon University, United States"],
         "AuthorAffiliationType": ["university"],
         "Citations": 495
-    }, 
+    },
     {
         "Title": "Learning the preferences of ignorant, inconsistent agents",
         "BibtexKey": "evansLearningPreferencesIgnorant2016",
@@ -1340,7 +1340,7 @@
         "AuthorAffiliation": ["University of Oxford, UK", "Stanford University, United States"],
         "AuthorAffiliationType": ["university"],
         "Citations": 122
-    }, 
+    },
     {
         "Title": "Machine Unlearning for Random Forests",
         "BibtexKey": "brophyMachineUnlearningRandom2021",
@@ -1360,7 +1360,7 @@
         "AuthorAffiliation": ["University of Oregon, United States"],
         "AuthorAffiliationType": ["university"],
         "Citations": 99
-    }, 
+    },
     {
         "Title": "MetaReg: Towards Domain Generalization using Meta-Regularization",
         "BibtexKey": "balajiMetaRegDomainGeneralization2018",
@@ -1380,7 +1380,7 @@
         "AuthorAffiliation": ["University of Maryland, United States", "Butterfly Network Inc., United States"],
         "AuthorAffiliationType": ["university", "corporate"],
         "Citations": 640
-    }, 
+    },
     {
         "Title": "MORAL: Aligning AI with Human Norms through Multi-Objective Reinforced Active Learning",
         "BibtexKey": "peschlMORALAligningAI2021",
@@ -1401,7 +1401,7 @@
         "AuthorAffiliation": ["Delft University of Technology, Netherlands"],
         "AuthorAffiliationType": ["university"],
         "Citations": 12
-    }, 
+    },
     {
         "Title": "Multimodal neurons in artificial neural networks",
         "BibtexKey": "goh2021multimodal",
@@ -1421,7 +1421,7 @@
         "AuthorAffiliation": ["OpenAI, United States"],
         "AuthorAffiliationType": ["big-tech corporate"],
         "Citations": 245
-    }, 
+    },
     {
         "Title": "On Interpretability and Feature Representations: An Analysis of the Sentiment Neuron",
         "BibtexKey": "donnellyInterpretabilityFeatureRepresentations2019",
@@ -1441,7 +1441,7 @@
         "AuthorAffiliation": ["Kira Systems, Canada"],
         "AuthorAffiliationType": ["corporate"],
         "Citations": 21
-    }, 
+    },
     {
         "Title": "On the importance of single directions for generalization",
         "BibtexKey": "morcosImportanceSingleDirections2018",
@@ -1462,7 +1462,7 @@
         "AuthorAffiliation": ["DeepMind, UK"],
         "AuthorAffiliationType": ["big-tech corporate"],
         "Citations": 327
-    }, 
+    },
     {
         "Title": "On the Necessity of Auditable Algorithmic Definitions for Machine Unlearning",
         "BibtexKey": "thudiNecessityAuditableAlgorithmic2022",
@@ -1482,7 +1482,7 @@
         "AuthorAffiliation": ["University of Toronto, Canada", "Vector Institute, Canada"],
         "AuthorAffiliationType": ["university", "research institution"],
         "Citations": 63
-    }, 
+    },
     {
         "Title": "Policy Invariance Under Reward Transformations: Theory and Application to Reward Shaping",
         "BibtexKey": "ngPolicyInvarianceReward1999",
@@ -1503,10 +1503,10 @@
         "AuthorAffiliation": ["University of California at Berkley, United States"],
         "AuthorAffiliationType": ["university"],
         "Citations": 2745
-    }, 
+    },
     {
-        "Title": "dworkPrivacypreservingPrediction2018",
-        "BibtexKey": "Privacy-preserving Prediction",
+        "Title": "Privacy-preserving Prediction",
+        "BibtexKey": "dworkPrivacypreservingPrediction2018",
         "Year": 2018,
         "Keywords": [
             "differential privacy",
@@ -1522,7 +1522,7 @@
         "AuthorAffiliation": ["Harvard University, United States", "Google Brain, United States"],
         "AuthorAffiliationType": ["university", "big-tech corporate"],
         "Citations": 90
-    }, 
+    },
     {
         "Title": "Process for Adapting Language Models to Society (PALMS) with Values-Targeted Datasets",
         "BibtexKey": "solaimanProcessAdaptingLanguage2023",
@@ -1543,13 +1543,13 @@
         "AuthorAffiliationType": ["big-tech corporate"],
         "Citations": 131,
         "Unpublished": true
-    }, 
+    },
     {
         "Title": "Progress measures for grokking via mechanistic interpretability",
         "BibtexKey": "nandaProgressMeasuresGrokking2023",
         "Year": 2023,
         "Keywords": [
-            "emergent behaviour", 
+            "emergent behaviour",
             "mechanistic interpretability",
             "progress measure",
             "grokking",
@@ -1564,7 +1564,7 @@
         "AuthorAffiliationType": ["university"],
         "Citations": 93,
         "Unpublished": true
-    }, 
+    },
     {
         "Title": "Provable Defenses against Adversarial Examples via the Convex Outer Adversarial Polytope",
         "BibtexKey": "wongProvableDefensesAdversarial2018",
@@ -1588,7 +1588,7 @@
         "AuthorAffiliation": ["Carnegie Mellon University, United States"],
         "AuthorAffiliationType": ["university"],
         "Citations": 1535
-    }, 
+    },
     {
         "Title": "PUMA: Performance Unchanged Model Augmentation for Training Data Removal",
         "BibtexKey": "wuPUMAPerformanceUnchanged2022",
@@ -1609,7 +1609,7 @@
         "AuthorAffiliation": ["Borealis AI, Canada"],
         "AuthorAffiliationType": ["corporate"],
         "Citations": 26
-    }, 
+    },
     {
         "Title": "Responses to catastrophic AGI risk: a survey",
         "BibtexKey": "sotalaResponsesCatastrophicAGI2014",
@@ -1627,7 +1627,7 @@
         "AuthorAffiliation": ["Machine Intelligence Research Institute, United States", "University of Louisville, United States"],
         "AuthorAffiliationType": ["research institution", "university"],
         "Citations": 145
-    }, 
+    },
     {
         "Title": "Safety Engineering for Artificial General Intelligence",
         "BibtexKey": "yampolskiySafetyEngineeringArtificial2012",
@@ -1648,7 +1648,7 @@
         "AuthorAffiliation": ["Machine Intelligence Research Institute, United States", "University of Louisville, United States"],
         "AuthorAffiliationType": ["research institution", "university"],
         "Citations": 115
-    }, 
+    },
     {
         "Title": "Sanity Checks for Saliency Maps",
         "BibtexKey": "adebayoSanityChecksSaliency2020",
@@ -1669,7 +1669,7 @@
         "AuthorAffiliation": ["Google Brain, United States", "University of California at Berkley, United States"],
         "AuthorAffiliationType": ["big-tech corporate", "university"],
         "Citations": 1907
-    }, 
+    },
     {
         "Title": "Scalable agent alignment via reward modeling: a research direction",
         "BibtexKey": "leikeScalableAgentAlignment2018",
@@ -1689,7 +1689,7 @@
         "AuthorAffiliation": ["DeepMind, United States", "DeepMind, Canada"],
         "AuthorAffiliationType": ["big-tech corporate"],
         "Citations": 215
-    }, 
+    },
     {
         "Title": "Self-critiquing models for assisting human evaluators",
         "BibtexKey": "saundersSelfcritiquingModelsAssisting2022",
@@ -1712,7 +1712,7 @@
         "AuthorAffiliation": ["OpenAI, United States"],
         "AuthorAffiliationType": ["big-tech corporate"],
         "Citations": 73
-    }, 
+    },
     {
         "Title": "Self-Modification of Policy and Utility Function in Rational Agents",
         "BibtexKey": "everittSelfModificationPolicyUtility2016",
@@ -1733,7 +1733,7 @@
         "AuthorAffiliation": ["Australian National University, Australia"],
         "AuthorAffiliationType": ["university"],
         "Citations": 30
-    }, 
+    },
     {
         "Title": "Social Norms-Grounded Machine Ethics in Complex Narrative Situation",
         "BibtexKey": "shenSocialNormsGroundedMachine2022",
@@ -1755,7 +1755,7 @@
         "AuthorAffiliation": ["Microsoft, United States"],
         "AuthorAffiliationType": ["big-tech corporate"],
         "Citations": 5
-    }, 
+    },
     {
         "Title": "Softmax linear units",
         "BibtexKey": "elhage2022solu",
@@ -1778,7 +1778,7 @@
         "AuthorAffiliationType": ["research institution"],
         "Citations": 0,
         "Unpublished": true
-    }, 
+    },
     {
         "Title": "Sparse Attention with Linear Units",
         "BibtexKey": "zhangSparseAttentionLinear2021",
@@ -1800,7 +1800,7 @@
         "AuthorAffiliation": ["University of Edinburgh, UK", "University of Amsterdam, Netherlands", "University of Zurich, Switzerland"],
         "AuthorAffiliationType": ["university"],
         "Citations": 28
-    }, 
+    },
     {
         "Title": "SPINE: SParse Interpretable Neural Embeddings",
         "BibtexKey": "subramanianSPINESParseInterpretable2017",
@@ -1820,7 +1820,7 @@
         "AuthorAffiliation": ["Carnegie Mellon University, United States"],
         "AuthorAffiliationType": ["university"],
         "Citations": 117
-    }, 
+    },
     {
         "Title": "SPLASH: Learnable Activation Functions for Improving Accuracy and Adversarial Robustness",
         "BibtexKey": "tavakoliSPLASHLearnableActivation2020",
@@ -1841,7 +1841,7 @@
         "AuthorAffiliation": ["University of California at Irvine, United States"],
         "AuthorAffiliationType": ["university"],
         "Citations": 38
-    }, 
+    },
     {
         "Title": "State abstraction for programmable reinforcement learning agents",
         "BibtexKey": "andreStateAbstractionProgrammable2002",
@@ -1861,7 +1861,7 @@
         "AuthorAffiliation": ["University of California at Berkley, United States"],
         "AuthorAffiliationType": ["university"],
         "Citations": 50
-    }, 
+    },
     {
         "Title": "Supervising strong learners by amplifying weak experts",
         "BibtexKey": "christianoSupervisingStrongLearners2018",
@@ -1882,7 +1882,7 @@
         "AuthorAffiliation": ["OpenAI, United States"],
         "AuthorAffiliationType": ["big-tech corporate"],
         "Citations": 60
-    }, 
+    },
     {
         "Title": "SVCCA: Singular Vector Canonical Correlation Analysis for Deep Learning Dynamics and Interpretability",
         "BibtexKey": "raghuSVCCASingularVector2017",
@@ -1903,7 +1903,7 @@
         "AuthorAffiliation": ["Google Brain, United States", "Cornell University, United States", "Uber AI Labs, United States"],
         "AuthorAffiliationType": ["big-tech corporate", "university"],
         "Citations": 603
-    }, 
+    },
     {
         "Title": "Task-Guided Inverse Reinforcement Learning Under Partial Information",
         "BibtexKey": "djeumouTaskGuidedInverseReinforcement2021",
@@ -1926,7 +1926,7 @@
         "AuthorAffiliation": ["University of Texas at Austin, United States", "Army Research Laboratory, United States"],
         "AuthorAffiliationType": ["university", "government"],
         "Citations": 4
-    }, 
+    },
     {
         "Title": "Taxonomy of Pathways to Dangerous AI",
         "BibtexKey": "yampolskiyTaxonomyPathwaysDangerous2015",
@@ -1944,7 +1944,7 @@
         "AuthorAffiliation": ["University of Louisville, United States"],
         "AuthorAffiliationType": ["university"],
         "Citations": 118
-    }, 
+    },
     {
         "Title": "Temporal Disentanglement of Representations for Improved Generalisation in Reinforcement Learning",
         "BibtexKey": "dunionTemporalDisentanglementRepresentations2023",
@@ -1964,13 +1964,13 @@
         "AuthorAffiliation": ["University of Edinburgh, UK", "University of Wisconsin-Madison, United States", "Aalto University, Finland"],
         "AuthorAffiliationType": ["university"],
         "Citations": 6
-    }, 
+    },
     {
         "Title": "Testing Robustness Against Unforeseen Adversaries",
         "BibtexKey": "kaufmannTestingRobustnessUnforeseen2023",
         "Year": 2019,
         "Keywords": [
-            "adversarial robustness", 
+            "adversarial robustness",
             "unforeseen adversaries",
             "evaluation",
             "generalization gap",
@@ -1985,7 +1985,7 @@
         "AuthorAffiliation": ["UK Frontier AI Taskforce, UK", "University of California at Berkley, United States", "University of Chicago, United States", "Center for AI Safety, United States", "University of Toronto, Canada", "Vector Institute, Canada"],
         "AuthorAffiliationType": ["government", "university", "research institution"],
         "Citations": 129
-    }, 
+    },
     {
         "Title": "The building blocks of interpretability",
         "BibtexKey": "olah2018the",
@@ -2006,7 +2006,7 @@
         "AuthorAffiliation": ["Google Brain, United States", "Carnegie Mellon University, United States", "Google, United States"],
         "AuthorAffiliationType": ["big-tech corporate", "university"],
         "Citations": 687
-    }, 
+    },
     {
         "Title": "The First Law of Robotics",
         "BibtexKey": "weldFirstLawRobotics2009",
@@ -2024,7 +2024,7 @@
         "AuthorAffiliation": ["University of Washington, United States"],
         "AuthorAffiliationType": ["university"],
         "Citations": 177
-    }, 
+    },
     {
         "Title": "The secret sharer: evaluating and testing unintended memorization in neural networks",
         "BibtexKey": "carliniSecretSharerEvaluating2019",
@@ -2044,7 +2044,7 @@
         "AuthorAffiliation": ["Google Brain, United States", "University of California at Berkley, United States", "National University of Singapore, Singapore"],
         "AuthorAffiliationType": ["big-tech corporate", "university"],
         "Citations": 873
-    }, 
+    },
     {
         "Title": "Towards Deep Learning Models Resistant to Adversarial Attacks",
         "BibtexKey": "madryDeepLearningModels2019",
@@ -2065,7 +2065,7 @@
         "AuthorAffiliation": ["Massachusetts Institute of Technology, United States"],
         "AuthorAffiliationType": ["university"],
         "Citations": 10693
-    }, 
+    },
     {
         "Title": "Towards Deployment of Robust Cooperative AI Agents: An Algorithmic Framework for Learning Adaptive Policies",
         "BibtexKey": "ghoshDeploymentRobustCooperative2020a",
@@ -2087,7 +2087,7 @@
         "AuthorAffiliation": ["Max Planck Institute for Software Systems, Germany", "University of Vienna, Austria"],
         "AuthorAffiliationType": ["research institution", "university"],
         "Citations": 14
-    }, 
+    },
     {
         "Title": "Towards Evaluating the Robustness of Neural Networks",
         "BibtexKey": "carliniEvaluatingRobustnessNeural2017",
@@ -2106,7 +2106,7 @@
         "AuthorAffiliation": ["University of California at Berkley, United States"],
         "AuthorAffiliationType": ["university"],
         "Citations": 8561
-    }, 
+    },
     {
         "Title": "Towards monosemanticity: Decomposing language models with dictionary learning",
         "BibtexKey": "bricken2023monosemanticity",
@@ -2126,7 +2126,7 @@
         "AuthorAffiliation": ["Anthropic, United States"],
         "AuthorAffiliationType": ["research institution"],
         "Citations": 13
-    }, 
+    },
     {
         "Title": "Towards neural networks that provably know when they don't know",
         "BibtexKey": "meinkeNeuralNetworksThat2020",
@@ -2145,7 +2145,7 @@
         "AuthorAffiliation": ["University of Tübingen, Germany"],
         "AuthorAffiliationType": ["university"],
         "Citations": 145
-    }, 
+    },
     {
         "Title": "Training language models to follow instructions with human feedback",
         "BibtexKey": "ouyangTrainingLanguageModels2022",
@@ -2166,7 +2166,7 @@
         "AuthorAffiliation": ["OpenAI, United States", "Anthropic, United States", "Alignment Research Center, United States"],
         "AuthorAffiliationType": ["big-tech corporate", "research institution"],
         "Citations": 4197
-    }, 
+    },
     {
         "Title": "Transparent Value Alignment",
         "BibtexKey": "sannemanTransparentValueAlignment2023",
@@ -2185,7 +2185,7 @@
         "AuthorAffiliation": ["Massachusetts Institute of Technology, United States"],
         "AuthorAffiliationType": ["university"],
         "Citations": 4
-    }, 
+    },
     {
         "Title": "Unbiased look at dataset bias",
         "BibtexKey": "torralbaUnbiasedLookDataset2011",
@@ -2204,14 +2204,14 @@
         "AuthorAffiliation": ["Massachusetts Institute of Technology, United States", "Carnegie Mellon University, United States"],
         "AuthorAffiliationType": ["university"],
         "Citations": 2757
-    }, 
+    },
     {
         "Title": "Understanding the Role of Individual Units in a Deep Neural Network",
         "BibtexKey": "bauUnderstandingRoleIndividual2020",
         "Year": 2020,
         "Keywords": [
             "mechanistic interpretability",
-            "convolutional neural network", 
+            "convolutional neural network",
             "generative adversarial network",
             "neuron activation",
             "applied",
@@ -2224,7 +2224,7 @@
         "AuthorAffiliation": ["Massachusetts Institute of Technology, United States", "Adobe Inc., United States", "Universitat Oberta de Catalunya, Spain", "Chinese University of Hong Kong, China"],
         "AuthorAffiliationType": [],
         "Citations": 374
-    }, 
+    },
     {
         "Title": "Unethical Research: How to Create a Malevolent Artificial Intelligence",
         "BibtexKey": "pistonoUnethicalResearchHow2016",
@@ -2241,7 +2241,7 @@
         "AuthorAffiliationType": ["university"],
         "Citations": 97,
         "Unpublished": true
-    }, 
+    },
     {
         "Title": "Universal and Transferable Adversarial Attacks on Aligned Language Models",
         "BibtexKey": "zouUniversalTransferableAdversarial2023",
@@ -2262,7 +2262,7 @@
         "AuthorAffiliation": ["Carnegie Mellon University, United States", "Center for AI Safety, United States", "DeepMind, United States", "Bosch Center for AI, United States"],
         "AuthorAffiliationType": ["university", "big-tech corporate", "corporate", "research institution"],
         "Citations": 128
-    }, 
+    },
     {
         "Title": "Unsolved Problems in ML Safety",
         "BibtexKey": "hendrycksUnsolvedProblemsML2022",
@@ -2282,7 +2282,7 @@
         "AuthorAffiliation": ["University of California at Berkley, United States", "Google, United States", "OpenAI, United States"],
         "AuthorAffiliationType": ["university", "big-tech corporate"],
         "Citations": 182
-    }, 
+    },
     {
         "Title": "Utility function security in artificially intelligent agents",
         "BibtexKey": "yampolskiyUtilityFunctionSecurity2014",
@@ -2300,7 +2300,7 @@
         "AuthorAffiliation": ["University of Louisville, United States"],
         "AuthorAffiliationType": ["university"],
         "Citations": 68
-    }, 
+    },
     {
         "Title": "Visualizing and Understanding Recurrent Networks",
         "BibtexKey": "karpathyVisualizingUnderstandingRecurrent2015",
@@ -2320,7 +2320,7 @@
         "AuthorAffiliation": ["Stanford University, United States"],
         "AuthorAffiliationType": ["university"],
         "Citations": 1376
-    }, 
+    },
     {
         "Title": "AI safety via debate",
         "BibtexKey": "irvingAISafetyDebate2018",
@@ -2340,7 +2340,7 @@
         "AuthorAffiliation": ["OpenAI, United States"],
         "AuthorAffiliationType": ["big-tech corporate"],
         "Citations": 113
-    }, 
+    },
     {
         "Title": "Algorithms for Inverse Reinforcement Learning",
         "BibtexKey": "ngAlgorithmsInverseReinforcement2000",
@@ -2360,7 +2360,7 @@
         "AuthorAffiliation": ["University of California at Berkley, United States"],
         "AuthorAffiliationType": ["university"],
         "Citations": 3784
-    }, 
+    },
     {
         "Title": "Cooperative Inverse Reinforcement Learning",
         "BibtexKey": "hadfield-menellCooperativeInverseReinforcement2016",
@@ -2380,7 +2380,7 @@
         "AuthorAffiliation": ["University of California at Berkley, United States"],
         "AuthorAffiliationType": ["university"],
         "Citations": 681
-    }, 
+    },
     {
         "Title": "Watermarks in the Sand: Impossibility of Strong Watermarking for Generative Models",
         "BibtexKey": "zhangWatermarksSandImpossibility2023",
@@ -2400,7 +2400,7 @@
         "AuthorAffiliation": ["Harvard University, United States", "Aarhus University, Denmark", "Sapienza University of Rome, Italy", "George Mason University, United States"],
         "AuthorAffiliationType": ["university"],
         "Citations": 3
-    }, 
+    },
     {
         "Title": "What Would Jiminy Cricket Do? Towards Agents That Behave Morally",
         "BibtexKey": "hendrycksWhatWouldJiminy2021",
@@ -2446,7 +2446,7 @@
         "AuthorAffiliation": ["CISPA Helmholtz Center for Information Security, Germany", "Carnegie Mellon University, United States", "University of Virginia, United States", "University of Lausanne, Switzerland"],
         "AuthorAffiliationType": [],
         "Citations": 131
-    }, 
+    },
     {
         "Title": "Zero-Shot Machine Unlearning",
         "BibtexKey": "chundawatZeroShotMachineUnlearning2023",
