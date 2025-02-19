@@ -1,4 +1,4 @@
-# A Systematic Review of AI Safety and Safe AI
+# AI Safety for Everyone
 
 This repository contains all data and codes to reproduce the results of our article "A Systematic Review of AI Safety and Safe AI" published in Nature Machine Intelligence.
 
