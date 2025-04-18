@@ -1,6 +1,6 @@
 # AI Safety for Everyone
 
-This repository contains all data and code to reproduce the results of our article "A Systematic Review of AI Safety and Safe AI" published in Nature Machine Intelligence.
+This repository contains all data and code to reproduce the results of our article "AI Safety for Everyone", published in Nature Machine Intelligence.
 
 The data consists of annotations and RIS citations of papers retrieved during our systematic database search process and our snowballing process.
 
