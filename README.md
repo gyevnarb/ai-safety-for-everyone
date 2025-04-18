@@ -1,14 +1,14 @@
 # AI Safety for Everyone
 
-This repository contains all data and codes to reproduce the results of our article "A Systematic Review of AI Safety and Safe AI" published in Nature Machine Intelligence.
+This repository contains all data and code to reproduce the results of our article "A Systematic Review of AI Safety and Safe AI" published in Nature Machine Intelligence.
 
 The data consists of annotations and RIS citations of papers retrieved during our systematic database search process and our snowballing process.
 
 ## Data
 
-If you want to see a list and citation of all papers used in the analysis, click [PAPERS.md](PAPERS.md).
+If you want a list and citation of all papers used in the analysis, click [PAPERS.md](PAPERS.md).
 
-If you would like to access the data itself used in our analyses you can navigate to the following locations:
+If you would like to access the data itself used in our analyses, you can navigate to the following locations:
 
 - [`data/export`](https://github.com/gyevnarb/ai-safety-review/data/export) contains all retrieved non-duplicate publications in standard CSL JSON, RIS, and BibTex formats.
 - [`data/annotations`](https://github.com/gyevnarb/ai-safety-review/data/annotations) contains all selected publications with annotations as described in Section 2.2 of the paper in a JSON format.
@@ -23,11 +23,11 @@ pip install -r requirements.txt
 python code/analysis.py
 ```
 
-This will recreate all figures in the paper into a folder called `output`.
+This will recreate all figures in the paper and put them into the `output` folder.
 
 ## Please Cite
 
-If you found our work useful and/or used it for your work, we would appreciate you cite our paper:
+If you found our work useful and/or used it for your work, we would appreciate it if you cite our paper:
 
 ```text
 @article{gyevnar2025AISafety
@@ -37,8 +37,6 @@ If you found our work useful and/or used it for your work, we would appreciate y
     publisher = {Springer},
     address   = {New York, NY, USA},
     year      = {2025},
-    volume    = {},
-    issue     = {},
-    doi       = {}
+    doi       = {10.1038/s42256-025-01020-y}
 }
 ```
